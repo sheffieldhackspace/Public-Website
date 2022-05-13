@@ -5,7 +5,7 @@ This is the website for sheffield hackspace. The site is written using [Jekyll](
 ## Making changes
 To run the site locally all you need is install is docker and docker compose.
 
-To start the site run `docker-compose up`
+To start the site run `docker-compose up` then navigate to http://localhost:4000/Public-Website/ in your browser
 
 To update the `gemfile.lock` if you have changed a plugin run `docker-compose run jekyll bundle update`
 

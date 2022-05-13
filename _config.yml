@@ -22,7 +22,7 @@ title: Sheffield Hackspace
 email: trustees@sheffieldhackspace.org.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Sheffield Hackspace
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/Public-Website/" # the subpath of your site, e.g. /blog
 url: "https://www.sheffieldhackspace.org.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@shhmakers"
 github_username:  "sheffieldhackspace"
