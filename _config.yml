@@ -26,6 +26,9 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.sheffieldhackspace.org.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@shhmakers"
 github_username:  "sheffieldhackspace"
+facebook_username: "SHHMakers"
+instagram_username: "SHHMakers"
+logo: /assets/images/logo.svg
 
 # Build settings
 theme: jekyll-theme-basically-basic
@@ -33,6 +36,10 @@ theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
   - jekyll-maps
+  - jekyll-paginate
+
+paginate: 5  # amount of posts to show per page
+paginate_path: /page:num/
 
 include:
   - _pages

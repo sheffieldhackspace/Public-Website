@@ -2,6 +2,7 @@
 layout: page
 title: Joining
 permalink: /joining/
+image: /assets/images/back-room-header.jpg
 ---
 
 If you’re interested in what we do, get in touch below or just come along and join in!

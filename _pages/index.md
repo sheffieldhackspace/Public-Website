@@ -2,6 +2,7 @@
 layout: page
 title: Home
 permalink: /
+image: /assets/images/downstairs-header.jpg
 ---
 Sheffield Hackspace is a non-profit, member-run hackspace for central Sheffield. Together we’re building a workshop and community to help people in Sheffield get involved in “the creative use of technology and tools for hobby-scale projects in fields such as computers, robotics, machining, technology, science, digital art or electronic art“.
 

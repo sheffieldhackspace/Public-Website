@@ -85,6 +85,7 @@ DEPENDENCIES
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
   jekyll-maps
+  jekyll-paginate
   jekyll-theme-basically-basic
   minima (~> 2.5)
   tzinfo (~> 1.2)
