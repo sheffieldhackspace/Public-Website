@@ -1,14 +1,5 @@
 /* Responsive iFrame */
-@media (max-width: 550px) {
-  .big-container {
-	display: none;
-  }
-}
-@media (min-width: 550px) {
-  .small-container {
-	display: none;
-  }
-}
+
 .responsive-iframe-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -24,6 +15,21 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: 48em) {
+  .big-container {
+    display: none;
+  }
+  .responsive-iframe-container {
+    position: relative;
+    padding-bottom: 90vh;
+  }
+}
+@media (min-width: 48em) {
+  .small-container {
+    display: none;
+  }
 }
 
 /* Full width content */
