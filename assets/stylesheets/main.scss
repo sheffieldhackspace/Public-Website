@@ -1,0 +1,10 @@
+---
+---
+
+
+$accent-color: blue;
+// Theme skin
+@import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
+
+@import "basically-basic";
+@import "custom";
