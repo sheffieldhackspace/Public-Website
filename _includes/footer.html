@@ -1,0 +1,15 @@
+<footer id="footer" class="site-footer">
+	<div class="inner">
+		<div class="copyright">
+			{% if site.copyright %}
+			{{ site.copyright | markdownify }}
+			{% else %}
+			<p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</p>
+			{% endif %}
+		</div>
+
+		<div class="sponsors">
+			<p>Our Sponsors: <a href="https://www.aa.net.uk/">Andrews & Arnold Ltd</a> <a href="https://bitfolk.com/">Bitfolk</a> <a href="https://shop.pimoroni.com/">Pimoroni</a> <a href="https://www.ebay.co.uk/str/wedo3dprinting">We Do 3D Printing</a> </p>
+		</div>
+	</div>
+</footer>

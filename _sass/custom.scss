@@ -68,8 +68,8 @@
 
   &::-webkit-scrollbar {
     display: block;
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
   }
 
   &::-webkit-scrollbar-button {
@@ -91,5 +91,17 @@
   }
 }
 
-
+.copyright, .sponsors {
+  width: auto;
+  float: left;
+}
+.copyright{
+  @media (min-width: 20em) { padding-right: 1rem; }
+  @media (min-width: 48em) { padding-right: 2rem; }
+  @media (min-width: 64em) { padding-right: 3rem; }
+  @media (min-width: 80em) { padding-right: 4rem; }
+}
+.sponsors a {
+  color: tint($text-color, 40%);
+}
 
