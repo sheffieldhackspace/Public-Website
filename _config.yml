@@ -15,7 +15,7 @@
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
+# You can create any custom.scss variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
 title: Sheffield Hackspace
@@ -31,7 +31,11 @@ github_username:  "sheffieldhackspace"
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-maps
+
+include:
+  - _pages
+  - assets
 
 # Exclude from processing.
 # The following items will not be processed, by default.
