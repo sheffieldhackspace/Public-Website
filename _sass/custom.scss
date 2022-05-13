@@ -25,3 +25,16 @@
   width: 100%;
   height: 100%;
 }
+
+.full-width {
+  width: 100vw;
+  max-width: none;
+}
+
+@media (min-width: 20em) { .full-width { margin-left: -1rem; } }
+
+@media (min-width: 48em) { .full-width { margin-left: -2rem; } }
+
+@media (min-width: 64em) { .full-width { margin-left: -3rem; } }
+
+@media (min-width: 80em) { .full-width { margin-left: -4rem; } }

@@ -1,0 +1,12 @@
+  - name: Main Room
+    image: /assets/images/upstairs-pano.jpg
+    alt:
+    content: The main room has a big table
+  - name: Back Room
+    image: /assets/images/back-room-pano.jpg
+    alt:
+    content: The back room has a laser cutter table
+  - name: Downstairs
+    image: /assets/images/downstairs-pano.jpg
+    alt:
+    content: Downstairs has tools that are messy
