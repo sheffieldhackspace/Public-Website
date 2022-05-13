@@ -1,3 +1,4 @@
+/* Responsive iFrame */
 @media (max-width: 550px) {
   .big-container {
 	display: none;
@@ -8,7 +9,6 @@
 	display: none;
   }
 }
-/* Responsive iFrame */
 .responsive-iframe-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -26,15 +26,70 @@
   height: 100%;
 }
 
+/* Full width content */
 .full-width {
   width: 100vw;
   max-width: none;
+  margin-bottom: 1.5rem;
+
+  @media (min-width: 0em) { margin-left: -0.5rem; }
+  @media (min-width: 20em) {  margin-left: -1rem; }
+  @media (min-width: 48em) {  margin-left: -2rem; }
+  @media (min-width: 64em) {  margin-left: -3rem; }
+  @media (min-width: 80em) {  margin-left: -4rem; }
 }
 
-@media (min-width: 20em) { .full-width { margin-left: -1rem; } }
+.pano-contaner {
+  height: 100vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
 
-@media (min-width: 48em) { .full-width { margin-left: -2rem; } }
+  img {
+    display: inline;
+    min-height: 100vw;
+    min-width: 4*100vw;
+  }
 
-@media (min-width: 64em) { .full-width { margin-left: -3rem; } }
+  @media (min-width: 64em) {
+    height: 60vw;
+    img {
+      min-height: 60vw;
+      min-width: 4*60vw;
+    }
+  }
 
-@media (min-width: 80em) { .full-width { margin-left: -4rem; } }
+  @media (min-width: 84em) {
+    height: 40vw;
+    img {
+      min-height: 40vw;
+      min-width: 4*40vw;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #00000000;
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background-color: #00000000;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #00000040;
+    border: 1px solid #ffffff40;
+    border-radius: 24px;
+  }
+}
+
+
+

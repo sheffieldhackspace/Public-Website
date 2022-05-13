@@ -14,7 +14,9 @@ layout: default
 			{% for space in site.data.spaces %}
 				<div class="entry-content">
 					<h2>{{ space.name }}</h2>
-					<img class="full-width" src="{{ site.baseurl }}{{space.image}}" alt="{{ space.alt }}">
+					<div class="full-width pano-contaner">
+						<img src="{{ site.baseurl }}{{space.image}}" alt="{{ space.alt }}">
+					</div>
 					<p>{{ space.content }}</p>
 				</div>
 			{% endfor %}
