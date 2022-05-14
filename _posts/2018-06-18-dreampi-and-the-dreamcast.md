@@ -55,9 +55,12 @@ Once you have successfully flashed the image onto the SD card insert the card in
 
 You will need to cut the phone line wire and solder them on to a PCB board leaving enough room to add in the capacitor and the resistor as displayed in the diagram below figure 1. Make sure that you get the capacitor the right way round in relation to the resistor.
 
-<div class="wp-caption alignnone" id="attachment_1480" style="width: 310px">[![Boost converter for phone line](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/line-300x213.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/line.png)Boost converter
+<div><img style="width: 310px" src="https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/line.png" /></div>
 
-</div>Figure 1
+<!-- <div class="wp-caption alignnone" id="attachment_1480" style="width: 310px">[![Boost converter for phone line](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/line-300x213.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/line.png)Boost converter
+
+</div> -->
+Figure 1
 
 I used the step up power booster for mine instead of the battery option but I did find that I had to boost the power up more than I expected; approximately 26V in my case to get a stable connection. Have a play around to see if yours will work at a lower voltage. Now in this example I used a USB from the booster converter to the Pi in order to get the power to the phone line, see figure 2 for the pin out when wiring it up to the boost converter.Just make sure that the pins and the wires at the other end match up to what you are expecting so you don’t get any cross wires and fry something; use a multimeter for this.
 
