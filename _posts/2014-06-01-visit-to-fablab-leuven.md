@@ -1,0 +1,43 @@
+---
+id: 356
+title: 'Visit to FabLab Leuven'
+date: '2014-06-01T20:34:52+01:00'
+author: SHHAdmin
+layout: post
+guid: 'http://www.sheffieldhardwarehackers.org.uk/wordpress/?p=356'
+permalink: /visit-to-fablab-leuven/
+categories:
+    - 'Hackspace Visits'
+tags:
+    - 'FabLab Hackspace Leuven'
+---
+
+<div class="wp-caption aligncenter" id="attachment_353" style="width: 1034px">[![FLLMainRmF](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLMainRmF.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLMainRmF.jpg)FabLab Leuven’s main maker space
+
+</div>Whilst visiting Leuven on other business recently I put the time aside to visit [FabLab Leuven](http://www.fablab-leuven.be/). The FabLab is embedded at [KU Leuven](http://www.kuleuven.be/english) but promotes free open access to both students and the wider local community. As Sheffield Hardware Hackers and Makers aspire to joining or founding a full time FabLab it was a good opportunity to find out how it is done and how others have succeeded with similar challenges. Marc and Thomas run the fab lab with Jose, they were quick to point out that initial funding and finding space was only a small part of the problem. Sustainability is something that has killed several FabLab startups that had shown initial signs of doing very well.
+
+I would like to thank Marc and Thomas of FabLab Leuven for putting the time aside to show me around, make me feel welcome and share their experience and enthusiasm for their FabLab. I can definitely recommend visiting them if in the local if only just to see how well they are doing, it is inspirational. It would be even better though to do a spot of making and hacking whilst sharing with like minded folk.
+
+<div class="wp-caption alignleft" id="attachment_352" style="width: 160px">[![FLLLogo](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLLogo-150x150.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLLogo.jpg)FabLab Leuven Logo Tiles
+
+</div>First in through the door I was struck by their own floor tiles with the FabLabLeuven Logo superimposed on the[ FabLab Movements Logo](https://www.fablabs.io/fablableuven). The FabLab is open to all including students and drop in public users. Access and usage of machinery is free but materials are either self supplied or can be bought at the FabLab. Fab lab supplied materials are purchased in as being suitable for the machinery that it will be used with. This should make it easier to get reasonable results without needing to know in advance what materials are suitable.
+
+The main room is a large open flexible space with tables as work spaces that are shared by those visiting the Lab. Essential services like electricity and networking drop down from a roof distribution grid. This removes tripping hazards and leaves the work tables free to be moved around as needed. The managing staff have dedicated desks in this main room so are an active part of this making community.
+
+<div class="wp-caption alignright" id="attachment_351" style="width: 160px">[![FLLLaserRm](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLLaserRm-150x150.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLLaserRm.jpg)Laser Cutters and small CNC
+
+</div>To the front of the building leading off the main room is a well organized area with a number of laser cutters and small CNC machines. I asked Thomas about keeping the optics aligned and cleaned. He showed me how the laser cutters were built such that the optics were not readily accessible from the cutting compartment which both shields them from combustion products and twiddling fingers. The lasers are plumbed up to a common air extract. It was noticeable how the air was good even in a small room stood next to 5 working laser cutters. All the machinery in this room had dedicated PC’s to drive them with the correct CAM software to make the most of their capabilities. Taking all of these elements together it was clear that Thomas and Marc had been doing this for some time and had worked ways around the issues that crop up from time to time.
+
+<div class="wp-caption alignleft" id="attachment_354" style="width: 160px">[![The demo makings table.](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLMakings-150x150.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLMakings.jpg)The demo makings table.
+
+</div>Towards the rear of the room there was a display of a selection of projects made at the fablab. Thomas explained that over the last year alone there had been literally thousands of projects coming through the FabLab from both Student and Public makers. I wondered how they had managed this. Thomas was quick to explain that being embedded within the university meant that they were able to offer voluntary staff positions to students. The students after a suitable training period are able if they so wish to open the fablab at weekends and in some cases 24 hours a day. These extended hours are usually to cope with the high demand that course hand-in’s and assessed student projects generate as dead lines approach. The same volunteer staff also provide support to members of the public coming into the FabLab. Moving back through the main room there are a number of 3D printers ranging from a Makerbot through to a large Dimension printer. To the left hand side as we pass through Thomas draws my attention to their area dedicated to electronics work.
+
+<div class="wp-caption alignright" id="attachment_355" style="width: 160px">[![Workshop and CNC router](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLRtrRm-150x150.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/06/FLLRtrRm.jpg)Workshop and CNC router
+
+</div>Out across the corridor there is the workshop where all the nosier and dust/waste creating activities are carried out. One end is partitioned off and this is where a full sheet CNC router lives. It has a vacuum bed and sawdust collection. We had a look at furniture items being in various stages of being prototyped and built. The services again drop down from the ceiling leaving the workspace more flexible. A dust and waste vacuum extract is also plumbed in across the ceiling with drop tubes to remove the dust from band-saws, drills sanders and the like. Again a well equipped space light and airy with a lot of thought put into keeping it serviceable. Thomas and I both agreed keeping the Lab zoned to minimise disruption from noisy machines as well as dust etc is a good design feature.
+
+Marc the FabLab manger joined us and we went outside for coffee. I complimented them on their FabLab. Marc was quick to explain that it had not happened over night they had gone through 3 main expansion phases as well as the usual raft of tweaks and improvements that go into running such a place on a day by day basis. I asked about sustainability Marc and Thomas explained that they thought embedding FabLabs within a larger organisation such as KU Leuven was good symbiosis and ensured a degree of sustainability that other FabLabs may struggle to achieve, The university gained extra maker-space enabling more assessed projects as a component of their courses. Sharing of resources between university departments and the local community on a non partisan basis. Volunteer students enabled and supported their peers as well as members of the public. Marc acknowledged with a smile that having KU Leuven’s name on application for EU and Regional initiatives probably did not do them any harm either. All in all a win, win for everyone.
+
+All in all an inspirational visit it gave me plenty to think about as I rode back into town on the Bicycle I had rented for the day from the train station. In summary then, a vibrant, happening and above all successful FabLab catering for Students and Public on a first come first served basis. Open all year round and often into extended hours courtesy of student volunteer staffers. FabLab Leuven has a wide range of capabilities and sufficient active machine, flexible manufacturing machinery and supportive staff to meet the needs of most projects, from newbie through to accomplished maker..
+
+Wish I could say I was’nt jealous……. Time to drown my sorrows with some Belgian beer.
