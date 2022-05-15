@@ -1,5 +1,28 @@
-/* Responsive iFrame */
+/* Fonts */
+@font-face {
+  font-family: 'bignoodletitlingregular';
+  src: url('../fonts/big_noodle_titling-webfont.woff2') format('woff2'),
+  url('../fonts/big_noodle_titling-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 
+html {
+  font-family: $base-font-family;
+}
+
+.menu,
+.site-title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "bignoodletitlingregular", $headline-font-family;
+}
+
+/* Responsive iFrame */
 .responsive-iframe-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -45,6 +68,7 @@
   @media (min-width: 80em) {  margin-left: -4rem; }
 }
 
+/* panoramic viewer */
 .pano-contaner {
   height: 100vw;
   overflow-x: scroll;
@@ -97,6 +121,7 @@
   }
 }
 
+/* sponsors in the footer */
 .copyright, .sponsors {
   width: auto;
   float: left;

@@ -2,7 +2,7 @@
 ---
 
 
-$accent-color: blue;
+$accent-color: rgb(23,157,217);
 // Theme skin
 @import "basically-basic/themes/{{ site.data.theme.skin | default: 'default' }}";
 
