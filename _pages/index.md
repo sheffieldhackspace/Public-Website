@@ -8,4 +8,4 @@ Simply put, we're a maker-space. Together we're helping the people of Sheffield 
 
 We’re always keen for people with a wide range of interests and skill levels to join, swap ideas, learn from each other, and build new things.
 
-We’re open every Saturday (2pm-6pm), Monday (6pm-9pm) and Thursday (6pm-9pm), to prospective members. 
+We’re open every Saturday (2pm-6pm), Monday (6pm-9pm) and Thursday (6pm-9pm), to prospective members and, membership is affordable from £6 a month.
