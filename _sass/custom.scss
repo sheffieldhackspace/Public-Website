@@ -152,3 +152,14 @@ h6 {
   }
 }
 
+.intro-image {
+  min-height: 30vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 20em) { min-height: 100vw; }
+  @media (min-width: 48em) { min-height: 80vw; }
+  @media (min-width: 64em) { min-height: 60vw; }
+  @media (min-width: 80em) { min-height: 40vw; }
+}
