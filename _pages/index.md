@@ -2,7 +2,7 @@
 layout: page
 title: Home
 permalink: /
-image: /assets/images/downstairs-header.jpg
+image: /assets/images/woodturning-header.jpg
 ---
 Simply put, we're a maker-space. Together we're helping the people of Sheffield get involved in using tools for hobby projects in fields such as electronics, wood-working, textiles, machining and anything else you're interested in.
 
