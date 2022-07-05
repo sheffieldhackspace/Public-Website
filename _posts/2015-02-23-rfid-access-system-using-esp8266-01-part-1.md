@@ -1,6 +1,6 @@
 ---
 id: 640
-title: 'RFID access system using ESP8266-01 (part 1)'
+title: 'RFID access system using ESP8266-01'
 date: '2015-02-23T19:40:53+00:00'
 author: Bugs
 layout: post
@@ -65,7 +65,7 @@ Again this takes a few seconds to get a message back which will confirm a connec
 
 You can now talk to any device connected to the internet! Doing this is now straightforward but with so many different things you can do I won’t go into too many details here (I’ve included a list of useful resources at the end of the blog). One thing that took me a while to realise though was that the module has to be set to accept multiple connections before opening up a TCP connection. To do this simply send the command AT+CIPMUX=1 before opening the connection.
 
-I touched earlier on using the additional GPIO instead of an Arduino. To do this you need to be able to run your own code on the ESP8266, as you do on the Arduino, and this means replacing the firmware that is currently installed on the module. That will be the subject of my next blog post.
+I touched earlier on using the additional GPIO instead of an Arduino. To do this you need to be able to run your own code on the ESP8266, as you do on the Arduino, and this means replacing the firmware that is currently installed on the module.
 
 Useful resources …
 
