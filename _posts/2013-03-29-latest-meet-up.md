@@ -10,8 +10,6 @@ categories:
     - Uncategorized
 ---
 
-<span style="text-decoration: underline">Sheffield hardware hackers latest meet up</span>
-
 This week on the 25th of march was our third meet up of the year. This month a number of things took place.  
 – Whats been going on/admin  
 – What projects people are getting involved in  
