@@ -52,5 +52,5 @@ We only recently found out about a company called ‘We Do 3D Printing’ who ar
 **Next Build Day**
 
 We now have a build day planned for the 14th of December between 10am to 4pm. You can bring along your projects, get advice from other group members and have access to the Refab Lab in Access Space with the Laser Cutter, CNC Router, 3D Printers and more.  
-Let us know if you are coming ether by our <a>forum</a> or on Twitter [@SHHMakers](http://twitter.com/shhmakers).
+Let us know if you are coming ether by our forum or on Twitter [@SHHMakers](http://twitter.com/shhmakers).
 <!--- path/to this posts images is /assets/blog/2013-11-27-november-the-25th-meet-up/ --->
