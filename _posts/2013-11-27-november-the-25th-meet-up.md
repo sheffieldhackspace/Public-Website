@@ -27,13 +27,13 @@ Following a successful Hacker day at Hallam University we returned to Access Spa
 Because the Mendel 90 had been transported around it needed some work doing to it. The printer did not seem to be homing it’s Z axis. It was soon apparent that one of the cables for the Z micro switch had worked its way off. This was an easy fix, the cable was re-soldered on to the micro switch. When we tried to home all of the axis, the Z axis did not want to move at all. On closer inspection, the right hand threaded rod was screwed in so tight at the bottom that the stepper motor was unable to move it. Once we had loosened the threaded rod the z axis were free to move. Before we were able to move the machine the Z axis needed to be levelled we did this by positioning the Z axis at about 100mm above the heated bed. Then using a spirit level placed on top of the extruder assembly, the Z axis was levelled by twisting the coupling on the threaded rod.  
 We then cleaned out the extruder this was done with a small piece of flexible wire bent in to a long U shape. The extruder was then heated up to temperature. The extruders idler was then removed and the hobbed bolt was cleaned. The thin wire was then inserted down the extruder. The extruder was then turned off and left to cool by 20°c. The wire was then removed from the extruder. This process was repeated several times. Once we had completed that we reassembled the extruder and pressed print. It worked just as new!
 
-[![20131201-090058.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2013/12/20131201-090058.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2013/12/20131201-090058.jpg)
+![](/assets/blog/2013-11-27-november-the-25th-meet-up/20131201-090058.jpg)
 
-[![20131201-090353.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2013/12/20131201-090353.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2013/12/20131201-090353.jpg)
+![](/assets/blog/2013-11-27-november-the-25th-meet-up/20131201-090353.jpg)
 
 &lt;
 
-[![20131201-090247.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2013/12/20131201-090247.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2013/12/20131201-090247.jpg)
+![](/assets/blog/2013-11-27-november-the-25th-meet-up/20131201-090247.jpg)
 
 We also had a discussion about Festival of the Mind 2014, the themes for next year are:  
 -Change  
@@ -53,3 +53,4 @@ We only recently found out about a company called ‘We Do 3D Printing’ who ar
 
 We now have a build day planned for the 14th of December between 10am to 4pm. You can bring along your projects, get advice from other group members and have access to the Refab Lab in Access Space with the Laser Cutter, CNC Router, 3D Printers and more.  
 Let us know if you are coming ether by our <a>forum</a> or on Twitter [@SHHMakers](http://twitter.com/shhmakers).
+<!--- path/to this posts images is /assets/blog/2013-11-27-november-the-25th-meet-up/ --->
