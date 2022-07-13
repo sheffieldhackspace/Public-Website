@@ -47,5 +47,6 @@ We also had a group member bring in an Arduino robot an AAR-04. It was programme
 
 You can take a look at the video below of the robot working…
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/7jq4e9WCAcA?feature=oembed" title="Arduino AAR-04 at #shhm" width="584"></iframe>
+{% include youtube.html code="7jq4e9WCAcA" %}
+
 <!--- path/to this posts images is /assets/blog/2014-02-20-february-the-15th-build-day/ --->

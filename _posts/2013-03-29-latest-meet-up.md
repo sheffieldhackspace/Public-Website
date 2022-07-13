@@ -23,6 +23,7 @@ one or two overs where the programs that where installed. After a bit of tinkeri
 ![](/assets/blog/2013-03-29-latest-meet-up/image-300x224.jpg)  
 There was also the laser cutting, a fan plate for the coffee can filter (more to follow on this) was cut. This was the final version that was designed using ink scape. The fan plate has a 150mm diameter, a hole for the fan, screw holes, and space for a 16mm cable gland.
 
-[Laser Cut Fan Plate](http://www.youtube.com/watch?v=gOCDyotifPo)  
+{% include youtube.html code="gOCDyotifPo" %}
+ 
 ![](/assets/blog/2013-03-29-latest-meet-up/photo-21.jpg)
 <!--- path/to this posts images is /assets/blog/2013-03-29-latest-meet-up/ --->
