@@ -20,11 +20,11 @@ At this months meet up of **Sheffield Hardware Hackers and Makers** we have had 
 
 With the laser cutting a sign was cut out that said “Sheffield Hardware Hackers and Makers” this sign was made to put over where the 3D printers where. The sign had the text engraved on to the wood and the word Sheffield was cut out over the engraving.
 
-![](/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-190842.jpg)
+![]({{ site.baseurl }}/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-190842.jpg)
 
 **The sign being cut out**
 
-![](/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-191020.jpg)
+![]({{ site.baseurl }}/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-191020.jpg)
 
 **The finished product**
 
@@ -32,11 +32,11 @@ With the laser cutting a sign was cut out that said “Sheffield Hardware Hacker
 
 With the 3D Printer we printed a small android logo. This was from a Gcode file, This was used as a test piece. In total Access space has three 3D Printers. It’s own, and the two that the maker group brought over. Meany things have been printed on this printer, things like parts for other printers.
 
-![](/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-191937.jpg)
+![]({{ site.baseurl }}/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-191937.jpg)
 
 **The setup of the 3D printers and one of them printing**
 
-![](/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-192311.jpg)
+![]({{ site.baseurl }}/assets/blog/2013-07-13-sheffield-hardware-hackers/20130713-192311.jpg)
 
 **The print close up**
 

@@ -16,7 +16,7 @@ tags:
     - Robots
 ---
 
-![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-184837.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-02-20-february-the-15th-build-day/20140220-184837.jpg)
 
 This time, at the Sheffield Hardware Hackers and Makers build day, we had everything from Arduino to 3D Printers (obviously 🙂 ) and everything in between.
 
@@ -28,7 +28,7 @@ We where able to get the X and Y end stops re alined, but we would haft to sort 
 
 – More to follow…
 
-![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-190604.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-02-20-february-the-15th-build-day/20140220-190604.jpg)
 
 **The Mendel 90 fixing**
 
@@ -37,9 +37,9 @@ After successfully removing an amount of burnt plastic from the extruder. We did
 
 The first image shows the “things and stuff” bought and the second one shows the print quality after the extruder has been un blocked (how it should look).
 
-![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-191907.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-02-20-february-the-15th-build-day/20140220-191907.jpg)
 
-![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-191935.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-02-20-february-the-15th-build-day/20140220-191935.jpg)
 
 **Arduino Robots**
 
