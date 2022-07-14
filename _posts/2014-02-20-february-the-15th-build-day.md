@@ -16,7 +16,7 @@ tags:
     - Robots
 ---
 
-[![20140220-184837.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-184837.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-184837.jpg)
+![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-184837.jpg)
 
 This time, at the Sheffield Hardware Hackers and Makers build day, we had everything from Arduino to 3D Printers (obviously 🙂 ) and everything in between.
 
@@ -28,7 +28,7 @@ We where able to get the X and Y end stops re alined, but we would haft to sort 
 
 – More to follow…
 
-[![20140220-190604.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-190604.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-190604.jpg)
+![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-190604.jpg)
 
 **The Mendel 90 fixing**
 
@@ -37,9 +37,9 @@ After successfully removing an amount of burnt plastic from the extruder. We did
 
 The first image shows the “things and stuff” bought and the second one shows the print quality after the extruder has been un blocked (how it should look).
 
-[![20140220-191907.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-191907.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-191907.jpg)
+![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-191907.jpg)
 
-[![20140220-191935.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-191935.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/02/20140220-191935.jpg)
+![](/assets/blog/2014-02-20-february-the-15th-build-day/20140220-191935.jpg)
 
 **Arduino Robots**
 
@@ -47,4 +47,6 @@ We also had a group member bring in an Arduino robot an AAR-04. It was programme
 
 You can take a look at the video below of the robot working…
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/7jq4e9WCAcA?feature=oembed" title="Arduino AAR-04 at #shhm" width="584"></iframe>
+{% include youtube.html code="7jq4e9WCAcA" %}
+
+<!--- path/to this posts images is /assets/blog/2014-02-20-february-the-15th-build-day/ --->
