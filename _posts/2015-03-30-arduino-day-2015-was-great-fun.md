@@ -35,3 +35,4 @@ Eventually, dawn came and brought with it Janine, who supplied us all with life-
 [![Breakfast](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/03/Breakfast.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/03/Breakfast.jpg)
 
 It was great to see you all there, old members and new! We’re looking forward to seeing you all at our regular Monday and Saturday meetups (see the calendar in the left column for times), and can’t wait to hear what sort of events or workshops you’re interested in!
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-03-30-arduino-day-2015-was-great-fun/ --->

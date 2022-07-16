@@ -27,3 +27,4 @@ For vector images, including our logo file, we pulled out the trusty vinyl cutte
 [![Birds tessellation steel ](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20141109_2118381.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20141109_2118381.jpg)
 
 Overall, this experiment seems to be a success! Needs some experimentation with the transfer media for raster images (we have some ideas), but for vector images the vinyl cutter works beautifully.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2014-11-18-steel-etching-experiments/ --->

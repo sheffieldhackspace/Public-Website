@@ -69,3 +69,5 @@ Check out my videos for accurately marking other types of hole without measuring
 [USB-micro oval cut-out (as described in a previous post here)](https://youtu.be/VK4zoUrNhkQ)  
 [Pin-hole (ideal for a recessed reset button)](https://youtu.be/QhhjjE7BYgA)  
 [Pinhole on the lid to show the recessed LED of Wemos D1-mini](https://youtu.be/Znpm1T9UUh4)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

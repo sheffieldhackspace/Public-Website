@@ -15,3 +15,5 @@ A quick experiment by one of our members, in preparation for making a gun that s
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/J2lBOGVeyN8?feature=oembed" title="Testing experimental smoke machine liquid over a blowtorch" width="584"></iframe>
 
 (for anyone playing along at home: Mix 30% glycerol (also called glycerin) with 70% distilled water, and heat. Ideally, don’t do it in a small hackspace where the windows don’t open and other people are trying to make stuff. Oops.)
+
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

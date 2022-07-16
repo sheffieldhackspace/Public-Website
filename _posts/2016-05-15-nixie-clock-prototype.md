@@ -17,3 +17,4 @@ This caught my eye at yesterday’s Open Hackspace session: Alex wired up the ni
 Other projects being worked on yesterday included a pedal-powered phone/GPS charger for an upcoming cycling holiday (which now works perfectly!), an improved bed for the lasercutter, some wooden shelf units, a network-controlled table lamp/sensor package, and the usual mix of teaching, swapping ideas, and terrible jokes.
 
 What do you want to make? Turn up to one of our open sessions, or get in touch by email, and see what your local Hackspace can do for you!
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2016-05-15-nixie-clock-prototype/ --->

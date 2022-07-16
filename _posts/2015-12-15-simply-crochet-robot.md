@@ -43,3 +43,5 @@ The complete set is here:
 They get taken to Make Faires with Pimoroni and [recently featured in Makezine’s photos of the Berlin Faire](http://makezine.com/2015/10/05/first-maker-faire-berlin-doesnt-miss-beat/#jp-carousel-495379).
 
 All sewable electronics parts for the various projects came from Adafruit / Sparkfun / Kitronik via Pimoroni.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-12-15-simply-crochet-robot/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

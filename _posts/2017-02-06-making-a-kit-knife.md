@@ -42,3 +42,4 @@ To finish the handle I used small strips of sandpaper, starting at around 120 gr
 [![](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/02/IMG_0633-e1486401441193-225x300.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/02/IMG_0633-e1486401441193.jpg)The final step is then to add a finish to the handle, I chose boiled linseed oil which I applied with a cloth in several coats, rubbing off the excess between coats. The kit I purchased also included a leather sheath that I need to put together so I will include that in a blog post soon.
 
 [![](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/02/IMG_0639-300x225.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/02/IMG_0639.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2017-02-06-making-a-kit-knife/ --->

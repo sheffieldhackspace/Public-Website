@@ -51,3 +51,4 @@ To assemble the cabinet the shelf’s where first glued and nailed on to the two
 [![img_0297_23699569539_o](https://aaronjibbotson.files.wordpress.com/2015/12/img_0297_23699569539_o.jpg?w=300)](https://aaronjibbotson.files.wordpress.com/2015/12/img_0297_23699569539_o.jpg)
 
 For more images please visit [here](https://flic.kr/s/aHskrXCZgF).
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-12-30-4-quadrant-3d-printer-cabinet/ --->

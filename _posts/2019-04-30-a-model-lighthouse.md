@@ -36,3 +36,4 @@ An Aldi’s peanut butter jam jar lid (crucial)
 Other bits and bobs scrounged from various unwanted poundland items
 
 If you think this is cool wait until you see the boats!
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2019-04-30-a-model-lighthouse/ --->

@@ -36,3 +36,5 @@ The touch-switch code decides whether the switch received a tap or long press. A
 Here’s a video of it working.
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/JQu6h-Yck0k?feature=oembed" title="Neopixel ring: Wemos D1-mini uses websockets for multi-user control" width="584"></iframe></div></figure>
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2018-12-30-a-wi-fi-and-touch-controlled-neopixel-ring-using-the-wemos-d1-mini-esp8266-module/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

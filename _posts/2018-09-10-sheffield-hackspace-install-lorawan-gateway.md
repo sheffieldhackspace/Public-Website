@@ -23,3 +23,4 @@ Sheffield Hackspace has setup and installed a LoraWAN (The Things Network) gatew
 Come to the Sheffield Hackspace to learn about this new technology and make use of the gateway to prototype your idea. If you want to make your own gateway and add to the things networks, come and learn how to do that. See if your area has a gateway installed by clicking the link [here.](https://ttnmapper.org/)
 
 For our gateway, we used a Raspberry Pi and RAK 831 to receive multiple frequencies at the same time. For some unknown reason the RAK 831 use to switch off occasionally so we’ve added a on/off relay (as can be seen in the photo) to power recycle it automatically/remotely when when it stops responding to the Raspberry PI. Hopefully we’ll find the root cause.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2018-09-10-sheffield-hackspace-install-lorawan-gateway/ --->

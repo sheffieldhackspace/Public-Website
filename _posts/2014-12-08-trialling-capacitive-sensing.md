@@ -30,3 +30,4 @@ All in all I was quite impressed as to how sensitive it was. the lower sensor pl
 Time for more experimentation.
 
 –Kirbs
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2014-12-08-trialling-capacitive-sensing/ --->

@@ -27,3 +27,4 @@ We’ve been getting to grips with it, and our members are turning out things li
 [![SHHM Logo stamp](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/01/12348156_522997424545547_5607656325887009582_n.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/01/12348156_522997424545547_5607656325887009582_n.jpg)
 
 …and quite a few other bits and pieces. What do you want to build? Come along to one of our scheduled sessions and say hello!
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2016-01-16-a-few-lasercut-pieces/ --->

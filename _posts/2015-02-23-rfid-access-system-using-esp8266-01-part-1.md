@@ -80,3 +80,5 @@ http://www.esp8266.com/wiki/doku.php
 <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/zGgUfAB4m24?feature=oembed" title="Cheap and Easy WiFi (IoT) Tutorial Part 2 - ESP8266 Arduino Code" width="584"></iframe>
 
 —[Steve](https://twitter.com/thermalhound)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-02-23-rfid-access-system-using-esp8266-01-part-1/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

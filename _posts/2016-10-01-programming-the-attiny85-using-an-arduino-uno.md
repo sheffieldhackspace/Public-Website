@@ -104,3 +104,4 @@ The UNO is now set up as a programmer and so further ATtiny85 chips may be progr
 *Richard Langner*  
 *With thanks to OJ for his help in defining the procedure.  
 This is my first post here, so please let me know if there is anything missing or incorrect.*
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/ --->

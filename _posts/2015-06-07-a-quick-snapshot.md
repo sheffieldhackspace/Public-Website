@@ -28,3 +28,5 @@ Some of the stuff we’ve been up to lately includes:
 
    
 It’s been another good month, and it’s only going to get better! If you’re interested in [joining in](https://www.sheffieldhackspace.org.uk/wordpress/become-a-member/), at any skill level (NB: “any” definitely includes “complete beginner”), [get in touch](https://www.sheffieldhackspace.org.uk/wordpress/contact-us/) or look at our calendar and just turn up to a session!
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-06-07-a-quick-snapshot/ --->
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-06-07-a-quick-snapshot/ --->

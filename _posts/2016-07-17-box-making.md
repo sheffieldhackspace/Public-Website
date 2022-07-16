@@ -21,3 +21,4 @@ I’m hoping to do some more intricate box making using some finer hardwoods in 
 [![img_1814_28255135866_o](https://aaronjibbotson.files.wordpress.com/2016/07/img_1814_28255135866_o.jpg?w=625)](https://aaronjibbotson.files.wordpress.com/2016/07/img_1814_28255135866_o.jpg)
 
 [![img_1815_28255135396_o](https://aaronjibbotson.files.wordpress.com/2016/07/img_1815_28255135396_o.jpg?w=625)](https://aaronjibbotson.files.wordpress.com/2016/07/img_1815_28255135396_o.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2016-07-17-box-making/ --->

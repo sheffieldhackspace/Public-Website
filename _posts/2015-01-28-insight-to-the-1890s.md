@@ -20,3 +20,4 @@ Among the items that could be read was a flyer for the Sheffield Table Blade Gri
 
 Prices for the event were 1/6 for Gentlemen and 1/3 for Ladies as perhaps they didn’t eat as much, given that tickets for just the Concert and Ball were 1/- each.  
  —[Janine](https://twitter.com/J9Kirby)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-01-28-insight-to-the-1890s/ --->

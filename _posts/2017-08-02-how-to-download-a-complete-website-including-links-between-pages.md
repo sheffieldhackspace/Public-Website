@@ -38,3 +38,4 @@ Error reporting is also good. Use this on your own website to show up a list of 
 Let me know if you learn any neat tricks with this software…..
 
 Richard Langner
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2017-08-02-how-to-download-a-complete-website-including-links-between-pages/ --->

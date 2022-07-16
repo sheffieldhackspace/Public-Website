@@ -28,3 +28,4 @@ I started by look on thingiverse for 3D printed Brampton carrier block, its alwa
 The next task was to attach the bag to front carrier block. I did this using a hand drill and screwed it together.
 
 <figure class="wp-block-image">![](https://www.sheffieldhackspace.org.uk/wp-content/uploads/2019/07/screw-on-496x1024.jpg)</figure>I wanted a separate area for the bag.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2019-08-22-brompton-bag/ --->

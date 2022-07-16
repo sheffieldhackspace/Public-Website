@@ -27,3 +27,4 @@ Some careful cutting…
 [![IMG_20150215_223907](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/02/IMG_20150215_223907.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/02/IMG_20150215_223907.jpg)
 
 [![IMG_20150215_223756](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/02/IMG_20150215_223756.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/02/IMG_20150215_223756.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-02-16-machine-sewing/ --->

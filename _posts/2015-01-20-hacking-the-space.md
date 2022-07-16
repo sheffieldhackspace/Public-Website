@@ -19,3 +19,4 @@ Exciting times here at SHHM! We’re moving into our new space at the [Portland 
 We have big plans for this space: as a workshop for your projects, a classroom to learn new skills and techniques, and a social hub for hackers, makers and geeks in Sheffield. For now, though, we’re stripping it back to the bricks and making a blank canvas to work from. Everyone is very welcome to join us, but for the next few weeks while we’re building you should expect to get dirty!
 
 [![B7vNtAKIgAAQu-D](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/01/B7vNtAKIgAAQu-D.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/01/B7vNtAKIgAAQu-D.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-01-20-hacking-the-space/ --->

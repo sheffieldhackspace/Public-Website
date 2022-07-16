@@ -43,3 +43,4 @@ You can follow the Sheffield Makers on Twitter [@shhmakers](https://twitter.com/
 [![20140710-102128-37288107.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/07/20140710-102128-37288107.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/07/20140710-102128-37288107.jpg)
 
 [![20140710-102130-37290597.jpg](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/07/20140710-102130-37290597.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/07/20140710-102130-37290597.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2014-06-29-sheffield-maker-day-2014-with-shhm/ --->

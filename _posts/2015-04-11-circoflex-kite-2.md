@@ -25,3 +25,4 @@ It hasn’t been tried in high winds yet, but at 3-5mph (estimated) it just hang
 Definitely an odd-looking beast, but worth the time to make it.
 
 [![Circoflex kite folded](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20140925_1854371.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20140925_1854371.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-04-11-circoflex-kite-2/ --->
