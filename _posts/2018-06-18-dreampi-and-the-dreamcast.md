@@ -131,3 +131,4 @@ Edit: Emuparadise.me is no longer with us, so here is alternate link but I have 
 Sylverant Phantasy star online
 
 <https://sylverant.net/>
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2018-06-18-dreampi-and-the-dreamcast/ --->

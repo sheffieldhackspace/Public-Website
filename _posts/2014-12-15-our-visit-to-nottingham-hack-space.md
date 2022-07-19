@@ -62,3 +62,4 @@ Just to round off the evening Nottingham Hackspace donated a used railway clock 
 <div class="wp-caption aligncenter" id="attachment_526" style="width: 690px">[![The railway clock in the back of Steves car](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/Screen-Shot-2014-12-13-at-21.32.45.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/Screen-Shot-2014-12-13-at-21.32.45.png)The railway clock in the back of Steves car
 
 </div>
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2014-12-15-our-visit-to-nottingham-hack-space/ --->

@@ -34,3 +34,4 @@ When a program is moved off the main screen – maybe to a second monitor which 
 Note that you can use the WINDOWS key with the arrow keys (up, down, left, right) to park windows to any part of the screen.
 
 Sometimes the off-screen program may be waiting for a user response, so try pressing ESCAPE or ENTER to dismiss it. If all esle fails close the program using Task Manager, then reopen it normally. If it starts off-screen, it should now recover easily.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2019-02-05-rescue-off-screen-windows-easily-windows-and-linux/ --->

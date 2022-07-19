@@ -34,3 +34,4 @@ If I were to make this a perfamant build (I don’t have the desk space or the s
 
 - I will likely wire a Solid State Relay to control power to the monitor from a pin on the GPIO (this monitor is way too early for automatic power control).
 - I would also probably create some from of circuit to reset the Raspberry Pi automatically (to avoid green snow). Either using a 555N in monostable mode or a suitably programmed ATtiny45/85.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-01-11-retro-ibm-12-vga-monitor-8512-attached-to-a-raspberry-pi/ --->

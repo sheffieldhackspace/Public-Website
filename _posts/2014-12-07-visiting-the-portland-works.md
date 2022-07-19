@@ -18,3 +18,4 @@ A group of SHHM members met up to be shown around the [Portland Works](http://ww
 
 Update:  
 [Gee has a nice writeup and some great photos of the site on his blog.](http://rabid-inventor.blogspot.co.uk/2014/12/a-morning-out-with-sheffield-hardware.html "A morning out with the Sheffield Hardware Hackers at The Portland Works")
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2014-12-07-visiting-the-portland-works/ --->

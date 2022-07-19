@@ -27,3 +27,4 @@ categories:
 </div><div class="wp-caption alignnone" id="attachment_1293" style="width: 310px">[![Blue Lightfield](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/BlueTubes-300x225.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/BlueTubes.jpg)Blue Lightfield
 
 </div>
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2016-10-01-electromagnetic-field-2016/ --->

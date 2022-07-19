@@ -45,3 +45,5 @@ The wind was nice and smooth and resulted in the Kite flying very stably. This h
 </div>For more information of Kite Aerial Photography, start with [<span style="text-decoration: underline;">Wikipedia</span>](https://en.wikipedia.org/wiki/Kite_aerial_photography) and see how you get on. However, if you have any questions or a desire to see a full &amp; in-depth article on KAP, please leave a message below and I’ll be sure to start work on it. There is also a great YouTube video from the folks at Make Magazine [here](https://www.youtube.com/watch?v=swqFA9Mvq5M), this was in fact the original inspiration for me to get into Kite Aerial Photography after I left University.
 
 For more information on Geeks In The Peaks, please see their [Twitter](https://twitter.com/geeksinthepeaks) &amp; [attending.io](http://attending.io/events/geeks-in-the-peaks-2015) pages.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-09-23-mam-tor-kite-aerial-photography/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

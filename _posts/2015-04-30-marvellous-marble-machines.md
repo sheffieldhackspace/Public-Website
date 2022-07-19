@@ -33,3 +33,4 @@ I’m currently building the Marble Machine 2 – will take some in progress pho
 Numerous other laser cut ply toys are also available…
 
 —[Janine](https://twitter.com/J9Kirby)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-04-30-marvellous-marble-machines/ --->

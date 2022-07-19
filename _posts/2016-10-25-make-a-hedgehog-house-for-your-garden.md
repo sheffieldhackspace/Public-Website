@@ -51,3 +51,4 @@ Locate the box in a quiet area of the garden, with the pipe pointing away from p
 One the box is installed, do not disturb. Clean annually in early Oct with cleaner used for bird cages.
 
 [![Sarah's Hedgehog house 12](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/12-300x225.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/12.jpg)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2016-10-25-make-a-hedgehog-house-for-your-garden/ --->

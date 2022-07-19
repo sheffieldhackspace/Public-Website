@@ -43,3 +43,5 @@ For the techincally minded, you will find I’ve included a circuit diagram &amp
 - [High-Low Tech Group](http://highlowtech.org/?p=1706) – Great for background reading, but most info now obsolete. High Low Tech’s Hardware files for the IDE do not work on Arduino IDE 1.5 beta.
 - [Arduino libs on ATtiny13](http://accrochages.drone.ws/en/node/38) – A Library for using the ATtiny13.
 - [Shrinkify your Arduino Projects](http://www.youtube.com/watch?v=30rPt802n1k) – YouTube video guide by [Matt Richardson](http://twitter.com/mattrichardson) at [Make Magazine](http://makezine.com/).
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-03-02-attiny-854513-programming-shield/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->

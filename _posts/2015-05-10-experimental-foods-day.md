@@ -45,3 +45,4 @@ PS: There may have been some further <s>gratuitous playing</s> careful and sensi
 [![IMG_20150509_142922](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/05/IMG_20150509_142922.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/05/IMG_20150509_142922.jpg)
 
 …but our lips are sealed.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-05-10-experimental-foods-day/ --->

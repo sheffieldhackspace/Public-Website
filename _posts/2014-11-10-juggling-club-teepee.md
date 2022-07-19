@@ -27,3 +27,4 @@ And, happily, the juggling club handles click nicely into the holders. Success!
 [![Club spiral clip from above](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20141018_1622361.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20141018_1622361.jpg)
 
 A simple little project, but for that member it was a nice introduction to designing precision parts in CAD software, running one of our 3D printers, and having a flat without juggling clubs rolling around underfoot all the damn time.
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2014-11-10-juggling-club-teepee/ --->

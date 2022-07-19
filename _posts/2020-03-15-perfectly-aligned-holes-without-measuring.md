@@ -40,3 +40,4 @@ Update: At the bottom of this post, there are links showing how to locate drill 
 - This video : [ (2:40)](https://youtu.be/VK4zoUrNhkQ)
 - [Pin-hole for a recessed button, using only BluTac (2:28)](https://youtu.be/QhhjjE7BYgA)
 - [Pin-hole for SMD LED, using only BluTac (1:18)](https://youtu.be/Znpm1T9UUh4)
+<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/ --->
