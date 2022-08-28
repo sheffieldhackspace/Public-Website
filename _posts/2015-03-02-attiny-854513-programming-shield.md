@@ -17,7 +17,7 @@ tags:
 
 #### Author: [James Muirhead](http://www.twitter.com/phantomfreak)
 
-[![ATTiny Programmer photo](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/03/Photo-edited.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/03/Photo-edited.jpg)
+![]({{ site.baseurl }}/assets/blog/2015-03-02-attiny-854513-programming-shield/Photo-edited.jpg)
 
 This is a modified version of the programmer described on the [High Low Tech Group’s](http://highlowtech.org/?p=1706) page. I have however added a few customisations…
 
@@ -30,7 +30,7 @@ This shield simplifies the development of ATtiny (13/25/45/85) projects giving y
 
 For the techincally minded, you will find I’ve included a circuit diagram &amp; a photo of the finished product. NB: The Arduino’s crystal is not attached as this is for reference only and the host Arduino will have one.
 
-[![ATTiny Programming Shield v2_schem (fixed cap) edited](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/03/ATTiny-Programming-Shield-v2_schem-fixed-cap-edited.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/03/ATTiny-Programming-Shield-v2_schem-fixed-cap-edited.png)
+![]({{ site.baseurl }}/assets/blog/2015-03-02-attiny-854513-programming-shield/ATTiny-Programming-Shield-v2_schem-fixed-cap-edited.png)
 
 ### Further expansion
 
@@ -42,6 +42,6 @@ For the techincally minded, you will find I’ve included a circuit diagram &amp
 - [arduino-tiny](http://code.google.com/p/arduino-tiny/) – Arduino Hardware Libraries for ATtiny 85/45/25/84/44/24/2313/4313. Available for both Arduino IDE 1.0 and 1.5 beta.
 - [High-Low Tech Group](http://highlowtech.org/?p=1706) – Great for background reading, but most info now obsolete. High Low Tech’s Hardware files for the IDE do not work on Arduino IDE 1.5 beta.
 - [Arduino libs on ATtiny13](http://accrochages.drone.ws/en/node/38) – A Library for using the ATtiny13.
-- [Shrinkify your Arduino Projects](http://www.youtube.com/watch?v=30rPt802n1k) – YouTube video guide by [Matt Richardson](http://twitter.com/mattrichardson) at [Make Magazine](http://makezine.com/).
+- {% include youtube.html code="30rPt802n1k" %} – YouTube video guide by [Matt Richardson](http://twitter.com/mattrichardson) at [Make Magazine](http://makezine.com/).
 <!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-03-02-attiny-854513-programming-shield/ --->
 <!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->
