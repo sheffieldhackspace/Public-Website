@@ -15,13 +15,15 @@ Last week as part of our research in to opening our own hackspace, one of our me
 
 Whilst we were there we got a tour of the space. It is split in to three different sections as shown below…
 
-<div class="wp-caption aligncenter" id="attachment_491" style="width: 2355px">[![The Lounge Area](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_1041.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_1041.jpg)The Lounge Area
+![]({{ site.baseurl }}/assets/blog/2014-12-15-our-visit-to-nottingham-hack-space/IMG_1041.jpg)
+The Lounge Area
 
-</div>Above is the Lounge area. This is the first room you enter in the space. This is where members sit down, have a chat and chill. The room has a fully kitted media system with a projector and sound equipment, plus mood lighting. They have all of the kit to host presentations/talks. Or you can kick back and watch a film. Around the room there were interesting as well as unique items that had been collected over the years. The collection included old test gear, audio recording equipment and much more.
+Above is the Lounge area. This is the first room you enter in the space. This is where members sit down, have a chat and chill. The room has a fully kitted media system with a projector and sound equipment, plus mood lighting. They have all of the kit to host presentations/talks. Or you can kick back and watch a film. Around the room there were interesting as well as unique items that had been collected over the years. The collection included old test gear, audio recording equipment and much more.
 
-<div class="wp-caption aligncenter" id="attachment_503" style="width: 2668px">[![The main hack/event area](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_10351.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_10351.jpg)The main hack/event area
+![]({{ site.baseurl }}/assets/blog/2014-12-15-our-visit-to-nottingham-hack-space/IMG_10351.jpg)
+The main hack/event area
 
-</div>The main making area is where most of the activity takes place. In this room is a collection of kit for members to use. This includes sewing and craft kit and 3D Printers. Below is a list of some of the tools that Nottingham’s Hackspace has on offer to it’s members.
+The main making area is where most of the activity takes place. In this room is a collection of kit for members to use. This includes sewing and craft kit and 3D Printers. Below is a list of some of the tools that Nottingham’s Hackspace has on offer to it’s members.
 
 – House hold sewing machine  
 – Industrial sewing machine  
@@ -32,11 +34,13 @@ Whilst we were there we got a tour of the space. It is split in to three differe
 and the best bit…  
 – An RFID accessed vending machine
 
-<div class="wp-caption aligncenter" id="attachment_513" style="width: 2602px">[![Lots of really cool power tools](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_1033.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_1033.jpg)Lots of really cool power tools
+![]({{ site.baseurl }}/assets/blog/2014-12-15-our-visit-to-nottingham-hack-space/IMG_1033.jpg)
+Lots of really cool power tools
 
-</div><div class="wp-caption aligncenter" id="attachment_515" style="width: 2602px">[![Electronic work area](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_1027.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/IMG_1027.jpg)Electronic work area
+![]({{ site.baseurl }}/assets/blog/2014-12-15-our-visit-to-nottingham-hack-space/IMG_1027.jpg)
+Electronic work area
 
-</div>The final section was the workshop, this was fantastic! Every machine that you would need for general hacking was there including…
+final section was the workshop, this was fantastic! Every machine that you would need for general hacking was there including…
 
 – Hand tools  
 – Electronic testing equipment  
