@@ -16,8 +16,7 @@ tags:
     - Textiles
 ---
 
-[![CSFZeZfXIAACp0b](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/12/CSFZeZfXIAACp0b.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2015/12/CSFZeZfXIAACp0b.jpg)  
-**\[Post by SHHM member Sarah Cullen\]**
+![]({{ site.baseurl }}/assets/blog/2015-12-15-simply-crochet-robot/CSFZeZfXIAACp0b.jpg)
 
 I enjoy mixing traditional crafts with tech. A while ago I decided to teach myself crochet, mostly using YouTube and a couple of crochet books. I found a pattern for a crochet robot toy and decided that instead of just crocheting buttons and a light, I’d use sewable electronics instead.
 
@@ -30,7 +29,7 @@ The buttons on the front of the robot are a bit more involved. They needed 2 bat
 
 The end result is here:
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/4tJA4TL4Sk4?feature=oembed" title="Simply crochet robot" width="584"></iframe>
+{% include youtube.html code="4tJA4TL4Sk4" %}
 
 More LED crochet  
 I followed that project up with some a monkey &amp; ninja from the Creepy But Cute crochet book and a pirate pattern from [the author’s website](http://needlenoodles.com/home/node/118). Rather than sewing their expressions on, I gave them sewable LED eyes. These were added behind the felt patches that are their faces. The battery holder is under each creature, which has meant I’ve needed to add a ring of chain stitch to the base, to hide the holder and stabilise each creature.
@@ -38,10 +37,8 @@ I followed that project up with some a monkey &amp; ninja from the Creepy But Cu
 More recently, I made the robot from the Creepy But Cute book. Gee made a small circuit with cyclon style red LEDs that I used for its eyes. As these aren’t sewable LEDs and they’re tiny, it needed the crochet cutting so that they’d show through the felt face. The felt face stops the crochet from unravelling, so no problems there. At some point I may remake this but use a Adafruit Gemma / Flora to control sewable LEDs for the cyclon effect but I’ll need to find the time first!  
 The complete set is here:
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="329" loading="lazy" src="https://www.youtube.com/embed/Lf5fAW0gUNQ?feature=oembed" title="Pimoroni crochet" width="584"></iframe>
+{% include youtube.html code="Lf5fAW0gUNQ" %}
 
 They get taken to Make Faires with Pimoroni and [recently featured in Makezine’s photos of the Berlin Faire](http://makezine.com/2015/10/05/first-maker-faire-berlin-doesnt-miss-beat/#jp-carousel-495379).
 
 All sewable electronics parts for the various projects came from Adafruit / Sparkfun / Kitronik via Pimoroni.
-<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2015-12-15-simply-crochet-robot/ --->
-<!--- This page could have YOUTUBE links add this code where needed ... {% include youtube.html code="gOCDyotifPo" %} --->
