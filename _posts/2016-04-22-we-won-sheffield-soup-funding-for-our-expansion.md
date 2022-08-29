@@ -13,16 +13,16 @@ tags:
     - funding
     - 'hacking the space'
     - 'Sheffield Soup'
-    - wooooooo
+    
 ---
 
-[![Sheff Soup Case of Money](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/04/CghA2XsW4AAFUWc.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/04/CghA2XsW4AAFUWc.jpg)
+![]({{ site.baseurl }}/assets/blog/2016-04-22-we-won-sheffield-soup-funding-for-our-expansion/CghA2XsW4AAFUWc.jpg)
 
 Earlier this week I (Bugs) went along to talk at [Sheffield Soup](https://twitter.com/SheffSOUP), a local crowdfunding event. A sell-out crowd of 150 Sheffield locals, plus representatives of local media, got together to hear four people pitch their ideas for a project to benefit the city. After each group gave a four minute talk and answered four questions for the crowd, there was time to eat, drink, listen to some great live music, and wander around chatting before the final vote.
 
-[![Bugs speaking at Sheffield Soup](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/04/CgggGl5WsAAkk3O-e1461338795715-300x194.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/04/CgggGl5WsAAkk3O-e1461338795715.jpg)
+![]({{ site.baseurl }}/assets/blog/2016-04-22-we-won-sheffield-soup-funding-for-our-expansion/CgggGl5WsAAkk3O-e1461338795715-300x194.jpg)
 
-The attendees made for a very welcoming and insightful audience, with some great questions asked of all four projects, and a lot of interest in what we do and how to join. We’re looking forward to welcoming a lot of new people to the hackspace over the next few weeks! (If you’re one of them, look at our [Calendar](https://www.sheffieldhackspace.org.uk/wordpress/calendar/) and just call into any of the Open Sessions. Or if you prefer, [contact us](https://www.sheffieldhackspace.org.uk/wordpress/contact-us/) to say hi and ask any questions.)
+The attendees made for a very welcoming and insightful audience, with some great questions asked of all four projects, and a lot of interest in what we do and how to join. We’re looking forward to welcoming a lot of new people to the hackspace over the next few weeks! 
 
 In the end, the audience voted to give us the £800 prize money, to fund our upcoming Hackspace expansion project! Expanding into the cellar beneath our current space with roughly double the amount of room we have to work in, and give us a dediated “dirty workshop” for stuff like woodworking, metalwork, glasswork, screen printing… anything our members want to try that needs a lot of space and makes a mess! Just as well: our weekly sessions are starting to feel decidedly crowded, which is a great problem to have and a sign that the hackspace project is going well.
 

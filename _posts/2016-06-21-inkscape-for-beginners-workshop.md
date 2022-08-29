@@ -9,8 +9,7 @@ permalink: /inkscape-for-beginners-workshop/
 categories:
     - Workshops
 ---
-
-[![Inkscape Workshop in progress](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/06/IMG_20160619_211425.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/06/IMG_20160619_211425.jpg)
+![]({{ site.baseurl }}/assets/blog/2016-06-21-inkscape-for-beginners-workshop/IMG_20160619_211425.jpg)
 
 Did you get to our Inkscape For Beginners workshop? We had fun afternoon with a mix of members and new people, learning the basics of Inkscape (2D graphics / design package, ideal for making lasercutter templates) and swapping tips and tricks. If there are other workshops you want to attend — or want us to run this one again! — let us know!
 
