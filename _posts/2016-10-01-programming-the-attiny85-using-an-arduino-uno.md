@@ -4,8 +4,6 @@ title: 'Programming the ATtiny85 using an Arduino UNO'
 date: '2016-10-01T21:40:42+01:00'
 author: 'Richard Langner'
 layout: post
-guid: 'http://www.sheffieldhardwarehackers.org.uk/wordpress/?p=1279'
-permalink: /programming-the-attiny85-using-an-arduino-uno/
 categories:
     - 'Electronics Articles'
     - 'Members'' Projects'
@@ -34,20 +32,19 @@ Pin connections:
 - ATtiny Pin 2 to 150Ω resistor, resistor to LED anode, LED cathode to GND (not shown here).
 - 10uF capacitor connects between GND (-) and RESET (+)
 
-*(Click on the images to get a clearer image.)*
 
-[![Uno as an ISP](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/UnoWiring-300x284.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/UnoWiring.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/UnoWiring-300x284.png)
 
 **2. Configure the Arduino as an In-circuit Serial Programmer (ISP)**
 
 Select the Arduino UNO board  
-[![setup-isp-1](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/Setup-ISP-1-300x199.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/Setup-ISP-1.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/Setup-ISP-1-300x199.png)
 
 and open the ISP sketch.  
-[![isp](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/ISP-300x275.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/ISP.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/ISP-300x275.png)
 
 Next you should upload the ISP example to the UNO board. Ensure you have selected the correct COM port.  
-[![download-blink](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/Download-blink-300x220.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/Download-blink.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/Download-blink-300x220.png)
 
 Congratulations! Your UNO is configured as a programmer.
 
@@ -65,14 +62,15 @@ Configure the IDE as follows –
 - Processor = ATtiny85
 - Clock speed = 8MHz
 
-[![2016-10-01_00037](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00037-262x300.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00037.png) [![2016-10-01_00038](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00038-300x219.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00038.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/2016-10-01_00037-262x300.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/2016-10-01_00038-300x219.png)
 
 Set the programmer ‘Arduino as ISP’  
-[![2016-10-01_00039](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00039-300x268.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00039.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/2016-10-01_00039-300x268.png)
 
 If the ATtiny85 is new, it will require the fuses to be set. Among other things, fuses set the CPU speed. The fuses only need to be set once for each chip. To do this, select the ‘Burn bootloader’ option.
 
-[![2016-10-01_00040](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00040-1-300x252.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/2016-10-01_00040-1.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/2016-10-01_00040-1-300x252.png)
 
 **5. Modify and upload the ‘blink’ sketch to the ATtiny85**
 
@@ -95,7 +93,7 @@ void loop() {
 ```
 
 Finally upload the ‘Blink’ sketch to the ATtiny85.  
-[![download-blink](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/Download-blink-300x220.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2016/10/Download-blink.png)
+![]({{ site.baseurl }}/assets/blog/2016-10-01-programming-the-attiny85-using-an-arduino-uno/Download-blink-300x220.png)
 
 That’s it! The blink program should now flash the LED.
 
