@@ -23,8 +23,9 @@ tags:
 
 Designed and built at the [Sheffield Hackspace](https://www.sheffieldhackspace.org.uk/) using an arduino and bits and pieces of things that you might find lying around in your own home…
 
-- <figure>![](https://www.sheffieldhackspace.org.uk/wp-content/uploads/2019/04/thelighthouse1-1-768x1024.jpg)</figure>
-- <figure>![](https://www.sheffieldhackspace.org.uk/wp-content/uploads/2019/04/thelighthouse2-1-768x1024.jpg)</figure>
+![]({{ site.baseurl }}/assets/blog/2019-04-30-a-model-lighthouse/thelighthouse1-1-768x1024.jpg)
+
+![]({{ site.baseurl }}/assets/blog/2019-04-30-a-model-lighthouse/thelighthouse2-1-768x1024.jpg)
 
 Here’s the setup:
 
@@ -36,4 +37,3 @@ An Aldi’s peanut butter jam jar lid (crucial)
 Other bits and bobs scrounged from various unwanted poundland items
 
 If you think this is cool wait until you see the boats!
-<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2019-04-30-a-model-lighthouse/ --->
