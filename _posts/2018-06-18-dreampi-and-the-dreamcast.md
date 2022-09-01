@@ -13,7 +13,6 @@ tags:
     - Games
 ---
 
-# <span style="font-family: Liberation Sans, sans-serif;"><span style="font-size: x-large;">Getting the Dreamcast back online</span></span>
 
 Getting a Dreamcast games console in 2018 is great but there are something that you can do as Sega has stopped supporting it for may a years now. This means that you can’t play some of the great games online. The following article will help you get the Dreamcast back online and playing the awesome games this short lived system has to offer.
 
@@ -41,12 +40,12 @@ or
 
 You will need to set up the image file of the DreamPi in order to get things going. I have linked to a guide to install the DreamPi image, you will need to change the file name listed in the link to the DreamPi image file name.
 
-<https://www.raspberrypi.org/documentation/installation/installing-images/linux.md>
+[https://www.raspberrypi.org/documentation/installation/installing-images/linux.md](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
 
 There is an alternative install that you can do via NOOBS. Link below,
 
-https://www.dreamcast-talk.com/forum/viewtopic.php?f=3&amp;t=10851
-
+[https://www.dreamcast-talk.com/forum/viewtopic.php?f=3&amp;t=10851](https://www.dreamcast-talk.com/forum/viewtopic.php?f=3&amp;t=10851
+)
 # Setting up the Pi
 
 Once you have successfully flashed the image onto the SD card insert the card into the Pi and connect the Ethernet cable and USB modem ready for the line inducer in the next section. Connecting a monitor is option for normal game play but for initial setup it is good to see it working. You will be able to see if the modem is detected, say with *lshw* in the terminal. The login information is *pi* as the user name and *raspberry* as the password.
@@ -61,18 +60,18 @@ You will need to cut the phone line wire and solder them on to a PCB board leavi
 
 I used the step up power booster for mine instead of the battery option but I did find that I had to boost the power up more than I expected; approximately 26V in my case to get a stable connection. Have a play around to see if yours will work at a lower voltage. Now in this example I used a USB from the booster converter to the Pi in order to get the power to the phone line, see figure 2 for the pin out when wiring it up to the boost converter.Just make sure that the pins and the wires at the other end match up to what you are expecting so you don’t get any cross wires and fry something; use a multimeter for this.
 
-[![Pins for USB ](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/ouU5Pa-300x195.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/ouU5Pa.png)  
+![]({{ site.baseurl }}/assets/blog/2018-06-18-dreampi-and-the-dreamcast/ouU5Pa-300x195.png)
 Figure 2
 
 Here is my *very excellent* and *well* soldered PCB board of the schematic above, figure 3 – 5 shows it made.
 
-[![Boost converter make photo 1](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/1-300x225.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/1.jpg)  
+![]({{ site.baseurl }}/assets/blog/2018-06-18-dreampi-and-the-dreamcast/1-300x225.jpg)
 figure 3
 
-[![Boost converter - made ](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/2-300x225.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/2.jpg)  
+![]({{ site.baseurl }}/assets/blog/2018-06-18-dreampi-and-the-dreamcast/2-300x225.jpg)
 figure 4
 
-[![Boost converter - make 3](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/3-300x225.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2018/06/3.jpg)  
+![]({{ site.baseurl }}/assets/blog/2018-06-18-dreampi-and-the-dreamcast/3-300x225.jpg)
 figure 5
 
 Now in figure 5 you will see that I have used hot glue to help secure the phone line wires as you will find that they are easily broken.
@@ -114,8 +113,7 @@ Here are the links that I used to get the Dreamcast back online.
 
 Instruction on setting up and making the DreamPi
 
-<http://blog.kazade.co.uk/p/dreampi.html>
-
+[http://blog.kazade.co.uk/p/dreampi.html](http://blog.kazade.co.uk/p/dreampi.html)
 Making the line inducer
 
 [http://dreamcast.onlineconsoles.com/phpBB2/guides\_pcdcwin98.php#10](http://dreamcast.onlineconsoles.com/phpBB2/guides_pcdcwin98.php#10) from about step 10 but step 9 could be useful.
@@ -126,9 +124,8 @@ Dreamkey 3.0
 
 Edit: Emuparadise.me is no longer with us, so here is alternate link but I have not checked the quality of it. Please virus check it before use.
 
-<https://romsmode.com/roms/dreamcast/dreamkey-version-3-0-421318>
+[https://romsmode.com/roms/dreamcast/dreamkey-version-3-0-421318](https://romsmode.com/roms/dreamcast/dreamkey-version-3-0-421318)
 
 Sylverant Phantasy star online
 
-<https://sylverant.net/>
-<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2018-06-18-dreampi-and-the-dreamcast/ --->
+[https://sylverant.net/](https://sylverant.net/)

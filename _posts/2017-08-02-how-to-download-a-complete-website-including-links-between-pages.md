@@ -21,7 +21,7 @@ There is an easy way to grab whole sections of a site (or even a whole site), su
 
 Copy and paste the index page or a sub page into [httrack](https://www.httrack.com/)
 
-[![](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/08/2017-08-02_httrack_homepage-300x265.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/08/2017-08-02_httrack_homepage.png)
+![]({{ site.baseurl }}/assets/blog/2017-08-02-how-to-download-a-complete-website-including-links-between-pages/2017-08-02_httrack_homepage-300x265.png)
 
 It works on Windows 2000 to Win10, and Linux. You can use the portable version which will run from a USB stick, or you can use the installer version.
 
@@ -29,7 +29,7 @@ And it’s FREE.
 
 You can capture (mirror) several websites complete with their data, and they may be accessed from a master web-page; as in the example below.
 
-[![](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/08/2017-08-02_httrack-260x300.png)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2017/08/2017-08-02_httrack.png)
+![]({{ site.baseurl }}/assets/blog/2017-08-02-how-to-download-a-complete-website-including-links-between-pages/2017-08-02_httrack-260x300.png)
 
 The REALLY cool bit is that downloadable files such as PDFs and jpg files are saved too. If it’s in a directory and referenced by a regular page link, it will be downloaded.
 
@@ -38,4 +38,3 @@ Error reporting is also good. Use this on your own website to show up a list of 
 Let me know if you learn any neat tricks with this software…..
 
 Richard Langner
-<!--- path/to this posts images is ![]({{ site.baseurl }}/assets/blog/2017-08-02-how-to-download-a-complete-website-including-links-between-pages/ --->
