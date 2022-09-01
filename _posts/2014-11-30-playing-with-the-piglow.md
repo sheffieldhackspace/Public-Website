@@ -10,7 +10,7 @@ categories:
     - 'Members'' Projects'
 ---
 
-[![Janine's PiGlow](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20141115_140513b.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/11/IMG_20141115_140513b.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-11-30-playing-with-the-piglow/IMG_20141115_140513b.jpg)
 
 Playing with the [PiGlow](http://shop.pimoroni.com/products/piglow)
 

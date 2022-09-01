@@ -10,7 +10,7 @@ categories:
     - 'Members'' Projects'
 ---
 
-[![Capacitive sensing](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/unnamed.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/unnamed.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-12-08-trialling-capacitive-sensing/unnamed.jpg)
 
 A little bit of spare time was found to experiment with capacitive sensing using the library and demo sketch from the Arduino Playground:
 

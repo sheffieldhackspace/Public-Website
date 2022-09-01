@@ -11,8 +11,7 @@ categories:
     - 'Hacking the space'
     - 'Hackspace Visits'
 ---
-
-[![Portland Works rooftop](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/PANO_20141207_1032051.jpg)](https://www.sheffieldhackspace.org.uk/wordpress/wp-content/uploads/2014/12/PANO_20141207_1032051.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-12-07-visiting-the-portland-works/PANO_20141207_1032051.jpg)
 
 A group of SHHM members met up to be shown around the [Portland Works](http://www.portlandworks.co.uk/). It’s one of the key sites in Sheffield’s manufacturing history; among other claims to fame, it was the home of the first business to make the stainless steel cutlery that carried the city’s name into homes all over the world. It’s still used as a home for small manufacturers and artists, and the rolling refurbishment programme is doing a great job of keeping the character of the original buildings intact. Not normally open to the public, but well worth a look around if you can catch one of their open days.
 
