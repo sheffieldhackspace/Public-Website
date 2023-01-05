@@ -142,9 +142,12 @@ h6 {
   @media (min-width: 64em) { padding-right: 3rem; }
   @media (min-width: 80em) { padding-right: 4rem; }
 }
-.sponsors a {
+
+footer a {
   color: tint($text-color, 40%);
 }
+
+.legal { float: left;}
 
 .entry-content {
   > p:first-child {
