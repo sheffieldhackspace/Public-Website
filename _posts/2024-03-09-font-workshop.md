@@ -11,7 +11,14 @@ categories:
 tags:
     - workshop
 ---
+<p class="hide-in-page">
+  Last week I ran a computer font-making workshop at the hackspace. It was a bunch of fun, and I really enjoyed seeing the creativity come out of people via the medium of creating typefaces :)
+</p>
+
 <style>
+  .hide-in-page {
+    display:none;
+  }
   /* custom element styles */
   figcaption {
     text-align: center;
