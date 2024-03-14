@@ -14,21 +14,6 @@ To start the site run `docker-compose up` then navigate to `http://localhost:400
 
 To update the `gemfile.lock` if you have changed a plugin run `docker-compose run jekyll bundle update`
 
-### Using Ruby on Linux
+## Submitting Changes
 
-#### Install Ruby + Gems
-
-```bash
-sudo apt-get install ruby-full
-gem install bundler
-bundle config set --local path 'vendor/bundle'
-bundle install
-```
-
-#### Serve hot-reloading website
-
-This is the same command used in [the docker compose file](./docker-compose.yml).
-
-```bash
-bundle exec jekyll serve --watch --force_polling --verbose
-```
+All changes should be made as a pull request to main. All changes require a PR review from one trustee.
