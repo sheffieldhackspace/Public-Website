@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calendar
-permalink: /calendar
+permalink: /calendar/
 image: /assets/images/steel-cutting-header.jpg
 ---
 
