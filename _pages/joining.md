@@ -13,6 +13,6 @@ Joining costs £6 a month for the three sessions a week, or £21 a month for a k
 
 If you have any questions before you come along you can email us at [trustees@sheffieldhackspace.org.uk](mailto:trustees@sheffieldhackspace.org.uk).
 
-We are located [here](https://goo.gl/maps/EcVTWfknJ8XSRYax9) in Portland Works. Find the green door at the top of Randal Street S2 4SJ, and press the call button. We are in the courtyard on the ground floor. 
+We are located [here](https://goo.gl/maps/EcVTWfknJ8XSRYax9) in Portland Works. Find the green door at the top of Randal Street S2 4SJ, and press the call button. We are in the courtyard on the ground floor.
 
 {% include osm.html %}
