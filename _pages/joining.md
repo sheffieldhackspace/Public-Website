@@ -4,10 +4,9 @@ title: Joining
 permalink: /joining/
 image: /assets/images/soldering-header.jpg
 ---
-
 If you’re interested in what we do, get in touch below or just come along and join in!
 
-Drop in to one of our [open evenings](/calendar/) to meet us in person and see the Hackspace.
+Drop in anytime to one of our [open evenings](/calendar/) to get a feel of the Hackspace and see how things work.
 
 Joining costs £6 a month for the three sessions a week, or £21 a month for a key, allowing you to come and go as you please.
 
