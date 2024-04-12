@@ -15,3 +15,4 @@ If you have any questions before you come along you can email us at [trustees@sh
 We are located [here](https://goo.gl/maps/EcVTWfknJ8XSRYax9) in Portland Works. Find the green door at the top of Randall Street S2 4SJ, and press the call button. We are in the courtyard on the ground floor.
 
 {% include osm.html %}
+
