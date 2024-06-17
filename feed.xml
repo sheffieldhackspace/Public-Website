@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://www.sheffieldhackspace.org.uk/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.sheffieldhackspace.org.uk/" rel="alternate" type="text/html" /><updated>2024-06-17T22:05:35+00:00</updated><id>https://www.sheffieldhackspace.org.uk/feed.xml</id><title type="html">Sheffield Hackspace</title><subtitle>Sheffield Hackspace</subtitle><entry><title type="html">Computer font making workshop</title><link href="https://www.sheffieldhackspace.org.uk/font-workshop/" rel="alternate" type="text/html" title="Computer font making workshop" /><published>2024-03-08T23:05:46+00:00</published><updated>2024-03-08T23:05:46+00:00</updated><id>https://www.sheffieldhackspace.org.uk/font-workshop</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/font-workshop/"><![CDATA[<p class="hide-in-page">
+  Last week I ran a computer font-making workshop at the hackspace. It was a bunch of fun, and I really enjoyed seeing the creativity come out of people via the medium of creating typefaces :)
+</p>
+
+<style>
+  .hide-in-page {
+    display:none;
+  }
+  /* custom element styles */
+  figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+  }
+</style>
+
+<style>
+  /* fonts */
+  @font-face {
+    font-family: "classic-neil";
+    src: url("https://blog.alifeee.co.uk/font-workshop/fonts/classic-neil/classicneil.woff") format("woff");
+  }
+  .font--classic-neil * {
+    font-family: "classic-neil", cursive;
+  }
+  @font-face {
+    font-family: "vmorse";
+    src: url("https://blog.alifeee.co.uk/font-workshop/fonts/vmorse/VMORSE.woff") format("woff");
+  }
+  .font--vmorse * {
+    font-family: "vmorse", cursive;
+  }
+  @font-face {
+    font-family: "font";
+    src: url("https://blog.alifeee.co.uk/font-workshop/fonts/font/font.woff") format("woff");
+  }
+  .font--font * {
+    font-family: "font", sans-serif;
+  }
+  @font-face {
+    font-family: "Ricardo";
+    src: url("https://blog.alifeee.co.uk/font-workshop/fonts/ricardo/Ricardo.woff") format("woff");
+  }
+  .font--ricardo * {
+    font-family: "Ricardo", cursive;
+  }
+  @font-face {
+    font-family: "A Font";
+    src: url("https://blog.alifeee.co.uk/font-workshop/fonts/a-font/a-font.woff") format("woff");
+  }
+  .font--a-font * {
+    font-family: "A Font", cursive;
+  }
+</style>
+
+<p><br /></p>
+
+<p>(This is an adaptation of <a href="https://blog.alifeee.co.uk/font-workshop/">https://blog.alifeee.co.uk/font-workshop/</a>)</p>
+
+<h1 id="i-ran-a-computer-font-making-workshop">I ran a computer font-making workshop!</h1>
+
+<p>Last week I ran a computer font-making workshop at the hackspace. It was a bunch of fun, and I really enjoyed seeing the creativity come out of people via the medium of creating typefaces :)</p>
+
+<h2 id="why">Why?</h2>
+
+<p><a href="https://blog.alifeee.co.uk/making-bogface/">I like fonts</a></p>
+
+<h2 id="who-where-when">Who, Where, When?</h2>
+
+<p>I ran the workshop at the hackspace. I’d seen that we had run workshops before on knife-making and other things, and I thought it would be neat if I did something similarly collective. Often, people are together at the hackspace, which I <a href="https://blog.alifeee.co.uk/what-is-a-third-space/">enjoy in and of itself</a>. But, it is extra neat if people can be together and all be working on similar things.</p>
+
+<p>About three or four weeks ago, I decided to just “do it”, and I made up a sign and put it up in the space.</p>
+
+<p><img src="/assets/blog/2024-03-09-font-workshop/workshop-sign.jpg" alt="Hand-drawn sign saying &quot;font making workshop&quot;" /></p>
+
+<figcaption>
+
+Some have pointed out an irony that a poster for a computer font workshop was handwritten...
+
+</figcaption>
+
+<p>As far as I was concerned, “a workshop” is not really an established idea. But that’s part of the reason I like community spaces like the hackspace: I can pretend something is an established idea and people will believe it is.</p>
+
+<p>I didn’t start with a great plan, but rather started by motivating myself to create a plan (by putting up the poster). This turned out to be a nice method of motivation, as I had set a date for my “workshop”, which forced me to consider what a “workshop” would involve.</p>
+
+<h2 id="what-does-a-workshop-involve">What does a workshop involve?</h2>
+
+<p>I ended up giving a short presentation about why I like fonts, some things to think about when designing a font, and an overview of how to use FontForge, which is the program <a href="https://blog.alifeee.co.uk/making-bogface/">that I made BogFace in</a>.</p>
+
+<h3 id="the-presentation">The presentation</h3>
+
+<p>I thought about using Google Slides to make a presentation. However, you can’t use custom fonts, which was… kind of a killer for a font workshop.</p>
+
+<p>I went with <a href="https://revealjs.com/">RevealJS</a>, which I had seen one of my computer-loving lecturers use at university. It’s quite neat to use, mainly because everything is written in HTML. I guess I am fate-bound to never use a WYSIWYG editor again.</p>
+
+<p>The presentation is hosted at <a href="https://alifeee.co.uk/font-workshop/">https://alifeee.co.uk/font-workshop/</a>, but since it is a website, I can also embed it here! Have a scuttle around (press space to <del>slow down</del> progress.)</p>
+
+<iframe src="https://alifeee.co.uk/font-workshop/" style="width: 100%; height: 100%; min-height: 20rem"></iframe>
+
+<figcaption>
+
+If I do another workshop in the future, I will probably update this a bit, and this embed would change :)
+
+</figcaption>
+
+<h2 id="what-people-made">What people made</h2>
+
+<p>I helped five people make their own fonts. Each one went about it quite (or slightly, depending on how much you care about fonts) differently.</p>
+
+<p>No method was wrong. Some methods were slower, fostering - I think - more appreciation for digital graphic work. All methods were very creative, and it was great to see different ways people went about making a font.</p>
+
+<p>Described briefly, and each description written in their own font, here are the ways people created their fonts:</p>
+
+<p>(Some are incomplete. Some will be updated as time passes.)</p>
+
+<div class="font--classic-neil">
+<h3>Auto-traced handwriting</h3>
+<p>
+  Tanya¹ did what many designate the "classic move" in font-making: they made a handwriting font.
+</p>
+<p>
+  The method was to draw the letters a through z on paper and take a picture of it. Then, each letter was isolated into a bitmap image of each letter. [potrace](https://potrace.sourceforge.net/) was used to convert the bitmap images into SVG images, which were then imported into FontForge, where they could be resized and moved around to look good.
+</p>
+</div>
+
+<div class="font--font">
+<h3>Manually traced hand-designed letters</h3>
+<p>
+  Ivanka¹ drew some guidelines on paper, and designed and drew block letters on the sheet. Then, they took a picture of the hand-drawn letters and digitised them manually, using the vector tools in FontForge.
+</p>
+</div>
+
+<div class="font--vmorse">
+<h3>Designed a Morse code font</h3>
+<p>
+  Dragomir¹ designed a Morse font. You are reading it now.
+</p>
+</div>
+
+<div class="font--a-font">
+<h3>Digitally designed letter forms</h3>
+<p>
+  Katya¹ designed their letter forms entirely digitally, within FontForge. After a few, they were able to copy stylistic parts of letters to other letters, such as the caps of "b" and "d".
+</p>
+</div>
+
+<div class="font--ricardo">
+<h3>Stroke-expanded lines drawn via touchscreen</h3>
+<p>
+  Tomislav¹ used their touchscreen laptop to draw the letters with a single stroke, and then used FontForge's ["Expand Stroke"](https://fontforge.org/docs/techref/stroke.html) to turn the one-dimensional drawings into two-dimensional vector shapes.
+</p>
+</div>
+
+<h2 id="id-love-to-do-another-workshop">I’d love to do another workshop!</h2>
+
+<p>I had a lot of fun helping people make fonts, through thinking about design to how to practically using tools. It was very interesting and cool to me that each person involved made their font differently.</p>
+
+<p>In terms of how I ran it, and my presentation, I have some ideas of how to make things clearer and easier to understand.</p>
+
+<p>It was very fun to do, and I’d love to run another font workshop!</p>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li>My blog post about how I made a font: <a href="https://blog.alifeee.co.uk/making-bogface/">https://blog.alifeee.co.uk/making-bogface/</a></li>
+  <li>The presentation I used for this workshop: <a href="https://github.com/alifeee/font-workshop/">https://github.com/alifeee/font-workshop/</a></li>
+  <li>Another font I am halfway through making as of writing (repository contains some nice commands for working with traced images): <a href="https://github.com/alifeee/kiran-builder-typeface">https://github.com/alifeee/kiran-builder-typeface</a></li>
+</ul>
+
+<h2 id="footnotes">Footnotes</h2>
+
+<ul>
+  <li>¹Names randomly generated using <a href="https://github.com/Necronhym/Name_Generator">https://github.com/Necronhym/Name_Generator</a></li>
+</ul>]]></content><author><name>alifeee</name></author><category term="Uncategorized" /><category term="workshop" /><summary type="html"><![CDATA[Last week I ran a computer font-making workshop at the hackspace. It was a bunch of fun, and I really enjoyed seeing the creativity come out of people via the medium of creating typefaces :)]]></summary></entry><entry><title type="html">Quick and simple charge protection board with 18650 holder</title><link href="https://www.sheffieldhackspace.org.uk/quick-and-simple-charge-protection-board-with-18650-holder/" rel="alternate" type="text/html" title="Quick and simple charge protection board with 18650 holder" /><published>2020-10-23T19:05:46+00:00</published><updated>2020-10-23T19:05:46+00:00</updated><id>https://www.sheffieldhackspace.org.uk/quick-and-simple-charge-protection-board-with-18650-holder</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/quick-and-simple-charge-protection-board-with-18650-holder/"><![CDATA[<p>A short video demonstrating a quick and easy way to build a charge protection board for 3s (3 x 18650 batteries in series). 3 x 18650 in series will give you around 12v. The board will help protect the battery pack from overcharging, over-discharging, over-current and short circuit.</p>
+
+<div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/eJC9BpTWTX4?feature=oembed"></iframe>
+</div>]]></content><author><name>Alex Kelly</name></author><category term="Uncategorized" /><category term="18650" /><category term="diy" /><summary type="html"><![CDATA[A short video demonstrating a quick and easy way to build a charge protection board for 3s (3 x 18650 batteries in series). 3 x 18650 in series will give you around 12v. The board will help protect the battery pack from overcharging, over-discharging, over-current and short circuit.]]></summary></entry><entry><title type="html">Order PCB with surface mount components in under 15 minutes with easyEDA circuit design</title><link href="https://www.sheffieldhackspace.org.uk/order-pcb-with-surface-mount-components-in-under-15-minutes-with-easyeda-circuit-design/" rel="alternate" type="text/html" title="Order PCB with surface mount components in under 15 minutes with easyEDA circuit design" /><published>2020-09-09T19:04:52+00:00</published><updated>2020-09-09T19:04:52+00:00</updated><id>https://www.sheffieldhackspace.org.uk/order-pcb-with-surface-mount-components-in-under-15-minutes-with-easyeda-circuit-design</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/order-pcb-with-surface-mount-components-in-under-15-minutes-with-easyeda-circuit-design/"><![CDATA[<p>I’ve been research designing circuit boards design and tried a few different such as eagle, ki cad and came across easyEDA which is perfect for newbies like myself. Its simple to use, the SMC (Surface mount components) selection is all tied in. You can order a PCB and have all the component (well most of them) soldered at the manufacture JCL without you have to do any soldering at all! Take a look at the video below for a quick demo</p>
+
+<div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/zZYB9mE8Phc?feature=oembed"></iframe>
+</div>]]></content><author><name>Alex Kelly</name></author><category term="Uncategorized" /><category term="EasyEDA" /><category term="Electronics" /><category term="PCB" /><summary type="html"><![CDATA[I’ve been research designing circuit boards design and tried a few different such as eagle, ki cad and came across easyEDA which is perfect for newbies like myself. Its simple to use, the SMC (Surface mount components) selection is all tied in. You can order a PCB and have all the component (well most of them) soldered at the manufacture JCL without you have to do any soldering at all! Take a look at the video below for a quick demo]]></summary></entry><entry><title type="html">Align holes in your project box without measuring – no special tools required.</title><link href="https://www.sheffieldhackspace.org.uk/align-holes-in-your-project-box-without-measuring-no-special-tools-required/" rel="alternate" type="text/html" title="Align holes in your project box without measuring – no special tools required." /><published>2020-07-17T14:06:18+00:00</published><updated>2020-07-17T14:06:18+00:00</updated><id>https://www.sheffieldhackspace.org.uk/align-holes-in-your-project-box-without-measuring-no-special-tools-required</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/align-holes-in-your-project-box-without-measuring-no-special-tools-required/"><![CDATA[<p>In a <a href="https://www.sheffieldhackspace.org.uk/perfectly-aligned-holes-without-measuring/">previous post</a> I described how to align holes without measuring. My original alignment tool was laser cut, but due to lockdown I’ve had to devise a simpler way to acheive the same accuracy using readily available materials – this time I use BluTac and an old milk carton.</p>
+
+<ul>
+  <li>My ‘hole’ list of videos –</li>
+  <li><a href="https://youtu.be/GvFrAhnp5uA">This post: 2 x jack socket holes, using BluTac and a milk carton (4:35)</a></li>
+  <li><a href="https://youtu.be/VK4zoUrNhkQ">Oval USB-micro hole, using credit card and acrylic strip (2:40)</a></li>
+  <li><a href="https://youtu.be/QhhjjE7BYgA">Pin-hole for a recessed button, using only BluTac (2:28)</a></li>
+  <li><a href="https://youtu.be/Znpm1T9UUh4">Pin-hole for SMD LED, using only BluTac (1:18)</a></li>
+</ul>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4844-crop-1024x768.jpg" alt="" />
+Holes for the 3.5mm sockets are exactly in the right place.</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4811_resize.jpg" alt="" />
+Circuit board and project box</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4815_resize.jpg" alt="" />
+We can see where holes should be, but only from the inside.</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4817_resize.jpg" alt="" />
+Cut a piece out of an old plastic milk carton, to fit inside the box</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4819_resize.jpg" alt="" />
+Fold the plastic and add a thin layer of BluTac (other colours are available)</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4821_resize.jpg" alt="" />
+Press the plastic strip and BluTac onto the sockets to make an impression</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4825_resize.jpg" alt="" />
+Carefully remove the plastic strip</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4827_resize.jpg" alt="" />
+Position a bradawl in the centre of each hole and push through both layers of plastic</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4829_resize.jpg" alt="" />
+Holes punched through correctly</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4821_resize.jpg" alt="" />
+Re-attach the BluTac in EXACTLY the same impressions you made previously. Accuracy depends upon it.</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4824_resize.jpg" alt="" />
+Carefully insert the circuit board into the project box</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/IMG_4832_resize.jpg" alt="" />
+Ensure the circuit board is in the correct postion, and press the strip onto outside of the box</p>
+
+<p><img src="/assets/blog/2020-07-17-align-holes-in-your-project-box-without-measuring-no-special-tools-required/2020-07-17_155840.jpg" alt="" /></p>
+
+<p>Use the bradawl to mark the drill centres
+Yes it’s just that simple. This method worked first time for me. If you are unsure, drill the -holes a bit smaller and file them out to be in the correct place.</p>
+
+<p>A 4 minute video of this process <a href="https://youtu.be/GvFrAhnp5uA">is here.</a></p>
+
+<p>Check out my videos for accurately marking other types of hole without measuring – <br />
+<a href="https://youtu.be/VK4zoUrNhkQ">USB-micro oval cut-out (as described in a previous post here)</a><br />
+<a href="https://youtu.be/QhhjjE7BYgA">Pin-hole (ideal for a recessed reset button)</a><br />
+<a href="https://youtu.be/Znpm1T9UUh4">Pinhole on the lid to show the recessed LED of Wemos D1-mini</a></p>]]></content><author><name>Richard Langner</name></author><category term="Arduino" /><category term="Electronics Articles" /><category term="Members' Projects" /><category term="Position holes project box" /><summary type="html"><![CDATA[In a previous post I described how to align holes without measuring. My original alignment tool was laser cut, but due to lockdown I’ve had to devise a simpler way to acheive the same accuracy using readily available materials – this time I use BluTac and an old milk carton.]]></summary></entry><entry><title type="html">Wemos D1 mini GPIO test board</title><link href="https://www.sheffieldhackspace.org.uk/wemos-d1-mini-gpio-test-board/" rel="alternate" type="text/html" title="Wemos D1 mini GPIO test board" /><published>2020-06-16T21:52:59+00:00</published><updated>2020-06-16T21:52:59+00:00</updated><id>https://www.sheffieldhackspace.org.uk/wemos-d1-mini-gpio-test-board</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/wemos-d1-mini-gpio-test-board/"><![CDATA[<p><strong>Visualise Active Ports</strong></p>
+
+<p>Sometimes it’s useful to know the activity on the GPIO pins of your microcontroller. This little monitor board is designed specifically for the Wemos D1 mini and has a LED on each GPIO pin to help you visualise what is happening on inputs and outputs.</p>
+
+<div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/1M6AZlkAoDQ?feature=oembed"></iframe>
+</div>
+
+<p>Microcontroller boards other than the D1 mini can be accommodated by either re-designing the layout for the extra pins, or using extension leads to monitor those pins you are interested in.</p>
+
+<p>LEDs can be disconnected by removing the jumper links, so as not to interfere with other functions. All LED series resistors deliberately have a high value to minimise loading the GPIO pins. The white LEDs drew less than 500 microamps each when used with a 1K series resistor, and they were still quite bright.</p>
+
+<p><img src="/assets/blog/2020-06-16-wemos-d1-mini-gpio-test-board/Wemos-Led-Board-6-1024x747.jpg" alt="" />
+General view showing breakout header sockets, header pins, and jumpers.</p>
+
+<p>The monitor can also act as a small breakout board, extending the Wemos header pins to 2 sockets and 2 pins per GPIO line. This can be handy when developing your project, as Dupont extension leads could be used to connect the monitor board to your PCB.</p>
+
+<p><img src="/assets/blog/2020-06-16-wemos-d1-mini-gpio-test-board/Wemos-Led-Board-3-1024x461.jpg" alt="" />
+Wemos D1 mini and the breakout test board.</p>
+
+<p>Construction is simple – besides the header pins and sockets, there are just a dozen SMD resistors and LEDs, mounted on a prototyping board. The underside of the board is where the connections were made, linking pins with single strands taken from a length of scrap multistrand wire.</p>
+
+<p><img src="/assets/blog/2020-06-16-wemos-d1-mini-gpio-test-board/Wemos-Led-Board-4-1024x490.jpg" alt="" />
+Underside showng the link wires and SMD resistors.</p>
+
+<p>The video shows the board with jumpers installed for all 9 GPIO ports (D0 to D8). Due to high value series resistors, the LEDs do not interfere with program uploading, and if you install the RX and TX jumpers you can watch the LEDs giving a satisfying twinkle with the upload activity.</p>]]></content><author><name>Richard Langner</name></author><category term="Arduino" /><category term="Electronics Articles" /><summary type="html"><![CDATA[Visualise Active Ports]]></summary></entry><entry><title type="html">Minecraft auto mouse spin wheel</title><link href="https://www.sheffieldhackspace.org.uk/minecraft-auto-mouse-spin-wheel/" rel="alternate" type="text/html" title="Minecraft auto mouse spin wheel" /><published>2020-06-13T20:01:23+00:00</published><updated>2020-06-13T20:01:23+00:00</updated><id>https://www.sheffieldhackspace.org.uk/minecraft-auto-mouse-spin-wheel</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/minecraft-auto-mouse-spin-wheel/"><![CDATA[<p>When you are building creations in Minecraft, sometimes you need to have random blocks placed down from you hotbar. With this little program created with the help from Simon, (Thanks Simon), you now don’t have to manually spin your mouse wheel to achieve this.</p>
+
+<p>Just run the python script, after checking you have the prerequisites installed (python 3 and pynput) and press ‘y’ to spin the wheel and ‘Esc’ to stop.</p>
+
+<p>Link to the gitlab page.</p>
+
+<p><a href="https://gitlab.com/RincewindLangner/mouse-wheel-spinner">https://gitlab.com/RincewindLangner/mouse-wheel-spinner</a></p>
+
+<p>Happy gaming,</p>
+
+<p>Matthew</p>]]></content><author><name>Matthew Langner</name></author><category term="Gaming" /><category term="automation" /><category term="minecraft" /><category term="python" /><summary type="html"><![CDATA[When you are building creations in Minecraft, sometimes you need to have random blocks placed down from you hotbar. With this little program created with the help from Simon, (Thanks Simon), you now don’t have to manually spin your mouse wheel to achieve this.]]></summary></entry><entry><title type="html">Live recorded docker tutorial</title><link href="https://www.sheffieldhackspace.org.uk/live-docker-tutorial/" rel="alternate" type="text/html" title="Live recorded docker tutorial" /><published>2020-06-13T18:12:02+00:00</published><updated>2020-06-13T18:12:02+00:00</updated><id>https://www.sheffieldhackspace.org.uk/live-docker-tutorial</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/live-docker-tutorial/"><![CDATA[<p>A live docker tutorial for the Sheffield Hackspace. A run through through what is docker, benefits of docker, popular docker containers for Hackspace members (Node-Red, MQTT, Octoprint, Grafana, InfluxDB, ROS), running image as containers and how to develop using visual studio code docker plugin.</p>
+
+<div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/JrfwyCAsNd8?feature=oembed"></iframe>
+</div>
+
+<!--- This page could have YOUTUBE links add this code where needed ... <div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/gOCDyotifPo?feature=oembed" ></iframe>
+</div> --->]]></content><author><name>Alex Kelly</name></author><category term="Uncategorized" /><category term="docker" /><category term="hackspace" /><category term="makerspace" /><category term="MQTT" /><category term="node-red" /><category term="octoprint" /><category term="visual studio code" /><summary type="html"><![CDATA[A live docker tutorial for the Sheffield Hackspace. A run through through what is docker, benefits of docker, popular docker containers for Hackspace members (Node-Red, MQTT, Octoprint, Grafana, InfluxDB, ROS), running image as containers and how to develop using visual studio code docker plugin.]]></summary></entry><entry><title type="html">Perfectly aligned holes without measuring</title><link href="https://www.sheffieldhackspace.org.uk/perfectly-aligned-holes-without-measuring/" rel="alternate" type="text/html" title="Perfectly aligned holes without measuring" /><published>2020-03-15T13:35:16+00:00</published><updated>2020-03-15T13:35:16+00:00</updated><id>https://www.sheffieldhackspace.org.uk/perfectly-aligned-holes-without-measuring</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/perfectly-aligned-holes-without-measuring/"><![CDATA[<h2 id="how-to-cut-a-hole-to-mate-up-with-whats-inside-your-project-box">How to cut a hole to mate up with what’s inside your project box.</h2>
+
+<p>THE PROBLEM — You’ve made the electronics part of your project, and now need to cut a hole in your project box so you can plug in the USB cable. But how do you know where to cut? Unless the box is transparent, you can’t see exactly where the USB socket hole should be. <a href="https://youtu.be/VK4zoUrNhkQ">There is a short (2:40) video of this post here.</a></p>
+
+<p>Update: At the bottom of this post, there are links showing how to locate drill centres WITHOUT any tools.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-01-1024x683.jpg" alt="" />
+Hole is in exactly the right place. and allows for plug housing</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-01a-1024x768.jpg" alt="" />
+Micro USB plug fits neatly</p>
+
+<p>The usual way is to measure the internal position of the USB socket when the PCB is fully in the box (not always possible) and transfer the measurements to the outside of the box. You have to be able measure and mark accurately.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-02-1024x859.jpg" alt="" />
+PCB ready to fit into the project box.</p>
+
+<p>This little tool provides a drilling and cutting guide on the <strong>outside</strong> of the box, when the USB socket is on the <strong>inside</strong> of the box (possibly hidden from view). No measuring is required.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-07-1024x970.jpg" alt="" />
+Align the two strips</p>
+
+<p>My design is quite simple. Overlay two strips and fix them together at one end – similar to tweezers. The strips staddle the wall of the project box, one strip inside the box, the other outside. The inner strip is fixed into the USB socket, and the outer strip has guide marks for the required opening.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-08-1024x831.jpg" alt="" />
+Thin yellow inner strip is clamped in position.</p>
+
+<p><strong>The inner strip</strong> — should be reasonably thin so it can fit between the PCB and the box. I cut a 10mm wide strip off an old credit card, narrowed it at one end to make a tab that fits snugly into the USB socket, then bent the tab 90 degrees (warming helps but is not essential).</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-09-1024x683.jpg" alt="" />
+Line up the outer strip’s tab with the drill holes.</p>
+
+<p><strong>The outer strip</strong> — should be stiff transparent material. At one end, mark where the cut-lines and drill holes should be for the USB socket. Align the inner strip’s tab with the outer strip’s markings, then fasten them together at the other end. That’s it!</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-03-1024x768.jpg" alt="" />
+Fit tab into the USB socket</p>
+
+<p>USAGE — To use the template, insert the tab into the USB socket and slide the circuit board and the inner strip into the box. Ensure the outer strip is flat to the outside of the box and use the cutting guides to mark the box. My original marks were the drill-centres for a couple of 6mm holes. Use a drill press for accuracy, and a small file to smooth and adjust the drilled holes to the final shape.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-04-1024x768.jpg" alt="" />
+Slide the PCB and the tool into the project box.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/cutting-template-06-1024x756.jpg" alt="" />
+Mark through the drill pilot holes</p>
+
+<p>This technique will work on plastic or metal, and can be adapted for any shape of socket and hole. Draw the marking guide to accept the largest plug you may use.</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-12-1024x805.jpg" alt="" />
+View of how it looks on the inside.</p>
+
+<p><strong>CONCLUSION —</strong></p>
+
+<p>Cutting holes in the right place is something I have always struggled with. I have to admit I was amazed when this worked first time!</p>
+
+<p><img src="/assets/blog/2020-03-15-perfectly-aligned-holes-without-measuring/Hole-cutting-template-05-1024x829.jpg" alt="" />
+Alternative view</p>
+
+<p>Credit goes to Alan Bailey for helping implement this project from concept to completion in just a few hours. Below areYouTube links showing how it’s done, and how to locate holes WITHOUT any tools.</p>
+
+<ul>
+  <li><a href="https://youtu.be/GvFrAhnp5uA">2 x jack socket holes, using BluTac and a milk carton (4:35)</a></li>
+  <li>This video : <a href="https://youtu.be/VK4zoUrNhkQ"> (2:40)</a></li>
+  <li><a href="https://youtu.be/QhhjjE7BYgA">Pin-hole for a recessed button, using only BluTac (2:28)</a></li>
+  <li><a href="https://youtu.be/Znpm1T9UUh4">Pin-hole for SMD LED, using only BluTac (1:18)</a></li>
+</ul>]]></content><author><name>Richard Langner</name></author><category term="Electronics Articles" /><category term="Members' Projects" /><category term="Raspberry pi" /><summary type="html"><![CDATA[How to cut a hole to mate up with what’s inside your project box.]]></summary></entry><entry><title type="html">Brompton bag</title><link href="https://www.sheffieldhackspace.org.uk/brompton-bag/" rel="alternate" type="text/html" title="Brompton bag" /><published>2019-08-22T17:50:58+00:00</published><updated>2019-08-22T17:50:58+00:00</updated><id>https://www.sheffieldhackspace.org.uk/brompton-bag</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/brompton-bag/"><![CDATA[<p><img src="/assets/blog/2019-08-22-brompton-bag/20190822_191237.jpg" alt="" />
+I needed a new bag for my Brompton bike. All the bags were very expensive, £70 for the basic bags so I did what any maker would do and started on the journey to make my own bag. There was a few challenges:</p>
+
+<p>1 . Find a way to connect the bag to the front carrier block securely.</p>
+<ol>
+  <li>Find a cheaper bag that i could modify easily and thats water proof</li>
+  <li>Work out if anything else was need, e.g. bag strengthening.</li>
+</ol>
+
+<p>I started by look on thingiverse for 3D printed Brampton carrier block, its always a good place to start to see how other people have attacked the problem. I didn’t find anything. I set work to design one myself using fusion 360 – Matt SB gave me a helping hand to get started with as its the first functional 3d object I’ve printed. I came up with the item below after a few iterations printed on my Aldi 3D printer.</p>
+
+<p><img src="/assets/blog/2019-08-22-brompton-bag/front-carrier-block.jpg" alt="" />
+front carrier block.</p>
+
+<p>The next challenge was to find a bag. I search on the internet and i <a href="https://www.aliexpress.com/item/32821377430.html?spm=a2g0s.9042311.0.0.27424c4dTXnN7t">purchased a bag from aliexpress for £4</a> to test the process out. The test went fine and I used the bag for about a year but the wear and tear took its toll on the bag so I bought a better quality bag from decathlon shown below. This is the bag that i will describe on the rest of the blog.</p>
+
+<p><img src="/assets/blog/2019-08-22-brompton-bag/brompton-1024x498.jpg" alt="" />
+I’ve got the carrier block designed and the water proof bag. Now I need to attach everything and make sure it wont damage the bike/contents of the bag. The back board in the bag was a bit bendy and I’m carrying my laptop to and from work so I wanted it to get there and back in one piece. To strengthen the back I bought a A3 clear polycarbonate makrolon plastic panel Sheet 3mm thick from ebay. This went down the back of the bag to strengthen it. I sawed it to shape to start with and then bent it using the hot gun in the hackspace. This gave the bottom of the bag something solid so the laptop or other items in the bag wouldn’t sag and hit the front wheel. I also added some neoprene foam to the bottom of the plastic sheet to cushion any items put in the bag.</p>
+
+<p><img src="/assets/blog/2019-08-22-brompton-bag/clear-frame-for-the-bag-1024x498.jpg" alt="" />
+The next task was to attach the bag to front carrier block. I did this using a hand drill and screwed it together.</p>
+
+<p><img src="/assets/blog/2019-08-22-brompton-bag/screw-on-496x1024.jpg" alt="" />
+I wanted a separate area for the bag.</p>]]></content><author><name>Alex Kelly</name></author><category term="Uncategorized" /><summary type="html"><![CDATA[I needed a new bag for my Brompton bike. All the bags were very expensive, £70 for the basic bags so I did what any maker would do and started on the journey to make my own bag. There was a few challenges: 1 . Find a way to connect the bag to the front carrier block securely. Find a cheaper bag that i could modify easily and thats water proof Work out if anything else was need, e.g. bag strengthening. I started by look on thingiverse for 3D printed Brampton carrier block, its always a good place to start to see how other people have attacked the problem. I didn’t find anything. I set work to design one myself using fusion 360 – Matt SB gave me a helping hand to get started with as its the first functional 3d object I’ve printed. I came up with the item below after a few iterations printed on my Aldi 3D printer.]]></summary></entry><entry><title type="html">A Model Lighthouse</title><link href="https://www.sheffieldhackspace.org.uk/a-model-lighthouse/" rel="alternate" type="text/html" title="A Model Lighthouse" /><published>2019-04-30T14:05:36+00:00</published><updated>2019-04-30T14:05:36+00:00</updated><id>https://www.sheffieldhackspace.org.uk/a-model-lighthouse</id><content type="html" xml:base="https://www.sheffieldhackspace.org.uk/a-model-lighthouse/"><![CDATA[<p>Designed and built at the <a href="https://www.sheffieldhackspace.org.uk/">Sheffield Hackspace</a> using an arduino and bits and pieces of things that you might find lying around in your own home…</p>
+
+<p><img src="/assets/blog/2019-04-30-a-model-lighthouse/thelighthouse1-1-768x1024.jpg" alt="" /></p>
+
+<p><img src="/assets/blog/2019-04-30-a-model-lighthouse/thelighthouse2-1-768x1024.jpg" alt="" /></p>
+
+<p>Here’s the setup:</p>
+
+<p>An arduino (pro mini) for controlling the SG-90 servo motor<br />
+An ESP8266 for wifi access and neopixel control<br />
+A piece of gutter and downpipe for the main body<br />
+A plastic dome sourced from a solar powered garden lamp<br />
+An Aldi’s peanut butter jam jar lid (crucial)<br />
+Other bits and bobs scrounged from various unwanted poundland items</p>
+
+<p>If you think this is cool wait until you see the boats!</p>]]></content><author><name>SHHAdmin</name></author><category term="Arduino" /><category term="Electronics Articles" /><category term="Members' Projects" /><category term="aldi" /><category term="aldi hack" /><category term="Arduino" /><category term="ESP8266" /><category term="neopixel" /><category term="pro mini" /><category term="servo motors" /><category term="SG-90" /><summary type="html"><![CDATA[Designed and built at the Sheffield Hackspace using an arduino and bits and pieces of things that you might find lying around in your own home…]]></summary></entry></feed>

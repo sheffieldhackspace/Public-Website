@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.4.5
+    Copyright 2017-2018 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+	<title>RFID access system using ESP8266-01</title>
+	<meta name="description" content="This post by SHH&amp;amp;M member Steve">
+	<link rel="canonical" href="https://www.sheffieldhackspace.org.uk/rfid-access-system-using-esp8266-01-part-1/">
+	
+
+	<script>
+		/* Cut the mustard */
+		if ( 'querySelector' in document && 'addEventListener' in window ) {
+			document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+		}
+	</script>
+	
+	<link rel="stylesheet" href="/assets/stylesheets/main.css?v=1718661935">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i">
+	
+
+	
+	
+	<link rel="alternate" type="application/atom+xml" title="Sheffield Hackspace" href="/feed.xml">
+	
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+</head>
+
+
+  <body class="layout--post rfid-access-system-using-esp8266-01">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+
+    <div class="sidebar-toggle-wrapper">
+      
+
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label visually-hidden">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="primary-nav" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+    
+    
+
+    
+      
+      
+        <li class="menu-item">
+          <a href="/the-space/" itemprop="url">
+            <span itemprop="name">The Space</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/joining/" itemprop="url">
+            <span itemprop="name">Joining</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/calendar/" itemprop="url">
+            <span itemprop="name">Calendar</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/blog/" itemprop="url">
+            <span itemprop="name">Blog</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+        <ul class="contact-list">
+	
+	<li>
+		<a href="mailto:trustees@sheffieldhackspace.org.uk">
+			<span class="icon icon--email"><svg xmlns="http://www.w3.org/2000/svg" viewBox="313.1 3.7 16 16"><path d="M318.5 8.9c0-.2.2-.4.4-.4h4.5c.2 0 .4.2.4.4s-.2.4-.4.4h-4.5c-.3 0-.4-.2-.4-.4zm.4 2.1h4.5c.2 0 .4-.2.4-.4s-.2-.4-.4-.4h-4.5c-.2 0-.4.2-.4.4s.1.4.4.4zm3.5 1.2c0-.2-.2-.4-.4-.4h-3.1c-.2 0-.4.2-.4.4s.2.4.4.4h3.1c.2.1.4-.1.4-.4zm-1.5-8.4l-1.7 1.4c-.2.1-.2.4 0 .6s.4.2.6 0l1.4-1.2 1.4 1.2c.2.1.4.1.6 0s.1-.4 0-.6l-1.7-1.4c-.3-.1-.5-.1-.6 0zm7.8 6.2c.1.1.1.2.1.3v7.9c0 .8-.7 1.5-1.5 1.5h-12.5c-.8 0-1.5-.7-1.5-1.5v-7.9c0-.1.1-.2.1-.3l1.6-1.3c.2-.1.4-.1.6 0s.1.4 0 .6l-1.2 1 1.8 1.3v-4c0-.6.5-1.1 1.1-1.1h7.5c.6 0 1.1.5 1.1 1.1v4l1.8-1.3-1.2-1c-.2-.1-.2-.4 0-.6s.4-.2.6 0l1.6 1.3zm-11.6 2.2l4 2.8 4-2.8V7.6c0-.1-.1-.2-.2-.2h-7.5c-.1 0-.2.1-.2.2v4.6zm10.9-1l-4.7 3.4 3.4 2.6c.2.1.2.4.1.6-.1.2-.4.2-.6.1l-3.6-2.8-1.2.8c-.1.1-.3.1-.5 0l-1.2-.8-3.6 2.8c-.2.1-.4.1-.6-.1-.1-.2-.1-.4.1-.6l3.4-2.6-4.7-3.4v7.1c0 .4.3.6.6.6h12.5c.4 0 .6-.3.6-.6v-7.1z"/></svg></span>
+			<span class="label">Email</span>
+		</a>
+	</li>
+	
+
+	
+	<li><a href="https://github.com/sheffieldhackspace">
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"/></svg></span>
+  <span class="label">GitHub</span>
+</a>
+</li>
+	
+
+	
+	<li><a href="https://twitter.com/@shhmakers">
+  <span class="icon icon--twitter"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z" fill-rule="nonzero"/></svg></span>
+  <span class="label">Twitter</span>
+</a>
+</li>
+	
+
+	
+	<li><a href="https://www.facebook.com/SHHMakers">
+  <span class="icon icon--facebook"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M15.117 0H.883C.395 0 0 .395 0 .883v14.234c0 .488.395.883.883.883h7.663V9.804H6.46V7.39h2.086V5.607c0-2.066 1.262-3.19 3.106-3.19.883 0 1.642.064 1.863.094v2.16h-1.28c-1 0-1.195.48-1.195 1.18v1.54h2.39l-.31 2.42h-2.08V16h4.077c.488 0 .883-.395.883-.883V.883C16 .395 15.605 0 15.117 0" fill-rule="nonzero"/></svg></span>
+  <span class="label">Facebook</span>
+</a>
+</li>
+	
+
+	
+	<li><a href="https://instagram.com/SHHMakers">
+  <span class="icon icon--instagram"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C5.827 0 5.555.01 4.702.048 3.85.088 3.27.222 2.76.42c-.526.204-.973.478-1.417.923-.445.444-.72.89-.923 1.417-.198.51-.333 1.09-.372 1.942C.008 5.555 0 5.827 0 8s.01 2.445.048 3.298c.04.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.72 1.417.923.51.198 1.09.333 1.942.372.853.04 1.125.048 3.298.048s2.445-.01 3.298-.048c.852-.04 1.433-.174 1.942-.372.526-.204.973-.478 1.417-.923.445-.444.72-.89.923-1.417.198-.51.333-1.09.372-1.942.04-.853.048-1.125.048-3.298s-.01-2.445-.048-3.298c-.04-.852-.174-1.433-.372-1.942-.204-.526-.478-.973-.923-1.417-.444-.445-.89-.72-1.417-.923-.51-.198-1.09-.333-1.942-.372C10.445.008 10.173 0 8 0zm0 1.44c2.136 0 2.39.01 3.233.048.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.01 2.39-.05 3.233c-.04.78-.17 1.203-.28 1.485-.15.374-.32.64-.6.92-.28.28-.55.453-.92.598-.28.11-.71.24-1.49.276-.85.038-1.1.047-3.24.047s-2.39-.01-3.24-.05c-.78-.04-1.21-.17-1.49-.28-.38-.15-.64-.32-.92-.6-.28-.28-.46-.55-.6-.92-.11-.28-.24-.71-.28-1.49-.03-.84-.04-1.1-.04-3.23s.01-2.39.04-3.24c.04-.78.17-1.21.28-1.49.14-.38.32-.64.6-.92.28-.28.54-.46.92-.6.28-.11.7-.24 1.48-.28.85-.03 1.1-.04 3.24-.04zm0 2.452c-2.27 0-4.108 1.84-4.108 4.108 0 2.27 1.84 4.108 4.108 4.108 2.27 0 4.108-1.84 4.108-4.108 0-2.27-1.84-4.108-4.108-4.108zm0 6.775c-1.473 0-2.667-1.194-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667 0 1.473-1.194 2.667-2.667 2.667zm5.23-6.937c0 .53-.43.96-.96.96s-.96-.43-.96-.96.43-.96.96-.96.96.43.96.96z"/></svg></span>
+  <span class="label">Instagram</span>
+</a>
+</li>
+	
+
+	<li>
+		
+		<a href="/feed.xml" title="Atom Feed">
+			<span class="icon icon--rss"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194 11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0 13.806c0-1.21.983-2.195 2.194-2.195zM10.606 16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"/></svg></span>
+			<span class="label">Subscribe</span>
+		</a>
+		
+	</li>
+</ul>
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            <img src="/assets/images/logo.svg" alt="" class="site-logo">
+            <span>Sheffield Hackspace</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <div class="initial-content">
+          <header class="intro">
+	
+
+	<div class="inner">
+		<div class="intro-text">
+			<h1 id="page-title" class="intro-title">RFID access system using ESP8266-01
+</h1>
+			
+
+			
+			
+
+
+			<p class="entry-meta">
+				<span class="byline-item">by Bugs</span><span class="byline-item"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="379 72 16 16"><g><g><path fill="none" d="M380.8,86.7h12.3v-8.8h-12.3V86.7z M389.5,78.8h1.7v1.4h-1.7V78.8z M389.5,81.3h1.7v1.4h-1.7V81.3z M389.5,83.8h1.7v1.4h-1.7V83.8z M386.1,78.8h1.7v1.4h-1.7V78.8z M386.1,81.3h1.7v1.4h-1.7V81.3z M386.1,83.8h1.7v1.4h-1.7V83.8z M382.8,78.8h1.7v1.4h-1.7V78.8z M382.8,81.3h1.7v1.4h-1.7V81.3z M382.8,83.8h1.7v1.4h-1.7V83.8z"/><polygon fill="none" points="384.7 75.1 383.4 75.1 383.4 74.3 380.8 74.3 380.8 76.6 393.2 76.6 393.2 74.3 390.6 74.3 390.6 75.1 389.3 75.1 389.3 74.3 384.7 74.3"/><rect x="382.8" y="78.8" width="1.7" height="1.4"/><rect x="386.1" y="78.8" width="1.7" height="1.4"/><rect x="389.5" y="78.8" width="1.7" height="1.4"/><rect x="382.8" y="81.3" width="1.7" height="1.4"/><rect x="386.1" y="81.3" width="1.7" height="1.4"/><rect x="389.5" y="81.3" width="1.7" height="1.4"/><rect x="382.8" y="83.8" width="1.7" height="1.4"/><rect x="386.1" y="83.8" width="1.7" height="1.4"/><rect x="389.5" y="83.8" width="1.7" height="1.4"/><path d="M383.4,72v1.1h-3.8V88h14.9V73.1h-3.8V72h-1.3v1.1h-4.7V72H383.4z M393.2,86.7h-12.3v-8.8h12.3L393.2,86.7L393.2,86.7z M389.3,74.3v0.8h1.3v-0.8h2.5v2.3h-12.3v-2.3h2.5v0.8h1.3v-0.8H389.3z"/></g></g></svg></span><time datetime="2015-02-23T19:40:53+00:00">February 23, 2015</time></span>
+			</p>
+			
+
+			
+
+			
+		</div>
+	</div>
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+        <p><img src="/assets/blog/2015-02-23-rfid-access-system-using-esp8266-01-part-1/image1.jpg" alt="" /><br />
+This post by SHH&amp;M member <a href="https://twitter.com/thermalhound">Steve</a></p>
+
+<p>During the early discussions about <a href="https://www.sheffieldhackspace.org.uk/wordpress/?cat=22">our new space at Portland Works</a> we decided it would be good to have an RfID access system, and that this would communicate with a server over the network. This immediately sparked my interest as I had recently taken delivery of some new modules that I had been dying to have a play with, the ESP8266-01.</p>
+
+<p>The ESP8266 is a chip that enables wifi access, with communication over a simple UART (serial) connection. The main selling point of this chip is that it is very low cost compared to other Wifi solutions, typically £2-3 per module. Another huge advantage is its ability to act as a standalone microcontroller – more on that later….</p>
+
+<p>It is available now in quite a few different module sizes depending on how many GPIO (general purpose input / output) pins you need for your project.</p>
+
+<p>The board I used for this project is the 01 module which breaks out only two of the GPIO pins, but as I was connecting it to an Arduino which had far more GPIO available this wasn’t a problem. A pin out for the module can been seen below.<br />
+<img src="/assets/blog/2015-02-23-rfid-access-system-using-esp8266-01-part-1/ESP8266-pinout.jpg" alt="" /></p>
+
+<p>Connecting the module to the Arduino is very simple, with one classic “gotcha”. The ESP8266 module runs on 3.3 volts and is not 5 volt compliant meaning that if you are using a standard 5v Arduino board you will need to make sure the voltages sent to the board do not exceed 3.3 volts. This is actually pretty easy as there are so few connections. Vcc can be connected to the 3.3v output on the Arduino, as can CH_PD (I soldered a 10k resistor between Vcc and CH_PD you can do whatever is easiest), and GND can be connected to GND. Tx from the ESP8266 to Rx on the Arduino can be directly connected since the Arduino will read a voltage of 3.3v as high. Connecting Rx on the ESP8266 to Tx on the Arduino is the one that needs care since the Arduino will be outputting 5v. There are many ways to do this, the simplest being a voltage divider which will work fine at lower baud rates (9600 is the default on the more up to date firmware), or you could use a level shifting circuit. To avoid some of this messing, and to be absolutely certain of not frying your module, you could always use a 3.3v Arduino or convert an existing one using this guide…</p>
+
+<p>https://learn.adafruit.com/arduino-tips-tricks-and-techniques/3-3v-conversion</p>
+
+<p>It is possible to connect the ESP8266 directly to a USB to serial converter. Personally I had mixed results with this method. While it is very easy to connect, ensuring you have a converter that is capable of 3.3v, I found that the converter wasn’t always able to supply the current required for the module, at times in excess of 200ma, which caused brown outs and stability issues.</p>
+
+<p>Now we are ready to talk to the module. If you haven’t already got the Arduino IDE installed head over to arduino.cc and download and install it. If you are working on a raspberry pi open up the command line and type</p>
+
+<p>sudo apt-get install arduino</p>
+
+<p>Before trying to connect to the serial port its best to upload a basic sketch to the board, “blink” for example, to ensure whatever is on the board won’t be trying to use the serial port. Once done, open up the serial port interface (icon in the top right corner), set the baud rate to 9600 and the other drop down box to “Both NL &amp; CR”. If the serial port of open before power is connected to the module you should see some nonsense characters (module starting up) followed by the vendor ID and version number. If not, type AT into the text box and either press enter or click send and the module should reply with the word “OK”</p>
+
+<p><img src="/assets/blog/2015-02-23-rfid-access-system-using-esp8266-01-part-1/image2.jpg" alt="" /></p>
+
+<p>A bit of troubleshooting isn’t uncommon at this point. If you don’t see anything at all check that there is a red light on the module and then check the rest of the connections (I’ve missed setting CH_PD high more than once!). Still nothing? Try swapping the Tx and Rx connections on the Arduino as these are easy to mix up. Some versions of the firmware seem to be a little sensitive if GPIO 0 isn’t pulled high so that is also worth trying. If you still aren’t seeing anything, or are getting random characters, try changing the baud rate of the serial monitor. Most of the up to date firmware is set at 9600 but I have had modules set at 115200 and have seen reports of other modules at even more different ones.</p>
+
+<p>Assuming all is well you can now try sending different commands to the module to test it out. The first to try is</p>
+
+<p>AT+RST</p>
+
+<p>This resets the board and when it’s back up you should see the word “ready”. Now let’s connect it to your WiFi. First we need to set the board status as it can act as a device, access point or both, so we are going to set it as a device.</p>
+
+<p>AT+CWMODE=1</p>
+
+<p>Now let’s see if your module can “see” your network.</p>
+
+<p>AT+CWLAP</p>
+
+<p>This takes a few seconds but when done a list of the current networks within range are displayed. Hopefully the one you want to connect to will be among them! The next command will connect the module to your router, just bare in mind that it is case sensitive to you must place capital and lowercase letters in the correct place in both the SSID and password</p>
+
+<p>AT+CWJAP=”yourssid”,”password”</p>
+
+<p>Again this takes a few seconds to get a message back which will confirm a connection or inform you of a failure. This message is usually “OK” or “error” but that does depend on your firmware version. Whatever the message it will be obvious.</p>
+
+<p>You can now talk to any device connected to the internet! Doing this is now straightforward but with so many different things you can do I won’t go into too many details here (I’ve included a list of useful resources at the end of the blog). One thing that took me a while to realise though was that the module has to be set to accept multiple connections before opening up a TCP connection. To do this simply send the command AT+CIPMUX=1 before opening the connection.</p>
+
+<p>I touched earlier on using the additional GPIO instead of an Arduino. To do this you need to be able to run your own code on the ESP8266, as you do on the Arduino, and this means replacing the firmware that is currently installed on the module.</p>
+
+<p>Useful resources …</p>
+
+<p>https://nurdspace.nl/ESP8266#AT_Commands</p>
+
+<p>http://www.electrodragon.com/w/ESP8266</p>
+
+<p>http://www.esp8266.com/wiki/doku.php</p>
+
+<div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/qU76yWHeQuw?feature=oembed"></iframe>
+</div>
+
+<div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/zGgUfAB4m24?feature=oembed"></iframe>
+</div>
+
+<p>—<a href="https://twitter.com/thermalhound">Steve</a>
+<!--- path/to this posts images is ![](/assets/blog/2015-02-23-rfid-access-system-using-esp8266-01-part-1/ --->
+<!--- This page could have YOUTUBE links add this code where needed ... <div class="responsive-iframe-container">
+	<iframe src="https://www.youtube.com/embed/gOCDyotifPo?feature=oembed" ></iframe>
+</div> ---></p>
+
+      </div>
+      
+    </article>
+  </div>
+</main>
+
+        </div>
+
+        <div class="search-content">
+          <div class="inner">
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="site-footer">
+	<div class="inner">
+		<div class="copyright">
+			
+			<p>&copy; 2024 Sheffield Hackspace.</p>
+			
+		</div>
+
+		<div class="sponsors">
+			<p>Our Sponsors: <a href="https://www.aa.net.uk/">Andrews & Arnold Ltd</a> <a href="https://bitfolk.com/">Bitfolk</a> <a href="https://shop.pimoroni.com/">Pimoroni</a> <a href="https://shop.wedo3dprinting.com/">We Do 3D Printing</a> </p>
+		</div>
+
+		<div class="legal">
+			<p>Sheffield Hackspace is the trading name of Sheffield Hardware Hackers and Makers CIC, registered in England & Wales No. <a href="https://find-and-update.company-information.service.gov.uk/company/09444723">09444723</a>.</p>
+		</div>
+	</div>
+</footer>
+    
+
+<script async src="/assets/javascripts/main.js"></script>
+
+
+
+
+  </body>
+
+</html>
