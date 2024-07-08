@@ -70,6 +70,7 @@ I also got a planisphere cutout kit from the liverpool astronomical society, whi
     }
     .gallery figure {
       flex: 1 1 20rem;
+      margin: 2px;
     }
     .gallery figure.portrait {
       flex: 1 1 20rem;
