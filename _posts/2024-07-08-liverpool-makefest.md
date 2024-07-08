@@ -122,15 +122,27 @@ I also got a planisphere cutout kit from the liverpool astronomical society, whi
     <figcaption>One third of the VLR, or "Very Large Rug"</figcaption>
   </figure>
   <figure>
-    <a href="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/morse-code.jpg">
-      <img src="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/morse-code.jpg" alt='picture of a box labelled "morse code" with two morse code dibbers in front'>
-    </a>
-    <figcaption>Morse code tryouts</figcaption>
-  </figure>
-  <figure>
     <a href="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/neotrellis-rgb-matrix.jpg">
       <img src="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/neotrellis-rgb-matrix.jpg" alt='picture of an RGB matric with many squares filled different colours'>
     </a>
     <figcaption>NeoTrellis RGB Matrix with Battleships loaded</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/dalek.jpg">
+      <img src="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/dalek.jpg" alt='picture of a model of a Dalek from Dr Who'>
+    </a>
+    <figcaption>A visiting Dalek</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/motor-guitar.jpg">
+      <img src="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/motor-guitar.jpg" alt='picture of a few motors attached to a guitar, with guitar picks attached. a piano is in front, attached.'>
+    </a>
+    <figcaption>Playing sounds with motors</figcaption>
+  </figure>
+  <figure>
+    <a href="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/morse-code.jpg">
+      <img src="{{ site.baseurl }}/assets/blog/2024-07-08-liverpool-makefest/morse-code.jpg" alt='picture of a box labelled "morse code" with two morse code dibbers in front'>
+    </a>
+    <figcaption>Morse code tryouts</figcaption>
   </figure>
 </div>
