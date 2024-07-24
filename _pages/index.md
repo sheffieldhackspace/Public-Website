@@ -8,4 +8,8 @@ Simply put, we're a [maker-space](https://en.wikipedia.org/wiki/Hackerspace). To
 
 We’re always keen for people with a wide range of interests and skill levels to join, swap ideas, learn from each other, and build new things.
 
-We’re open every Saturday (2pm-6pm), Monday (6pm-9pm) and Thursday (6pm-9pm), to prospective members and, membership is affordable from £6 a month.
+We have several open evenings every week to give folks who may be interested in what we do - and what facilities we can provide - a chance to come and have a look round and meet some of our members. All are welcome. If you have ever wondered what a "hackspace" is, or if you like to create, make or craft things, come and pay us a visit! Current open evenings are:
+
+{% include calendar.md %}
+
+After visiting, membership is affordable from £6 a month.
