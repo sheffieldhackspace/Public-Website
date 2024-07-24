@@ -10,7 +10,7 @@ Drop in anytime to one of our open evenings to get a feel of the Hackspace and s
 
 {% include calendar.md %}
 
-After visiting, a membership costs £6 a month to attend the open evenings, or £21 a month for a key, allowing you to come and go as you please.
+After visiting, a membership costs £6 a month to regularly attend the open evenings, or £21 a month for a key, allowing you to come and go as you please.
 
 If you have any questions before you come along you can email us at [trustees@sheffieldhackspace.org.uk](mailto:trustees@sheffieldhackspace.org.uk).
 
