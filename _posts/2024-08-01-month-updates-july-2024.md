@@ -4,7 +4,7 @@ date: '2024-07-30T00:00:00+01:00'
 author: alifeee
 layout: post
 permalink: /month-updates-july-2024/
-excerpt: Month updates from July 2024 - what's going on around Sheffield Hackspace?
+excerpt: Month updates from July 2024 - what's been going on around Sheffield Hackspace?
 ---
 <style>
 .gallery p {
@@ -27,6 +27,16 @@ p:has(img), .gallery {
 What have members of Sheffield Hackspace been up to this month?
 
 Let's find out!
+
+1. [We opened up a gift box from Pimoroni](#we-opened-up-a-gift-box-from-pimoroni)
+2. [Nik - modular origami](#nik---modular-origami)
+3. [Rich - living hinges](#rich---living-hinges)
+4. [Jonathan - wood turning](#jonathan---wood-turning)
+5. [Stephen - hand-made plane](#stephen---hand-made-plane)
+6. [Alex - robotic arm](#alex---robotic-arm)
+7. [alifeee - rag rug](#alifeee---rag-rug)
+8. [Rich - vertical pen plotter](#rich---vertical-pen-plotter)
+9. [Alex - plants!](#alex---plants)
 
 ## We opened up a gift box from Pimoroni
 
@@ -133,3 +143,12 @@ Alex has been propagating the spider plants in the space. Now they are many.
 ![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-3.webp)
 ![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-4.webp)
 </figure>
+
+## That's all!
+
+That's all for this month! Remember, you can:
+
+- come and visit the space! <https://www.sheffieldhackspace.org.uk/calendar/>
+- add your own items to next month's month update: <https://github.com/sheffieldhackspace/month-updates>
+
+Until next time :)
