@@ -98,8 +98,8 @@ Stephen has hand-made a dovetailed wood plane.
 ![picture of partly made wood plane, metal bit]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-5.webp)
 ![picture of partly made wood plane, metal bit]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-6.webp)
 ![picture of partly made wood plane, in bits, on workbench]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-7.webp)
-![picture of homemade wood plane]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-8.webp)
 ![picture of homemade wood plane]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-9.webp)
+![picture of homemade wood plane]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-8.webp)
 </figure>
 
 ## Alex - robotic arm
