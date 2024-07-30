@@ -87,7 +87,7 @@ Jonathan has been using the wood lathe to create gonk bottle openers and turned 
 
 ## Stephen - hand-made plane
 
-Stephen has hand-made a wood plane.
+Stephen has hand-made a dovetailed wood plane.
 
 ![picture of a wood plane and schematic]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-1.webp)
 
@@ -98,6 +98,8 @@ Stephen has hand-made a wood plane.
 ![picture of partly made wood plane, metal bit]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-5.webp)
 ![picture of partly made wood plane, metal bit]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-6.webp)
 ![picture of partly made wood plane, in bits, on workbench]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-7.webp)
+![picture of homemade wood plane]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-8.webp)
+![picture of homemade wood plane]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/stephen-plane-9.webp)
 </figure>
 
 ## Alex - robotic arm
