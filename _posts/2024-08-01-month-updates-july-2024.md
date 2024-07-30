@@ -134,14 +134,15 @@ Inspired by a project in the Hackspace magazine, Rich bought a few motors, some 
 
 ## Alex - plants!
 
-Alex has been propagating the spider plants in the space. Now they are many.
+Alex has been propagating the spider plants in the space, and has made a nursery for baby plants out of a falafel salad lid, laser cut Perspex and decorative cardboard.
 
-![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-1.webp)
+![picture of several spider plants]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-1.webp)
 
 <figure class="gallery" markdown="1">
-![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-2.webp)
-![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-3.webp)
-![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-4.webp)
+![picture of several spider plants in a sink]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-2.webp)
+![picture of several spider plants]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-3.webp)
+![picture of several spider plants in pots]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-4.webp)
+![picture of several spider plants in pots]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-5.webp)
 </figure>
 
 ## That's all!
