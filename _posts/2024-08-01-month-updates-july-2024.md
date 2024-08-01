@@ -32,11 +32,12 @@ Let's find out!
 2. [Nik - modular origami](#nik---modular-origami)
 3. [Rich - living hinges](#rich---living-hinges)
 4. [Jonathan - wood turning](#jonathan---wood-turning)
-5. [Stephen - hand-made plane](#stephen---hand-made-plane)
-6. [Alex - robotic arm](#alex---robotic-arm)
-7. [alifeee - rag rug](#alifeee---rag-rug)
-8. [Rich - vertical pen plotter](#rich---vertical-pen-plotter)
-9. [Alex - plants!](#alex---plants)
+5. [Richard - blinking LEDs](#richard---blinking-leds)
+6. [Stephen - hand-made plane](#stephen---hand-made-plane)
+7. [Alex - robotic arm](#alex---robotic-arm)
+8. [alifeee - rag rug](#alifeee---rag-rug)
+9. [Rich - vertical pen plotter](#rich---vertical-pen-plotter)
+10. [Alex - plants](#alex---plants)
 
 ## We opened up a gift box from Pimoroni
 
@@ -84,6 +85,17 @@ Jonathan has been using the wood lathe to create gonk bottle openers and turned 
 ![]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/jonathan-wood-turning-2.webp)
 ![picture of a wooden pot]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/jonathan-wood-turning-4.webp)
 </figure>
+
+## Richard - blinking LEDs
+
+Richard has made a library for Arduino or ESP which blinks out any number from 0 to 99999 on the inbuilt LED.
+
+From <https://github.com/RichardLangner/BlinkDigits>
+
+> For example 390 is blinked as  
+> 3 brief flashes,  
+> 9 brief flashes,  
+> 0 (one long flash).  
 
 ## Stephen - hand-made plane
 
@@ -134,7 +146,7 @@ Inspired by a project in the Hackspace magazine, Rich bought a few motors, some 
 ![picture of a vertical pen plotter, i.e., an upright wooden board with two motors attached, and a pulley system with caddy]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/rich-pen-plotter-5.webp)
 </figure>
 
-## Alex - plants!
+## Alex - plants
 
 Alex has been propagating the spider plants in the space, and has made a nursery for baby plants out of a falafel salad lid, laser cut Perspex and decorative cardboard.
 
@@ -147,7 +159,7 @@ Alex has been propagating the spider plants in the space, and has made a nursery
 ![picture of several spider plants in pots]({{site.baseurl}}/assets/blog/2024-08-01-month-updates-july-2024/alex-plants-5.webp)
 </figure>
 
-## That's all!
+## That's all
 
 That's all for this month! Remember, you can:
 
