@@ -5,7 +5,7 @@ permalink: /calendar/
 image: /assets/images/steel-cutting-header.jpg
 ---
 
-All visitors and members are welcome to come along to our open evenings:
+All visitors and members are welcome to come along to any of our nights below:
 
 {% include calendar.md %}
 
