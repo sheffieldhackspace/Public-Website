@@ -35,6 +35,15 @@ What have members of Sheffield Hackspace been up to this month?
 
 Let's find out!
 
+1. [Matthew - 3D Printed Trophy](#matthew---3d-printed-trophy)
+2. [Rich - Ethernet stringing](#rich---ethernet-stringing)
+3. [alifeee - upholstery and rag-rugging](#alifeee---upholstery-and-rag-rugging)
+4. [Harvey and Alex M - making a guitar](#harvey-and-alex-m---making-a-guitar)
+5. [Nik - Computer Visuals](#nik---computer-visuals)
+6. [Stuart - picture framing](#stuart---picture-framing)
+7. [Alfie - making a video game](#alfie---making-a-video-game)
+8. [Alex K - Cursor AI code editor](#alex-k---cursor-ai-code-editor)
+
 ## Matthew - 3D Printed Trophy
 
 Matthew used the 3D printer to make a custom trophy for a fighting game tournament.
