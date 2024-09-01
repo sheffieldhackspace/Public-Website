@@ -41,7 +41,7 @@ Let's find out!
 4. [Harvey and Alex M - making a guitar](#harvey-and-alex-m---making-a-guitar)
 5. [Nik - Computer Visuals](#nik---computer-visuals)
 6. [Stuart - picture framing](#stuart---picture-framing)
-7. [Alfie - making a video game](#alfie---making-a-video-game)
+7. [alifeee - making a video game](#alifeee---making-a-video-game)
 8. [Alex K - Cursor AI code editor](#alex-k---cursor-ai-code-editor)
 
 ## Matthew - 3D Printed Trophy
@@ -121,7 +121,7 @@ data transfer test from Houdini (Industry VFX software) to TOOLL3
 ![ALT TEXT]({{site.baseurl}}/assets/blog/2024-09-01-month-updates-august-2024/stuart - frames 3.webp)
 </figure>
 
-## Alfie - making a video game
+## alifeee - making a video game
 
 This month I participated in the [GMTK 2024 gamejam](https://itch.io/jam/gmtk-2024) with some friends, and we made a game about creating and climbing a tower.
 I spent most of my time making the online leaderboard and implementing some movement mechanics.
