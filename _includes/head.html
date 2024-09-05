@@ -1,3 +1,6 @@
+{% assign base.url = 'bbf-PI.531.001.085x107.jpg' %}
+
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,4 +45,13 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
+
+	{% if jekyll.environment == "production" %}
+		<!-- GoatCounter analytics - {{ site.goat_counter_url }} -->
+		<script data-goatcounter="{{ site.goat_counter_url}}/count" async src="//gc.zgo.at/count.js" ></script>
+		<noscript>
+			<img src="{{ site.goat_counter_url }}/count?p={{ page.url }}">
+		</noscript>
+	{% endif %}
+
 </head>
