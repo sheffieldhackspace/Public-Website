@@ -8,3 +8,22 @@ $accent-color: rgb(23,157,217);
 
 @import "basically-basic";
 @import "custom";
+
+#open-nights {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+#themed-nights {
+  margin: 0rem;
+  padding: 0rem;
+}
+details.themed-night {
+  padding: 0 0 0 1.5rem;
+}
+details.themed-night > summary {
+  margin-bottom: 0.5rem;
+}
+details.themed-night > p {
+  margin-left: 1.5rem;
+}
