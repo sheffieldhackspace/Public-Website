@@ -29,6 +29,7 @@ github_username:  "sheffieldhackspace"
 facebook_username: "SHHMakers"
 instagram_username: "SHHMakers"
 logo: /assets/images/logo.svg
+goat_counter_url: "https://sheffieldhackspacewebsite.goatcounter.com"
 
 # Build settings
 theme: jekyll-theme-basically-basic
