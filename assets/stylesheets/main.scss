@@ -27,3 +27,8 @@ details.themed-night > summary {
 details.themed-night > p {
   margin-left: 1.5rem;
 }
+
+img {
+  // so that missing images are obviously missing (alt text goes red)
+  color: red;
+}
