@@ -1,0 +1,35 @@
+---
+permalink: "/spaceapi.json"
+---
+{
+    "space": "{{ site.title }}",
+    "logo": "{{ site.url }}{{ site.logo }}",
+    "url": "{{ site.url }}",
+    "contact": {
+        "email": "{{ site.email }}",
+        "twitter": "{{ site.twitter_username }}",
+        "facebook": "{{ site.facebook_username }}"
+    },
+    "projects": [
+        "https://github.com/{{ site.github_username }}/"
+    ],
+    "issue_report_channels": [
+        "email"
+    ],
+    "api_compatibility": [
+        "14"
+    ],
+    "location": {
+        "address": "{{ site.address }}",
+        "lat": {{ site.latitude }},
+        "lon": {{ site.longitude }},
+        "timezone": "{{ site.timezone }}"
+    },
+    "feeds": {
+        "blog": {
+            "type": "RSS",
+            "url": "{{ site.url }}{{site.rss_feed}}"
+        }
+    },
+    "membership_plans": {{ site.membership_plans | jsonify }}
+}
