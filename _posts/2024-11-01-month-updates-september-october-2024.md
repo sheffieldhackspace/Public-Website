@@ -46,7 +46,6 @@ Let's find out!
 8. [Richard - straightening wires](#richard---straightening-wires)
 9. [Alex H - new zip](#alex-h---new-zip)
 10. [Alex K - the bionic man](#alex-k---the-bionic-man)
-11. [That's all](#thats-all)
 
 
 ## A guided tour of the NAMRC
@@ -153,6 +152,7 @@ Read more here: <https://alexkelly.world/posts/2024-10-03_robotics/robot.html>
 
 <iframe width="1278" height="719" src="https://www.youtube.com/embed/DYamfGeHgsM" title="koch robot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<!-- omit in toc -->
 ## That's all
 
 That's all for this month! Remember, you can:
