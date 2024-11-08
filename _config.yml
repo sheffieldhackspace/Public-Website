@@ -18,18 +18,46 @@
 # You can create any custom.scss variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+# meta
 title: Sheffield Hackspace
+description: Sheffield Hackspace
+
+# URLs
+## the subpath of your site, e.g. /blog
+baseurl: ""
+## the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.sheffieldhackspace.org.uk"
+logo: /assets/images/logo.svg
+rss_feed: /feed.xml
+goat_counter_url: "https://sheffieldhackspacewebsite.goatcounter.com"
+
+# socials
 email: trustees@sheffieldhackspace.org.uk
-description: >- # this means to ignore newlines until "baseurl:"
-  Sheffield Hackspace
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.sheffieldhackspace.org.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "@shhmakers"
 github_username:  "sheffieldhackspace"
 facebook_username: "SHHMakers"
 instagram_username: "SHHMakers"
-logo: /assets/images/logo.svg
-goat_counter_url: "https://sheffieldhackspacewebsite.goatcounter.com"
+
+# information - mainly used in spaceapi.json
+address: "Sheffield Hackspace, Portland Works, Randall St, Highfield, Sheffield S2 4SJ"
+latitude: 53.369933
+longitude: -1.473812
+timezone: "Europe/London"
+
+# membership
+membership_plans:
+  - name: normal membership
+    value: 6
+    currency: GBP
+    currency_symbol: "£"
+    billing_interval: monthly
+    description: regularly attend any of the several open evenings a week
+  - name: keyholder membership
+    value: 21
+    currency: GBP
+    currency_symbol: "£"
+    billing_interval: monthly
+    description: come and go as you please
 
 # Build settings
 theme: jekyll-theme-basically-basic
