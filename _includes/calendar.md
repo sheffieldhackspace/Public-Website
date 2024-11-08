@@ -6,7 +6,7 @@
 
 ### Themed nights
 
-<details class="themed-night" markdown=1><summary><span markdown=1>*Craft Night*</span>: Every 1st and 3rd Wednesday of the month, 6 - 9 pm</summary>
+<details class="themed-night" markdown=1><summary><span markdown=1>*Craft Night*</span>: Every 1st and 3rd Wednesday of the month, 6 - 9 pm<span id="cal-next" style="opacity:0.5;"></span></summary>
 
 Alex H and Alfie will be opening up to do crafts, from sewing, clothes alterations, and upholstery, through origami, pom-pom making, felting, and more. Basically anything that doesn't involve a laptop!
 
@@ -17,3 +17,5 @@ There are lots of needles, thread, and offcut material, so without bringing anyt
 Every 1st and 3rd Wednesday of the month from 6pm-9pm.
 
 </details>
+
+<script src="/assets/get-next-wednesday.js"></script>
