@@ -26,5 +26,8 @@ If you have any questions before you come along you can email us at [trustees@sh
 
 We are located [here](https://goo.gl/maps/EcVTWfknJ8XSRYax9) in Portland Works. Find the green door at the top of Randall Street S2 4SJ, and press the call button. We are in the courtyard on the ground floor.
 
-{% include osm.html %}
+<!-- Open Street Map map -->
 
+<div class="responsive-iframe-container">
+	<iframe width="800" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-1.477366089820862%2C53.36852420235157%2C-1.4702850580215456%2C53.37144960099323&amp;layer=mapnik&amp;marker={{ site.latitude }}%2C{{ site.longitude }}" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat={{ site.latitude }}&amp;mlon={{ site.longitude }}#map=18/{{ site.latitude }}/{{ site.longitude }}&amp;layers=N">View Larger Map</a></small>
+</div>
