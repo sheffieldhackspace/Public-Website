@@ -46,14 +46,16 @@ timezone: "Europe/London"
 
 # membership
 membership_plans:
-  - name: Normal membership
+  - name: normal membership
     value: 6
     currency: GBP
+    currency_symbol: "£"
     billing_interval: monthly
     description: regularly attend any of the several open evenings a week
-  - name: Keyholder membership
+  - name: keyholder membership
     value: 21
     currency: GBP
+    currency_symbol: "£"
     billing_interval: monthly
     description: come and go as you please
 
