@@ -12,4 +12,4 @@ We have several open evenings every week to give folks who may be interested in 
 
 {% include calendar.md %}
 
-After visiting, membership is affordable from £6 a month.
+After visiting, membership starts from £6 a month.
