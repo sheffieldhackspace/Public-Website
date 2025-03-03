@@ -38,7 +38,7 @@ Let's find out!
 
 1. [Workshops](#workshops)
 2. [Louise - 3D printed tape holders](#louise---3d-printed-tape-holders)
-3. [Dom \& alifeee - investigating a Sheffield bus sign](#dom--alifeee---investigating-a-sheffield-bus-sign)
+3. [Dom & alifeee - investigating a Sheffield bus sign](#dom--alifeee---investigating-a-sheffield-bus-sign)
 4. [James - outdoor temperature sensor](#james---outdoor-temperature-sensor)
 5. [Dave - CNC machining](#dave---cnc-machining)
 6. [Louise - homemade coffee table](#louise---homemade-coffee-table)
@@ -65,7 +65,7 @@ Look at the events on Discord to keep up to date!
 
 ![picture of lots of hung-up rolls of tape]({{site.baseurl}}/assets/blog/2025-03-03-month-updates-january-february-2025/Louise - tape holders 1.webp)
 
-## Dom &amp; alifeee - investigating a Sheffield bus sign
+## Dom & alifeee - investigating a Sheffield bus sign
 
 Dom and I had a little look at the electronics of a bus sign that they got given by Transport for South Yorkshire, in an attempt to control the sign. We had a lot of talk about SPI and I2C while looking at the oscilloscope. Hopefully, we can try again with a logic analyser, and try to control the sign with our own electronics.
 
