@@ -115,3 +115,10 @@ I was very happy with the final dice.
 <img src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/final-dice.jpg" alt="picture of green dice under a lamp" />
 <figcaption>snot dice. snot dice.</figcaption>
 </figure>
+
+<!-- omit in toc -->
+## Workshops at the space
+
+This was one of the few workshops that have been happening recently around Sheffield Hackspace.
+
+To find out what workshops are happening soon, you can check the [wiki page](https://wiki.shhm.uk/dokuwiki/doku.php?id=workshops) or the Discord events. Both of these require being a member of the Discord. You can join by coming down to an [open evening](https://www.sheffieldhackspace.org.uk/calendar/).
