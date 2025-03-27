@@ -1,5 +1,5 @@
 ---
-title: Dice Casting Workshop at the Space
+title: Dice Casting Workshop
 date: '2025-03-25T00:00:00+00:00'
 author: <a href="https://alifeee.net/">alifeee</a>
 layout: post
