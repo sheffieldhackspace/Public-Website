@@ -6,9 +6,26 @@ layout: post
 permalink: /dice-casting/
 ---
 
+<div class="hidden-excerpt">
+<!-- excerpt -->
 This month Alex taught three of us how to make silicone moulds, mix resin, and make our own dice!
 <figure>
-<img src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/final-dice.jpg" alt="picture of green dice under a lamp" />
+<img src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/dice.svg" alt="vector drawing of green dice under a lamp" height="400" width="400" />
+<figcaption>One of the dice I casted from the workshop. I'm very impressed.</figcaption>
+</figure>
+</div>
+
+<style>
+  .hidden-excerpt {
+    display: none;
+  }
+</style>
+
+<!-- actual article -->
+
+This month Alex taught three of us how to make silicone moulds, mix resin, and make our own dice!
+<figure>
+<img src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/final-dice.jpg" alt="vector drawing of green dice under a lamp" />
 <figcaption>One of the dice I casted from the workshop. I'm very impressed.</figcaption>
 </figure>
 
