@@ -7,22 +7,27 @@ permalink: /dice-casting/
 ---
 
 <div class="hidden-excerpt">
+<!-- excerpt -->
 This month Alex taught three of us how to make silicone moulds, mix resin, and make our own dice!
 <figure>
-<img class="hq" style="display: none;" src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/final-dice.jpg" alt="picture of green dice under a lamp" />
-<img class="lq" src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/dice.svg" alt="vector drawing of green dice under a lamp" height="400" width="400" />
+<img src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/dice.svg" alt="vector drawing of green dice under a lamp" height="400" width="400" />
 <figcaption>One of the dice I casted from the workshop. I'm very impressed.</figcaption>
 </figure>
 </div>
 
 <style>
-  .hidden-excerpt .hq {
-    display: block !important;
-  }
-  .hidden-excerpt .lq {
+  .hidden-excerpt {
     display: none;
   }
 </style>
+
+<!-- actual article -->
+
+This month Alex taught three of us how to make silicone moulds, mix resin, and make our own dice!
+<figure>
+<img src="{{site.baseurl}}/assets/blog/2025-03-25-dice-casting-workshop/final-dice.jpg" alt="vector drawing of green dice under a lamp" />
+<figcaption>One of the dice I casted from the workshop. I'm very impressed.</figcaption>
+</figure>
 
 Alex has been trying out casting techniques for dice for a while on his own, and shared his knowledge with us by organising a hands-on workshop where we could try it out.
 
