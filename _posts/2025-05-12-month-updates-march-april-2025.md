@@ -32,28 +32,147 @@ iframe, video {
 }
 </style>
 
-What have members of Sheffield Hackspace been up to this month?
+What have members of Sheffield Hackspace been up to this two-months?
 
 Let's find out!
 
 1. [Workshops](#workshops)
-2. [Adam - fixing a hall effect sensor](#adam---fixing-a-hall-effect-sensor)
-3. [Adam - creating an oscillator](#adam---creating-an-oscillator)
-4. [Dave - machining toe clamps](#dave---machining-toe-clamps)
-5. [James - creating a smart home letterbox](#james---creating-a-smart-home-letterbox)
-6. [Jon - creating board game "puzzle boxes"](#jon---creating-board-game-puzzle-boxes)
-7. [Kieron - painting miniatures with an airbrush](#kieron---painting-miniatures-with-an-airbrush)
-8. [Nathen - laser-cutting an arcade stick from acrylic](#nathen---laser-cutting-an-arcade-stick-from-acrylic)
-9. [Nathen - practicing cable lacing](#nathen---practicing-cable-lacing)
+2. [Dave - machining toe clamps](#dave---machining-toe-clamps)
+3. [alifeee - fixing my bike mudguard bracket](#alifeee---fixing-my-bike-mudguard-bracket)
+4. [Jon - creating board game "puzzle boxes"](#jon---creating-board-game-puzzle-boxes)
+5. [Nathen - laser-cutting an arcade stick from acrylic](#nathen---laser-cutting-an-arcade-stick-from-acrylic)
+6. [alifeee - hemming some cut-down trousers](#alifeee---hemming-some-cut-down-trousers)
+7. [alifeee - creating a laser-cut map](#alifeee---creating-a-laser-cut-map)
+8. [alifeee - jailbreaking a kindle](#alifeee---jailbreaking-a-kindle)
+9. [James - creating a smart home letterbox](#james---creating-a-smart-home-letterbox)
+10. [Adam - fixing a hall effect sensor](#adam---fixing-a-hall-effect-sensor)
+11. [Adam - creating an oscillator](#adam---creating-an-oscillator)
+12. [Nathen - practicing cable lacing](#nathen---practicing-cable-lacing)
+13. [Kieron - painting miniatures with an airbrush](#kieron---painting-miniatures-with-an-airbrush)
+14. [alifeee - making a ribbon cable to breadboard connector](#alifeee---making-a-ribbon-cable-to-breadboard-connector)
+15. [alifeee - testing laser-cut stamps](#alifeee---testing-laser-cut-stamps)
 
 ## Workshops
 
 As well as our [Dice-Casting](/dice-casting/) workshop, we have had a workshop about making personal websites, and we're soon due one about [MicroPython](https://micropython.org/).
 
+Keep an eye on the workshop-wall in the space, and in the Discord for upcoming events!
+
 <figure class="gallery" markdown="1">
 ![picture of poster of personal website making workshop]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/workshops_personal-websites.webp)
 ![picture of poster of micropython hackathon]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/workshops_micropython.webp)
 </figure>
+
+## Dave - machining toe clamps
+
+> Slowly making myself a few toe clamps. I was doing them in aluminium but decided to try my luck in steel.
+>
+> Essentially ran the same tool path but swapping to a 3 flute end mill and it came out within +-0.05 🥰🥰
+
+<figure class="gallery" markdown="1">
+![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps1.webp)
+![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps2.webp)
+![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps3.webp)
+![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps4.webp)
+![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps5.webp)
+![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps6.webp)
+</figure>
+
+## alifeee - fixing my bike mudguard bracket
+
+Bill graciously helped me measure, cut, and bend a new bracket to hold my mudguards in place. For a while now, it's been rattling as I bike down the street (a good stand-in for not ringing your bike bell), but more annoyingly, the panniers keep falling into the wheels.
+
+Hopefully, this incredibly shiny new piece stops some of that.
+
+<figure class="gallery" markdown="1">
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender1.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender3.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender5.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender7.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender8.webp)
+</figure>
+
+## Jon - creating board game "puzzle boxes"
+
+> Some of you may have seen me in the space spending forever making "Puzzle Boxes" for my wedding... Well I'm pleased to say that they are finally complete!
+>
+> As far as our guests are aware, they are the table name markers and also designed to hold a bottle of wine to function as gift boxes for various people afterwards.
+>
+> HOWEVER, in the middle of the speeches we will ask guests to lift the boxes from the base, because inside the box is where we have hidden their wedding favours!
+>
+> Unfortunately for them, they will find the boxes locked with a combination padlock.
+>
+> In the bases are hidden a series of puzzles, which when solved will give them the padlock code in order to open the main box.
+
+<figure class="gallery" markdown="1">
+![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes3.webp)
+![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes4.webp)
+![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes5.webp)
+![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes1.webp)
+![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes2.webp)
+![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes6.webp)
+</figure>
+
+## Nathen - laser-cutting an arcade stick from acrylic
+
+> From a pile of laser cut acrylic, I have a custom arcade stick. Just playing with that stupid stuff people put on their windscreen as a design for the stick.
+
+<figure class="gallery" markdown="1">
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick1.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick2.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick3.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick4.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick5.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick6.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick7.webp)
+![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick8.webp)
+</figure>
+
+## alifeee - hemming some cut-down trousers
+
+It's summer. I cut some trousers down to length to be more-like-shorts, and they needed a hem to stop them from fraying. It's not particularly even, and the red is quite bright, but… now tell me something that impacts my life.
+
+<figure class="gallery" markdown="1">
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem1.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem2.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem3.webp)
+</figure>
+
+## alifeee - creating a laser-cut map
+
+I used the laser cutter to make a gift map-frame of a [journey to Europe](https://alifeee.co.uk/europe-trips/) of mine and someone's.
+
+First, I downloaded a Shapefile of the world's geography from <https://www.naturalearthdata.com/>, converted it to an SVG with <https://mapshaper.org/>, and cropped it to an appropriate size.
+
+Then, I collected traces of the trains, buses, and boats we'd taken following [my own instructions](https://blog.alifeee.co.uk/notes/how-to-get-a-gps-trace-of-train-and-boat-journeys/), and then overlayed the two SVGs, and had to hand-stretch them to match up properly.
+
+Finally, I played around with laser cutter settings with a smaller image to get a nice engrave depth and tested different types of wood. I was also playing around with painting it, but I think the unpainted version looks nicer.
+
+<figure class="gallery" markdown="1">
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_maps1.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_maps2.webp)
+</figure>
+
+## alifeee - jailbreaking a kindle
+
+It doesn't take much to install custom software on a kindle. There are [guides out there](https://kindlemodding.org/) and a [wiki about it](https://wiki.mobileread.com/wiki/K4_Index). Doing so lets you install [KOReader](https://koreader.rocks/), an open source document viewer for e-readers, with many more features and accessibility options than the kindle's default reader.
+
+<figure class="gallery" markdown="1">
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_kindle1.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_kindle5.webp)
+</figure>
+
+## James - creating a smart home letterbox
+
+> A custom arm for ZigBee door sensor on letter box.
+>
+> Using Home Assistant it provides a push notification (using Pushover) when the post has arrived.
+>
+> As a bit of ironic fun, I set the alert sound to the old AOL "You've Got Mail" sound.
+
+You can download the files on <https://www.printables.com/model/1291168-indoor-letter-mail-post-box-zigbee-wifi-door-senso>!
+
+![picture of letterbox with smart devices attached]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/James_letterbox.webp)
 
 ## Adam - fixing a hall effect sensor
 
@@ -84,53 +203,11 @@ As well as our [Dice-Casting](/dice-casting/) workshop, we have had a workshop a
 ![picture of breadboard with circuitboard on it]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Adam_oscillator.webp)
 </figure>
 
-## Dave - machining toe clamps
+## Nathen - practicing cable lacing
 
-> Slowly making myself a few toe clamps. I was doing them in aluminium but decided to try my luck in steel.
->
-> Essentially ran the same tool path but swapping to a 3 flute end mill and it came out within +-0.05 🥰🥰
+> Trying to learn cable lacing. Annoyingly the "waxed" cable I bought isn't waxed and has some stretch to it.
 
-<figure class="gallery" markdown="1">
-![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps1.webp)
-![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps2.webp)
-![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps3.webp)
-![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps4.webp)
-![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps5.webp)
-![picture of toe clamp(s)]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Dave_toe-clamps6.webp)
-</figure>
-
-## James - creating a smart home letterbox
-
-> A custom arm for ZigBee door sensor on letter box.
->
-> Using Home Assistant it provides a push notification (using Pushover) when the post has arrived.
->
-> As a bit of ironic fun, I set the alert sound to the old AOL "You've Got Mail" sound.
-
-You can download the files on <https://www.printables.com/model/1291168-indoor-letter-mail-post-box-zigbee-wifi-door-senso>!
-
-![picture of letterbox with smart devices attached]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/James_letterbox.webp)
-
-## Jon - creating board game "puzzle boxes"
-
-> Some of you may have seen me in the space spending forever making "Puzzle Boxes" for my wedding... Well I'm pleased to say that they are finally complete!
->
-> As far as our guests are aware, they are the table name markers and also designed to hold a bottle of wine to function as gift boxes for various people afterwards.
->
-> HOWEVER, in the middle of the speeches we will ask guests to lift the boxes from the base, because inside the box is where we have hidden their wedding favours!
->
-> Unfortunately for them, they will find the boxes locked with a combination padlock.
->
-> In the bases are hidden a series of puzzles, which when solved will give them the padlock code in order to open the main box.
-
-<figure class="gallery" markdown="1">
-![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes3.webp)
-![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes4.webp)
-![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes5.webp)
-![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes1.webp)
-![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes2.webp)
-![picture of laser-cut puzzle boxes]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes6.webp)
-</figure>
+![picture of some very nice cabling]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_cable-lacing.webp)
 
 ## Kieron - painting miniatures with an airbrush
 
@@ -143,26 +220,27 @@ You can download the files on <https://www.printables.com/model/1291168-indoor-l
 ![picture of two painted miniatures]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Kieron_space-marines.webp)
 </figure>
 
-## Nathen - laser-cutting an arcade stick from acrylic
+## alifeee - making a ribbon cable to breadboard connector
 
-> From a pile of laser cut acrylic, I have a custom arcade stick. Just playing with that stupid stuff people put on their windscreen as a design for the stick.
+For an old project ([Hull Bus Sign](https://blog.alifeee.co.uk/hull-bus-sign/)), I wanted to revamp the hardware, so I made these breadboard connectors. Beforehand, I'd haphazardly soldered some wires to the back of a circuitboard, which were bound to come off.
 
 <figure class="gallery" markdown="1">
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick1.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick2.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick3.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick4.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick5.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick6.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick7.webp)
-![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick8.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector4.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector1.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector2.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector3.webp)
 </figure>
 
-## Nathen - practicing cable lacing
+## alifeee - testing laser-cut stamps
 
-> Trying to learn cable lacing. Annoyingly the "waxed" cable I bought isn't waxed and has some stretch to it.
+I got a few ink pads as a gift a few months ago, so I've been playing with laser-cutting stamps. The first attempt was with MDF, which worked "o.k.".
 
-![picture of some very nice cabling]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_cable-lacing.webp)
+Then, I bought some laser-cuttable rubber for £5 per sheet from <https://laserply.co.uk/>, and tried that, which worked pretty great.
+
+<figure class="gallery" markdown="1">
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_stamps1.webp)
+![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_stamps2.webp)
+</figure>
 
 <!-- omit in toc -->
 ## That's all
