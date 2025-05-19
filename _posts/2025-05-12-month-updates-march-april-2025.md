@@ -41,7 +41,7 @@ Let's find out!
 3. [alifeee - fixing my bike mudguard bracket](#alifeee---fixing-my-bike-mudguard-bracket)
 4. [Jon - creating board game "puzzle boxes"](#jon---creating-board-game-puzzle-boxes)
 5. [Nathen - laser-cutting an arcade stick from acrylic](#nathen---laser-cutting-an-arcade-stick-from-acrylic)
-6. [alifeee - hemming some cut-down trousers](#alifeee---hemming-some-cut-down-trousers)
+6. [alifeee - sewing repairs](#alifeee---sewing-repairs)
 7. [alifeee - creating a laser-cut map](#alifeee---creating-a-laser-cut-map)
 8. [alifeee - jailbreaking a kindle](#alifeee---jailbreaking-a-kindle)
 9. [James - creating a smart home letterbox](#james---creating-a-smart-home-letterbox)
@@ -85,11 +85,11 @@ Bill graciously helped me measure, cut, and bend a new bracket to hold my mudgua
 Hopefully, this incredibly shiny new piece stops some of that.
 
 <figure class="gallery" markdown="1">
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender1.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender3.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender5.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender7.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender8.webp)
+![picture of broken bike mudguard]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender1.webp)
+![picture of broken bike mudguard bracket and fixed bracket]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender3.webp)
+![picture of broken bike mudguard bracket and fixed bracket]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender5.webp)
+![picture of fixed bike mudguard bracket]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender7.webp)
+![picture of fixed bike mudguard bracket]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_bike-fender8.webp)
 </figure>
 
 ## Jon - creating board game "puzzle boxes"
@@ -128,14 +128,19 @@ Hopefully, this incredibly shiny new piece stops some of that.
 ![picture of laser-cut arcade plastic sticks]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/Nathen_arcade-stick8.webp)
 </figure>
 
-## alifeee - hemming some cut-down trousers
+## alifeee - sewing repairs
 
-It's summer. I cut some trousers down to length to be more-like-shorts, and they needed a hem to stop them from fraying. It's not particularly even, and the red is quite bright, but… now tell me something that impacts my life.
+I used the sewing machine to both fix some bag straps for a tote bag, and to hem some trousers.
 
 <figure class="gallery" markdown="1">
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem1.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem2.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem3.webp)
+![picture of broken bag strap showing threads]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alfie_bag-straps2.webp)
+![picture of broken bag strap next to fixed bag strap]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alfie_bag-straps1.webp)
+</figure>
+
+<figure class="gallery" markdown="1">
+![picture of sewing machine with trousers underneath]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem1.webp)
+![picture of trousers with new hem under sewing machine needle]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem2.webp)
+![picture of trousers with new hem]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_hem3.webp)
 </figure>
 
 ## alifeee - creating a laser-cut map
@@ -149,8 +154,8 @@ Then, I collected traces of the trains, buses, and boats we'd taken following [m
 Finally, I played around with laser cutter settings with a smaller image to get a nice engrave depth and tested different types of wood. I was also playing around with painting it, but I think the unpainted version looks nicer.
 
 <figure class="gallery" markdown="1">
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_maps1.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_maps2.webp)
+![picture of a laser-engraved wooden map]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_maps1.webp)
+![picture of a laser-engraved wooden map in a frame]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_maps2.webp)
 </figure>
 
 ## alifeee - jailbreaking a kindle
@@ -158,8 +163,8 @@ Finally, I played around with laser cutter settings with a smaller image to get 
 It doesn't take much to install custom software on a kindle. There are [guides out there](https://kindlemodding.org/) and a [wiki about it](https://wiki.mobileread.com/wiki/K4_Index). Doing so lets you install [KOReader](https://koreader.rocks/), an open source document viewer for e-readers, with many more features and accessibility options than the kindle's default reader.
 
 <figure class="gallery" markdown="1">
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_kindle1.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_kindle5.webp)
+![picture of a kindle showing the debug screen]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_kindle1.webp)
+![picture of a kindle showing koreader's ssh screen]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_kindle5.webp)
 </figure>
 
 ## James - creating a smart home letterbox
@@ -225,10 +230,10 @@ You can download the files on <https://www.printables.com/model/1291168-indoor-l
 For an old project ([Hull Bus Sign](https://blog.alifeee.co.uk/hull-bus-sign/)), I wanted to revamp the hardware, so I made these breadboard connectors. Beforehand, I'd haphazardly soldered some wires to the back of a circuitboard, which were bound to come off.
 
 <figure class="gallery" markdown="1">
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector4.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector1.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector2.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector3.webp)
+![picture of bus transport sign]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector4.webp)
+![picture of electronic component]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector1.webp)
+![picture of electronic component on board on breadboard]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector2.webp)
+![picture of two electronic components on boards on breadboard]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_electronics-connector3.webp)
 </figure>
 
 ## alifeee - testing laser-cut stamps
@@ -238,8 +243,8 @@ I got a few ink pads as a gift a few months ago, so I've been playing with laser
 Then, I bought some laser-cuttable rubber for £5 per sheet from <https://laserply.co.uk/>, and tried that, which worked pretty great.
 
 <figure class="gallery" markdown="1">
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_stamps1.webp)
-![ALT TEXT]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_stamps2.webp)
+![picture of paper with stamps and test stamps]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_stamps1.webp)
+![picture of paper with stamp and test stamp]({{site.baseurl}}/assets/blog/2025-05-12-month-updates-march-april-2025/alifeee_stamps2.webp)
 </figure>
 
 <!-- omit in toc -->
