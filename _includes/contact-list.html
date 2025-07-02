@@ -12,6 +12,16 @@
 	<li>{% include icon-github.html username=site.github_username label='GitHub' %}</li>
 	{% endif %}
 
+	{% if site.wiki %}
+	<li>
+		{% comment %} basically basic theme doesn't have a dokuwiki logo :( {% endcomment %}
+		<a href="{{ site.wiki }}">
+  			<span class="icon"><img src="assets/images/dokuwiki-logo.svg"/></span>
+  			<span class="label">Wiki</span>
+		</a>
+	</li>
+	{% endif %}
+
 	{% if site.twitter_username %}
 	<li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
 	{% endif %}
