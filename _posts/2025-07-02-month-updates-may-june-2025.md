@@ -250,16 +250,16 @@ I enjoyed the ideas everyone had about what they wanted to use their microcontro
 ![picture of 3D abstract shapes and colours]({{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_4.webp)
 ![picture of abstract shapes and colours on flat plane]({{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_5.webp)
 ![picture of abstract text and colours, projected flat]({{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_9.webp)
-<video controls="" preload="none" loop="" crossorigin="anonymous" poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_11_PREVIEW.webp" style="max-height: 40rem;">
+<video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_11_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_11.webm" type="video/webm">
 </video>
-<video controls="" preload="none" loop="" crossorigin="anonymous" poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_8_PREVIEW.webp" style="max-height: 40rem;">
+<video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_8_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_8.webm" type="video/webm">
 </video>
-<video controls="" preload="none" loop="" crossorigin="anonymous" poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_7_PREVIEW.webp" style="max-height: 40rem;">
+<video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_7_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_7.webm" type="video/webm">
 </video>
-<video controls="" preload="none" loop="" crossorigin="anonymous" poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_6_PREVIEW.webp" style="max-height: 40rem;">
+<video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_6_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_houdini-patterns_6.webm" type="video/webm">
 </video>
 </figure>
