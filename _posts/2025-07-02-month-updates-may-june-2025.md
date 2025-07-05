@@ -335,7 +335,7 @@ I convinced them this week to let me have a look if I could fix it. I *was* hopi
 
 Here it is in action! I love split-flap displays.
 
-<video controls="" preload="none" loop="" crossorigin="anonymous" poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/alifeee_split-flap-display_1_PREVIEW.webp" style="max-height: 40rem;">
+<video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/alifeee_split-flap-display_1_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/alifeee_split-flap-display_1.webm" type="video/webm">
 </video>
 
