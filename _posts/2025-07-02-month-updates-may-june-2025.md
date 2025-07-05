@@ -150,7 +150,7 @@ I enjoyed the ideas everyone had about what they wanted to use their microcontro
 
 > My turn at playing with cabinet making of sorts...
 >
-> no wall parallel.to any other  
+> no wall parallel to any other  
 > no wall anywhere near true  
 > floor not level  
 > window almost level  
