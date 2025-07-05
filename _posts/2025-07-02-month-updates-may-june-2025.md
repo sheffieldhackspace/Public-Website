@@ -123,7 +123,7 @@ I enjoyed the ideas everyone had about what they wanted to use their microcontro
 
 …or [dredzik](https://typedef.io/)
 
-### making a 3 band parametric equation prototype
+### Making a 3 band parametric equation prototype
 
 > My neighbour asked for a parametric eq.
 >
