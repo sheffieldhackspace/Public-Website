@@ -270,7 +270,7 @@ I enjoyed the ideas everyone had about what they wanted to use their microcontro
 > 
 > controlling pi pico W with OSC over wifi with MQTT (vcv rack sends OSC, node-red gets the osc and forwards it as mqtt message, pico W gets the mqtt over wifi and sets motor position)
 
-<video controls="" preload="none" loop="" crossorigin="anonymous" poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_vcv-rack-to-physical_1_PREVIEW.webp" style="max-height: 40rem;">
+<video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_vcv-rack-to-physical_1_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-07-02-month-updates-may-june-2025/nik_vcv-rack-to-physical_1.webm" type="video/webm">
 </video>
 
