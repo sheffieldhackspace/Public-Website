@@ -4637,49 +4637,49 @@
      id="layer4"
      inkscape:label="Hyperlinks"
      inkscape:highlight-color="#21e0f3">
-      <a href="/new-space/#room-f" target="_top">
+      <a href="#room-f" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 171.58044,57.097495 0.905,1.275231 83.54828,0.370229 0.0823,-43.604714 -73.14073,-0.24682 -22.37827,16.290063 z"
         id="path10"
         inkscape:label="F" />
       </a>
-      <a href="/new-space/#room-e" target="_top">
+      <a href="#room-e" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 112.10482,76.035809 12.0424,16.347408 2.38521,3.257847 -2.09433,1.9198 6.05028,8.726376 8.31915,-6.515692 0.2327,-19.54708 30.94954,0.465407 0.23271,-22.688574 -8.2028,-19.081673 -2.90879,-6.457516 -51.42743,37.232532 z"
         id="path6"
         inkscape:label="E" />
       </a>
-      <a href="/new-space/#room-d" target="_top">
+      <a href="#room-d" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 16.405584,65.738686 52.707302,71.905324 8.842724,10.70435 12.449627,12.33328 17.336403,-19.66343 -3.1415,-2.79244 8.72637,-9.88989 2.9088,2.55973 16.40558,-19.08167 -62.597192,-85.169409 z"
         id="path5"
         inkscape:label="D" />
       </a>
-      <a href="/new-space/#room-c" target="_top">
+      <a href="#room-c" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 149.49013,194.49348 14.80914,-1.23409 13.98642,-2.30365 17.03052,-4.03138 -8.39185,-25.83374 -4.19592,1.31637 -4.52502,-13.24596 3.94911,-1.48091 -3.70229,-12.8346 -3.94911,-10.77777 -32.49785,3.78456 3.53774,30.60558 z"
         id="path4"
         inkscape:label="C" />
       </a>
-      <a href="/new-space/#room-b2" target="_top">
+      <a href="#room-b2" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 184.20935,142.90828 -6.58184,-20.07462 27.89056,-15.54961 14.31551,18.18235 z"
         id="path2"
         inkscape:label="B2" />
       </a>
-      <a href="/new-space/#room-b1" target="_top">
+      <a href="#room-b1" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 198.03122,186.01936 9.13231,-3.62001 6.08821,-2.96184 11.84731,-5.59456 11.43596,-7.07548 9.21458,-6.66412 -12.91687,-17.60643 -3.78456,2.71501 -12.25868,-16.04325 -1.31637,0.24682 -9.95504,5.1832 -20.89735,10.28413 z"
         id="path3"
         inkscape:label="B1" />
       </a>
-      <a href="/new-space/#room-a" target="_top">
+      <a href="#room-a" target="_top">
         <path
         style="fill:#00000000;stroke-width:0.264583;fill-opacity:1"
         d="m 243.52822,97.49356 -21.14417,26.16283 2.63273,3.62001 12.58778,16.29007 11.18913,14.72687 22.70736,-23.201 6.08822,-16.86597 z"
