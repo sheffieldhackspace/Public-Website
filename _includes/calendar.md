@@ -17,3 +17,38 @@ There are lots of needles, thread, and offcut material, so without bringing anyt
 Every 1st and 3rd Wednesday of the month from 6pm-9pm.
 
 </details>
+
+<!-- This will not show without js -->
+<div id="next-days" style="margin-top: 1em; margin-bottom: 1em;"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/date-fns@4.1.0/cdn.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/rrule@2.8.1/dist/es5/rrule.min.js"></script>
+<script>
+    const dateFormat = "EEEE, do 'of' MMMM";
+    // calculate future days
+    const lookahead = "for 3";
+    const pairs = {
+        "Monday": `Every Monday ${lookahead}`,
+        "Thursday": `Every Thursday ${lookahead}`,
+        "Wednesday": `Every month on the 1st Wednesday and 3rd Wednesday ${lookahead}`,
+        "Saturday": `Every Saturday ${lookahead}`,
+    };
+    const allSessions = Object.values(pairs).map(v => 
+        rrule.RRule.fromText(v).all()
+    ).flat().sort((a, b) => a - b).slice(0, 5);
+    console.log(allSessions);
+    // display future days
+    const nextDays = document.getElementById("next-days");
+    const title = document.createElement("h4");
+    title.textContent = "Next 5 Open Nights";
+    title.style = "margin: 0; padding: 0;";
+    nextDays.appendChild(title);
+    const list = document.createElement("ul");
+    allSessions.forEach(date => {
+        const li = document.createElement("li");
+        li.textContent = dateFns.format(date, dateFormat);
+        list.appendChild(li);
+    });
+    nextDays.appendChild(list);
+
+</script>
