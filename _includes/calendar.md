@@ -40,7 +40,7 @@ Every 1st and 3rd Wednesday of the month from 6pm-9pm.
     // display future days
     const nextDays = document.getElementById("next-days");
     const title = document.createElement("h4");
-    title.textContent = "Next 5 Open Nights";
+    title.textContent = "Next few nights";
     title.style = "margin: 0; padding: 0;";
     nextDays.appendChild(title);
     const list = document.createElement("ul");
