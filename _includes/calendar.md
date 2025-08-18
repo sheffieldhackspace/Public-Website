@@ -44,9 +44,19 @@ Every 1st and 3rd Wednesday of the month from 6pm-9pm.
     title.style = "margin: 0; padding: 0;";
     nextDays.appendChild(title);
     const list = document.createElement("ul");
+    const rtf1 = new Intl.RelativeTimeFormat("en", { style: "short" });
+    const msIn24h = 1000 * 60 * 60 * 24; // ms in a day
     allSessions.forEach(date => {
+        const elapsed = Math.floor((date - Date.now()) / msIn24h) + 1;
+        const text = rtf1.format(elapsed, "day");
         const li = document.createElement("li");
-        li.textContent = dateFns.format(date, dateFormat);
+        const p1 = document.createElement("span");
+        const p2 = document.createElement("span");
+        p1.textContent = `(${elapsed == 0 ? "Today" : text}) `;
+        p2.textContent = dateFns.format(date, dateFormat);
+        p1.style = "color: rgba(0, 0, 0, 0.62); width: 10ch; display: inline-block;";
+        li.appendChild(p1);
+        li.appendChild(p2);
         list.appendChild(li);
     });
     nextDays.appendChild(list);
