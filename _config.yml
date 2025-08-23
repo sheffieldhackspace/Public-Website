@@ -39,9 +39,9 @@ facebook_username: "SHHMakers"
 instagram_username: "SHHMakers"
 
 # information - mainly used in spaceapi.json
-address: "Sheffield Hackspace, Portland Works, Randall St, Highfield, Sheffield S2 4SJ"
-latitude: 53.369933
-longitude: -1.473812
+address: "Sheffield Hackspace, Unit A11 Portland Works, Randall St, Highfield, Sheffield S2 4SJ"
+latitude: 53.3697502
+longitude: -1.4743996
 timezone: "Europe/London"
 
 # membership
