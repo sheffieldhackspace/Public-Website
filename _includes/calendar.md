@@ -19,42 +19,46 @@ Every 1st and 3rd Wednesday of the month from 6pm-9pm.
 </details>
 
 <!-- This will not show without js -->
-<div id="next-days" style="margin-top: 1em; margin-bottom: 1em;"></div>
+<div id="next-days"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/date-fns@4.1.0/cdn.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/rrule@2.8.1/dist/es5/rrule.min.js"></script>
 <script>
     const dateFormat = "EEEE, do 'of' MMMM";
     // calculate future days
-    const lookahead = "for 3";
-    const pairs = {
-        "Monday": `Every Monday ${lookahead}`,
-        "Thursday": `Every Thursday ${lookahead}`,
-        "Wednesday": `Every month on the 1st Wednesday and 3rd Wednesday ${lookahead}`,
-        "Saturday": `Every Saturday ${lookahead}`,
+    const lookahead = "for 2";
+    const dayTimes = { // monday is 1, tuesday is 2...
+        1: "6 - 9 pm", // monday
+        4: "6 - 9 pm", // wednesday
+        5: "6 - 9 pm", // thursday
+        6: "2 - 6 pm", // saturday
     };
-    const allSessions = Object.values(pairs).map(v => 
+    const futureOpenDays = [
+        `Every Monday ${lookahead}`,
+        `Every Thursday ${lookahead}`,
+        `Every month on the 1st Wednesday and 3rd Wednesday ${lookahead}`,
+        `Every Saturday ${lookahead}`,
+    ];
+    const allSessions = futureOpenDays.map(v => 
         rrule.RRule.fromText(v).all()
     ).flat().sort((a, b) => a - b).slice(0, 5);
-    console.log(allSessions);
     // display future days
     const nextDays = document.getElementById("next-days");
     const title = document.createElement("h4");
     title.textContent = "Next few nights";
-    title.style = "margin: 0; padding: 0;";
     nextDays.appendChild(title);
     const list = document.createElement("ul");
     const rtf1 = new Intl.RelativeTimeFormat("en", { style: "short" });
     const msIn24h = 1000 * 60 * 60 * 24; // ms in a day
     allSessions.forEach(date => {
-        const elapsed = Math.floor((date - Date.now()) / msIn24h) + 1;
+        const elapsed = Math.ceil((date - Date.now()) / msIn24h);
         const text = rtf1.format(elapsed, "day");
+        const dayTime = dayTimes[date.getDay()];
         const li = document.createElement("li");
         const p1 = document.createElement("span");
         const p2 = document.createElement("span");
-        p1.textContent = `(${elapsed == 0 ? "Today" : text}) `;
-        p2.textContent = dateFns.format(date, dateFormat);
-        p1.style = "color: rgba(0, 0, 0, 0.62); width: 10ch; display: inline-block;";
+        p1.textContent = `(${elapsed == 0 ? "Today" : text})`;
+        p2.textContent = `${dateFns.format(date, dateFormat)} @ ${dayTime}`;
         li.appendChild(p1);
         li.appendChild(p2);
         list.appendChild(li);
@@ -62,3 +66,18 @@ Every 1st and 3rd Wednesday of the month from 6pm-9pm.
     nextDays.appendChild(list);
 
 </script>
+<style>
+#next-days {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#next-days h4 {
+    margin: 0; 
+    padding: 0;
+}
+#next-days li :nth-child(1) {
+    color: rgba(0, 0, 0, 0.62); 
+    width: 10ch; 
+    display: inline-block;
+}
+</style>
