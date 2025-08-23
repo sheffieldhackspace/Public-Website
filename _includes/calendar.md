@@ -27,44 +27,55 @@ Every 1st and 3rd Wednesday of the month from 6pm-9pm.
     const dateFormat = "EEEE, do 'of' MMMM";
     // calculate future days
     const lookahead = "for 2";
-    const dayTimes = { // monday is 1, tuesday is 2...
+    const dayTimes = { 
         1: "6 - 9 pm", // monday
         4: "6 - 9 pm", // wednesday
         5: "6 - 9 pm", // thursday
         6: "2 - 6 pm", // saturday
     };
-    const futureOpenDays = [
+    const futureOpenDays = [ // natural language representation of what we want
         `Every Monday ${lookahead}`,
         `Every Thursday ${lookahead}`,
         `Every month on the 1st Wednesday and 3rd Wednesday ${lookahead}`,
         `Every Saturday ${lookahead}`,
     ];
-    const allSessions = futureOpenDays.map(v => 
+    const rtf1 = new Intl.RelativeTimeFormat("en", { style: "short" }); // how we convert back to a string
+    const msIn24h = 1000 * 60 * 60 * 24; // ms in a day
+    // all future sessions and picks the 5 closest ones
+    const allSessions = futureOpenDays.map(v =>
         rrule.RRule.fromText(v).all()
     ).flat().sort((a, b) => a - b).slice(0, 5);
-    // display future days
-    const nextDays = document.getElementById("next-days");
-    const title = document.createElement("h4");
-    title.textContent = "Next few nights";
-    nextDays.appendChild(title);
-    const list = document.createElement("ul");
-    const rtf1 = new Intl.RelativeTimeFormat("en", { style: "short" });
-    const msIn24h = 1000 * 60 * 60 * 24; // ms in a day
-    allSessions.forEach(date => {
+    // makes a title element with desired text
+    const makeTitle = (text) => {
+        const title = document.createElement("h4");
+        title.textContent = text;
+        return title;
+    }
+    // makes span with desired text
+    const makeSpan = (text) => {
+        const span = document.createElement("span");
+        span.textContent = text;
+        return span;
+    }
+    // this is the "(in 2 days)   Monday, 25th of August @ 6 - 9 pm" element.
+    const makeListItem = (date) => {
         const elapsed = Math.ceil((date - Date.now()) / msIn24h);
-        const text = rtf1.format(elapsed, "day");
-        const dayTime = dayTimes[date.getDay()];
+        const text = elapsed == 0 ? "Today" : rtf1.format(elapsed, "day"); 
+        const dayTime = dayTimes[date.getDay()]; // the date.getDay() function returns 0-6, with sunday being the start of the week.
         const li = document.createElement("li");
-        const p1 = document.createElement("span");
-        const p2 = document.createElement("span");
-        p1.textContent = `(${elapsed == 0 ? "Today" : text})`;
-        p2.textContent = `${dateFns.format(date, dateFormat)} @ ${dayTime}`;
-        li.appendChild(p1);
-        li.appendChild(p2);
-        list.appendChild(li);
-    });
-    nextDays.appendChild(list);
-
+        li.appendChild(makeSpan(`(${text})`));
+        li.appendChild(makeSpan(`${dateFns.format(date, dateFormat)} @ ${dayTime}`));
+        return li;
+    }
+    // makes the complete list with all the next 5 sessions
+    const makeList = (allSessions) => {
+        const list = document.createElement("ul");
+        allSessions.forEach(date => list.appendChild(makeListItem(date)));
+        return list;
+    }
+    const nextDays = document.getElementById("next-days");
+    nextDays.appendChild(makeTitle("Next few nights"));
+    nextDays.appendChild(makeList(allSessions));
 </script>
 <style>
 #next-days {
