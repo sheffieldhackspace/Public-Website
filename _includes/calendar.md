@@ -29,9 +29,12 @@ Every 1st and 3rd Wednesday of the month from 6pm-9pm.
     const lookahead = "for 2";
     const dayTimes = { 
         1: "6 - 9 pm", // monday
-        4: "6 - 9 pm", // wednesday
-        5: "6 - 9 pm", // thursday
+        2: "", // tuesday
+        3: "6 - 9 pm", // wednesday
+        4: "6 - 9 pm", // thursday
+        5: "", // friday
         6: "2 - 6 pm", // saturday
+        0: "" // sunday
     };
     const futureOpenDays = [ // natural language representation of what we want
         `Every Monday ${lookahead}`,
