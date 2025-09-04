@@ -35,7 +35,9 @@ iframe, video {
 
 What have members of Sheffield Hackspace been up to this two-months?
 
-Let's find out!
+Of course, a lot of effort was put towards [moving to the new space](/new-space)!
+
+Let's find out what else some members have been up to!
 
 1. [R](#r)
    1. [Custom sunglasses](#custom-sunglasses)
@@ -45,6 +47,8 @@ Let's find out!
    1. [Gauges](#gauges)
 4. [Nik](#nik)
    1. [Pinhole camera](#pinhole-camera)
+      1. [The lenses](#the-lenses)
+      2. [The pictures](#the-pictures)
 5. [alifeee](#alifeee)
    1. [Adding bench supports](#adding-bench-supports)
    2. [Painting a wall-board](#painting-a-wall-board)
@@ -75,6 +79,8 @@ R found some glasses frames, and some too-big sunglass lenses, so shaped the lat
 
 ### Laser-cut Skadis board
 
+> My laser cut Skadis board is finally up. I think the natural MDF looks is quite good. Plastic offsets are 3d printed of course
+
 <figure class="gallery" markdown="1">
 ![picture of a large laser-cut "Skadis" board with regular rectangular holes]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/rich_laser-skadis_1.webp)
 ![picture of two hooks in two holes in a board]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/rich_laser-skadis_2.webp)
@@ -85,6 +91,12 @@ R found some glasses frames, and some too-big sunglass lenses, so shaped the lat
 
 ### Gauges
 
+> As part of an ongoing project to create an interactive display based around the CubeSatSim that I have been lent I thought it would be nice to display the Solar Panel and Battery voltages in a way that was more than just 'numbers on a screen'.
+>
+> Initially I thought I'd use something like the analog dial gauges, either the voltmeter or ammeter variants.
+>
+> [...] continued on <https://blog.howrandom.net/37g-servo-analog-gauges/>
+
 <video controls preload="none" loop crossorigin poster="{{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/tom_gauges_1_PREVIEW.webp" style="max-height: 40rem;">
   <source src="{{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/tom_gauges_1.webm" type="video/webm">
 </video>
@@ -93,13 +105,9 @@ R found some glasses frames, and some too-big sunglass lenses, so shaped the lat
 
 ### Pinhole camera
 
-<figure  class="gallery" markdown="1">
-![blurry picture of street]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_1.webp)
-![blurry picture of building]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_2.webp)
-![bright, blurry picture of building]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_3.webp)
-![blurry picture of plant]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_4.webp)
-![blurry photo of desktop]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_5.webp)
-</figure>
+Nik had a go at making easy swap pinhole lenses to experiment with:
+
+#### The lenses
 
 <figure class="gallery" markdown="1">
 ![picture of digital camera with tinfoil covering the lens]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_setup_1.webp)
@@ -111,6 +119,16 @@ R found some glasses frames, and some too-big sunglass lenses, so shaped the lat
 ![picture of a very small pin-hole in some tinfoil, inside a camera lens]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_setup_7.webp)
 ![picture of a digital camera with a pinhole lens attached]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_setup_8.webp)
 ![picture of a camera with a laser-cut pinhole disc on the front]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_setup_9.webp)
+</figure>
+
+#### The pictures
+
+<figure  class="gallery" markdown="1">
+![blurry picture of street]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_1.webp)
+![blurry picture of building]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_2.webp)
+![bright, blurry picture of building]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_3.webp)
+![blurry picture of plant]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_4.webp)
+![blurry photo of desktop]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/nik_pinhole-cam_photos_5.webp)
 </figure>
 
 ## alifeee
@@ -185,6 +203,18 @@ There's more information on the [monitoring wiki page](https://wiki.sheffieldhac
 
 ### Blackstar Amp
 
+> I have picked up Blackstar Amped 1, which is a 100W amplifier with a USB-C audio interface, but also line out / speaker out.
+> But what is VERY COOL, is that it has 2× +9V outputs for pedals. The power source is also very quiet.
+> As a bonus I have 3d printed myself a stand that allows me to add a front pass-through of all relevant I/O ports from back of the unit.
+> In the end this has greatly reduced the footprint of things on my desk.
+>
+> As a bonus for the bonus. I've generated STL-s for this stand using OpenSCAD,
+> which is an open source piece of software that allows one to render 3D objects as code.
+> It is fairly inconsistent with commands and some things aren't as polished as Autodesk Fusion.
+> However, it has a bonus of being able to keep the fairly simple code in the Github and not having to pay for it.
+>
+> <https://github.com/dredzik/blackstar-amped1-port-stand>
+
 <figure class="gallery" markdown="1">
 ![picture of amp without cover]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_blackstar-amp_1.webp)
 ![picture of amp near other music equipment]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_blackstar-amp_3.webp)
@@ -193,9 +223,22 @@ There's more information on the [monitoring wiki page](https://wiki.sheffieldhac
 
 ### Food thermometer hacking
 
+> Food thermometer no longer needs an app and an account in the cloud.
+
 ![picture of some electronics showing temperature readings]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_food-thermometer_1.webp)
 
 ### Food processor repair
+
+> How long does it take food graded grease to become solid? 14 years.
+> We've disassembled a kMix, ordered replacement parts, and will be spending tomorrow trying to remove all that grease from the insides.
+>
+> But also: You can still get all the replacement parts for this 14 year old kMix, and they're dead cheap.
+
+> 2 days later, the kMix mechanism is completely dismantled and all of its old grease has been removed.
+> I am now letting it vent out all the petrol, before I will re-grease and assemble it again.
+> 
+> The only souvenir I got is the main cogwheel that I replaced just in case as it was advised online. It works.
+> It stopped grinding and the faint grease compacting noise on the video is now gone as well.
 
 <figure class="gallery" markdown="1">
 ![picture of greasy inside gear of food processor]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_kmix-fix_1.webp)
@@ -213,6 +256,20 @@ There's more information on the [monitoring wiki page](https://wiki.sheffieldhac
 
 ### Parametric EQ
 
+> Parametric EQ became an actual product prototype. The white square is to hide the branding, as it is not yet decided nor registered.
+> I have ordered the case from Tayda Electronics and I managed to make everything aligned correctly with version 1.
+>
+> I have since been ironing out a lot of kinks:
+>
+> * Can I get a footswitch of the right length, so I don't have to adjust the inner stopper with every pedal? (Yes)
+> * Can I speed up assembly of the footswitch connection? (Yes, I used JST XH and bought precrimped wired) 
+> * Can I create a soldering jig to align potentiometers and LED fast? (Yes)
+> * Can I get an LED stand-offs, so I can solder them the right distance from the PCB each time and improve their rigidity? (Yes)]
+>
+> BTW: Temple Audio Pedalboards have quick mount plates that you glue to the back of your guitar effects so that you can easily attach them to the board.
+> Which is fine if you are very precise with aligning them, or you're not bothered by them being uneven.
+> I on the other hand, have printed a set of alignment tools.
+
 <figure class="gallery" markdown="1">
 ![picture of a pedalboard backboard]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_parametric-eq_2.webp)
 ![picture of lots of music fiddling equipment]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_parametric-eq_3.webp)
@@ -220,6 +277,12 @@ There's more information on the [monitoring wiki page](https://wiki.sheffieldhac
 </figure>
 
 ### Tube Screamer Topology Prototype
+
+> Tube Screamer topology prototype.
+> I have moved away from 2 transistors + 2 opamps, to 4 opamps design, so I can put the whole effect in one TL074.
+> The 2 transistors were there as an input and output buffers so it was fairly easy to switch to OpAmps with gain 1 without change in the voicing.
+>
+> I am now adjusting values of some high / low pass filters on the way more to my liking, and later I will mod the tone section a bit.
 
 ![picture of breadboard with lots of components, conections, and 3 potentiometers]({{site.baseurl}}/assets/blog/2025-09-02-month-updates-july-august-2025/adam_tube-screamer-proto_1.webp)
 
