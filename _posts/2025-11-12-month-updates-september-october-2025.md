@@ -155,7 +155,7 @@ The final result:
 ### Environment monitoring of the Hackspace
 
 > I set up a system ([source](https://github.com/sheffieldhackspace/hackspace-sensing-mqtt-listener))
-> on the Hackspace MQTT network which listens to message like…
+> on the Hackspace MQTT network which listens to messages like…
 > 
 > ```mqtt
 > SHHNoT/environment/room<X>/sensor<Y>/<measurement> <value>`
