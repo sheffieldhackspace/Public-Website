@@ -1,12 +1,12 @@
-  - name: Main Room
-    image: /assets/images/upstairs-pano.jpg
-    alt:
-    content: The main room has a big table mainly used for coding, chatting and crafting.
-  - name: Back Room
-    image: /assets/images/back-room-pano.jpg
-    alt:
-    content: The back room has a laser cutter, a wall of 3D printers, and a well-stocked electronics workbench.
-  - name: Downstairs
-    image: /assets/images/downstairs-pano.jpg
-    alt:
-    content: Downstairs has a wide range of wood-working, metal-working and other tools for building your next project.
+  # - name: Main Room
+  #   image: /assets/images/upstairs-pano.jpg
+  #   alt:
+  #   content: The main room has a big table mainly used for coding, chatting and crafting.
+  # - name: Back Room
+  #   image: /assets/images/back-room-pano.jpg
+  #   alt:
+  #   content: The back room has a laser cutter, a wall of 3D printers, and a well-stocked electronics workbench.
+  # - name: Downstairs
+  #   image: /assets/images/downstairs-pano.jpg
+  #   alt:
+  #   content: Downstairs has a wide range of wood-working, metal-working and other tools for building your next project.
