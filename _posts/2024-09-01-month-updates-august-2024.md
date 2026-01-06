@@ -4,7 +4,7 @@ date: '2024-09-01T00:00:00+01:00'
 author: alifeee
 layout: post
 permalink: /month-updates-august-2024/
-excerpt: Month updates from August 2024 - what's been going on around Sheffield Hackspace?
+excerpt: "Month updates from August 2024 - what's been going on around Sheffield Hackspace? <br> ![](/assets/blog/2024-09-01-month-updates-august-2024/matthew - trophy 2.webp)"
 ---
 <style>
 .gallery p {

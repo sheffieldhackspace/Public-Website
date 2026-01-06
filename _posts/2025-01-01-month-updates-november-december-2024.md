@@ -4,7 +4,7 @@ date: '2025-01-01T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-november-december-2024/
-excerpt: "Month updates from November & December 2024 - what's been going on around Sheffield Hackspace?"
+excerpt: "Month updates from November & December 2024 - what's been going on around Sheffield Hackspace? <br> ![](/assets/blog/2025-01-01-month-updates-november-december-2024/alfie - co2 sign.webp)"
 ---
 <style>
 .gallery {

@@ -4,7 +4,7 @@ date: '2024-09-24T00:00:00+01:00'
 author: 'alifeee'
 layout: post
 permalink: /sellotape-dispenser/
-excerpt:
+excerpt: '![](/assets/blog/2024-09-24-sellotape-dispenser/wheel.jpg)'
 ---
 <style>
   /* custom element styles */

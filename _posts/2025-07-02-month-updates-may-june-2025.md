@@ -4,7 +4,7 @@ date: '2025-07-02T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-may-june-2025/
-excerpt: "Month updates from May & June 2025 - what's been going on around Sheffield Hackspace?"
+excerpt: "Month updates from May & June 2025 - what's been going on around Sheffield Hackspace? <br> ![](/assets/blog/2025-07-02-month-updates-may-june-2025/tom_portable-weaving-kit_1.webp)"
 ---
 <style>
 .gallery {
@@ -44,7 +44,7 @@ Let's find out!
 3. [Rich](#rich)
    1. [Creating a custom 3D Printer Head](#creating-a-custom-3d-printer-head)
 4. [Adam](#adam)
-   1. [making a 3 band parametric equation prototype](#making-a-3-band-parametric-equation-prototype)
+   1. [Making a 3 band parametric equation prototype](#making-a-3-band-parametric-equation-prototype)
 5. [Dave](#dave)
    1. [Making a custom bay-window cabinet-bench](#making-a-custom-bay-window-cabinet-bench)
    2. [Making a DIY door archetrave](#making-a-diy-door-archetrave)
