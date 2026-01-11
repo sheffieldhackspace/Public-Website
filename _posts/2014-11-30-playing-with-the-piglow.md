@@ -10,7 +10,7 @@ categories:
     - 'Members'' Projects'
 ---
 
-![]({{ site.baseurl }}/assets/blog/2014-11-30-playing-with-the-piglow/IMG_20141115_140513b.jpg)
+![]({{ site.baseurl }}/assets/blog/2014-11-30-playing-with-the-piglow/IMG_20141115_140513b.webp)
 
 Playing with the [PiGlow](http://shop.pimoroni.com/products/piglow)
 

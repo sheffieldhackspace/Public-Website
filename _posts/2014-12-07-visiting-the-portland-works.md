@@ -10,6 +10,7 @@ categories:
     - Events
     - 'Hacking the space'
     - 'Hackspace Visits'
+excerpt: '<img src="/assets/blog/2014-12-07-visiting-the-portland-works/PANO_20141207_1032051.webp">'
 ---
 ![]({{ site.baseurl }}/assets/blog/2014-12-07-visiting-the-portland-works/PANO_20141207_1032051.jpg)
 

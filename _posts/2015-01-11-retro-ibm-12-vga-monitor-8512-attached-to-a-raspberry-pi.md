@@ -11,7 +11,7 @@ categories:
     - 'Raspberry pi'
 ---
 
-![]({{ site.baseurl }}/assets/blog/2015-01-11-retro-ibm-12-vga-monitor-8512-attached-to-a-raspberry-pi/20150107_222920.jpg)
+![]({{ site.baseurl }}/assets/blog/2015-01-11-retro-ibm-12-vga-monitor-8512-attached-to-a-raspberry-pi/20150107_222920.webp)
 One of our members, [James Muirhead](http://www.twitter.com/phantomfreak), managed to get a classic IBM monitor working with his Raspberr pi! He says:
 
 ### Reasons for doing this…

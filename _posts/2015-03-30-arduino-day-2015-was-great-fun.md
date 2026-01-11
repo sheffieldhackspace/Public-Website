@@ -13,6 +13,7 @@ categories:
 ---
 
 ![]({{ site.baseurl }}/assets/blog/2015-03-30-arduino-day-2015-was-great-fun/merge.jpg)
+
 ![]({{ site.baseurl }}/assets/blog/2015-03-30-arduino-day-2015-was-great-fun/Main-room-pano.png)
 
 Our meetup (and first public event in the new space!) for Arduino Day 2015 went brilliantly, thanks to all who came. Lots of new faces and old friends called in through the day, for a series of talks about getting started with Arduino, and to check out each others’ projects. A good time — and some really great discussions — were had.

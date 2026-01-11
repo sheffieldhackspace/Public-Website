@@ -10,7 +10,7 @@ categories:
     - Uncategorized
 tags:
     - visit
-excerpt: "alifeee and Nik volunteered at Liverpool MakeFest... this is what they found, thought, and found wonder about within! <br> ![](/assets/blog/2024-07-08-liverpool-makefest/wirral-makefest.jpg)"
+excerpt: "alifeee and Nik volunteered at Liverpool MakeFest... this is what they found, thought, and found wonder about within! <br> ![](/assets/blog/2024-07-08-liverpool-makefest/wirral-makefest.webp)"
 ---
 alifeee and Nik volunteered at Liverpool MakeFest... this is what they found, thought, and found wonder about within!
 

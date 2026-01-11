@@ -16,6 +16,7 @@ tags:
     - 'network of things'
     - NOT
     - sensor
+excerpt: '<img src="/assets/blog/2015-08-12-indoor-environment-sensor-with-esp8266/Burnell-Bot-Breadboard.webp">'
 ---
 
 ![]({{ site.baseurl }}/assets/blog/2015-08-12-indoor-environment-sensor-with-esp8266/Burnell-Bot-Breadboard.jpg)
