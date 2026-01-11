@@ -4,7 +4,7 @@ date: '2026-01-06T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-november-december-2026/
-excerpt: "Month updates from November & December 2025 - what's been going on around Sheffield Hackspace?"
+excerpt: 'What have members of Sheffield Hackspace been up to this two-months?<br> ![](/assets/blog/2026-01-06-month-updates-november-december-2025/space_busy-night1.webp)'
 ---
 <style>
 .gallery {
