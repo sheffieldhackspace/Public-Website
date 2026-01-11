@@ -14,6 +14,7 @@ tags:
     - LaserCutting
     - Making
     - Robots
+excerpt: '<img src="/assets/blog/2014-02-20-february-the-15th-build-day/20140220-184837.webp">'
 ---
 
 ![]({{ site.baseurl }}/assets/blog/2014-02-20-february-the-15th-build-day/20140220-184837.jpg)

@@ -8,6 +8,7 @@ guid: 'http://www.sheffieldhardwarehackers.org.uk/wordpress/?p=1197'
 permalink: /nixie-clock-prototype/
 categories:
     - 'Members'' Projects'
+excerpt: '<img src="/assets/blog/2016-05-15-nixie-clock-prototype/IMG_20160514_155342.webp">'
 ---
 
 ![]({{ site.baseurl }}/assets/blog/2016-05-15-nixie-clock-prototype/IMG_20160514_155342.jpg)
