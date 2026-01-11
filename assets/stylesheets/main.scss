@@ -32,3 +32,11 @@ img {
   // so that missing images are obviously missing (alt text goes red)
   color: red;
 }
+
+// styling for blog preview images
+.entry-excerpt p {
+  line-height: 1.2lh;
+}
+.entry-excerpt img {
+  max-height: calc(min(25rem, 80vh));
+}

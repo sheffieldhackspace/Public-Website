@@ -6,7 +6,7 @@ layout: post
 permalink: /learning-how-to-build-guitar-effect-pedals/
 excerpt: "I have been playing guitar since I was 15, but I never could make it a routine. This changed in
 2020 when the plague hit and I discovered Yousician. The gamification of the experience gave my
-ADHD the dopamine hits I was craving. I was hooked."
+ADHD the dopamine hits I was craving. I was hooked. <br> ![](/assets/blog/2024-12-07-learning-how-to-build-guitar-effect-pedals/1.jpeg)"
 ---
 ## Background
 

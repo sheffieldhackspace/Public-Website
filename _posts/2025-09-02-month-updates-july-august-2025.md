@@ -4,7 +4,7 @@ date: '2025-09-02T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-july-august-2025/
-excerpt: "Month updates from July & August 2025 - what's been going on around Sheffield Hackspace?"
+excerpt: "What have members of Sheffield Hackspace been up to this two-months?<br> ![](/assets/blog/2025-09-02-month-updates-july-august-2025/adam_food-thermometer_1.webp)"
 ---
 <style>
 .gallery {

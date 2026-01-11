@@ -4,7 +4,7 @@ date: '2025-05-12T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-march-april-2025/
-excerpt: "Month updates from March & April 2025 - what's been going on around Sheffield Hackspace?"
+excerpt: "Month updates from March & April 2025 - what's been going on around Sheffield Hackspace? <br> ![](/assets/blog/2025-05-12-month-updates-march-april-2025/Jon_puzzle-boxes1.webp)"
 ---
 <style>
 .gallery {

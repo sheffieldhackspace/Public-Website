@@ -4,7 +4,7 @@ date: '2024-08-01T00:00:00+01:00'
 author: alifeee
 layout: post
 permalink: /month-updates-july-2024/
-excerpt: Month updates from July 2024 - what's been going on around Sheffield Hackspace?
+excerpt: "Month updates from July 2024 - what's been going on around Sheffield Hackspace? <br> ![](/assets/blog/2024-08-01-month-updates-july-2024/rich-pen-plotter-1.webp)"
 ---
 <style>
 .gallery p {
@@ -38,6 +38,7 @@ Let's find out!
 8. [alifeee - rag rug](#alifeee---rag-rug)
 9. [Rich - vertical pen plotter](#rich---vertical-pen-plotter)
 10. [Alex - plants](#alex---plants)
+11. [That's all](#thats-all)
 
 ## We opened up a gift box from Pimoroni
 

@@ -4,7 +4,7 @@ date: '2025-03-03T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-january-february-2025/
-excerpt: "Month updates from January & February 2025 - what's been going on around Sheffield Hackspace?"
+excerpt: "Month updates from January & February 2025 - what's been going on around Sheffield Hackspace? <br> ![](/assets/blog/2025-03-03-month-updates-january-february-2025/Louise - tape holders 1.webp)"
 ---
 <style>
 .gallery {
@@ -38,7 +38,7 @@ Let's find out!
 
 1. [Workshops](#workshops)
 2. [Louise - 3D printed tape holders](#louise---3d-printed-tape-holders)
-3. [Dom & alifeee - investigating a Sheffield bus sign](#dom--alifeee---investigating-a-sheffield-bus-sign)
+3. [Dom \& alifeee - investigating a Sheffield bus sign](#dom--alifeee---investigating-a-sheffield-bus-sign)
 4. [James - outdoor temperature sensor](#james---outdoor-temperature-sensor)
 5. [Dave - CNC machining](#dave---cnc-machining)
 6. [Louise - homemade coffee table](#louise---homemade-coffee-table)
