@@ -1,12 +1,12 @@
 <header class="intro">
 	{% if page.image %}
 	{% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
-	<div class="intro-image" style='background-image: url({{ intro_image }});'></div>
+	{% include full-width-image.html content=intro_image alt=page.image_alt %}
 	{% endif %}
 
 	<div class="inner">
 		<div class="intro-text">
-			<h1 id="page-title" class="intro-title">{{ page.alt_title | default: page.title | default: site.title | markdownify | strip_html }}</h1>
+			<h2 id="page-title" class="intro-title">{{ page.alt_title | default: page.title | default: site.title | markdownify | strip_html }}</h2>
 			{% if page.sub_title %}
 			<p class="intro-subtitle">{{ page.sub_title | markdownify | strip_html }}</p>
 			{% endif %}
