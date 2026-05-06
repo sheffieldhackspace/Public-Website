@@ -4,7 +4,7 @@ date: '2026-05-06T00:00:00+00:00'
 author: alifeee
 layout: post
 permalink: /month-updates-march-april-2026/
-excerpt: 'What have members of Sheffield Hackspace been up to this two-months?<br> ![](/assets/blog/2026-03-02-month-updates-january-february-2026/repair-cafe_11.webp)'
+excerpt: 'What have members of Sheffield Hackspace been up to this two-months?<br> ![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_1.webp)'
 ---
 <style>
 .gallery {
@@ -200,7 +200,7 @@ They're doing great! SCBP's "supported DIY" model is really nice.
 
 ### trying out an embroidery machine
 
-tried it out
+I recently got to try using a friends' embroidery machine, which was very cool. I did some test designs (fills, lines, etc), and finished it off by making the robot from [my favourite robot picture](https://alifeee.net/favourites/#images).
 
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_embroidery_1.webp)
@@ -214,7 +214,11 @@ tried it out
 </video>
 </figure>
 
-made blummit patches (step 1 2 3)
+I came back a couple of weeks later to make some patches for a [group hitchhiking trip](https://alifeee.net/blummit/) (we got one each).
+
+I followed some guidance from the University of Geneva's Edutech wiki, on the pages '[Embroidery Patch](https://edutechwiki.unige.ch/en/Embroidery_patch)' and '[InkStitch - Embroidery Patch](https://edutechwiki.unige.ch/en/InkStitch_-_embroidery_patch)'.
+
+In effect, I cut a circle of felt and stuck it to the backing with fabric glue, then used the embroidery machine to sew: a tacking stitch to stick the patch down; a satin stitch around the edge; a blobby bit; and the text. I didn't have fancy backing, so I just carefully cut it off with scissors. I fit a few patches in each frame. You can see some of those processes here:
 
 <figure class="gallery" markdown="1">
 
@@ -225,10 +229,10 @@ made blummit patches (step 1 2 3)
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_embroidery_15.webp)
 </figure>
 
-finished patches and some slow-mo video
+I was very happy with the finished patches. I ended up (in the luck-of-the-draw) getting the
+top left one, which is now sewn onto my backpack.
 
 <figure class="gallery" markdown="1">
-
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_embroidery_6.webp)
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_embroidery_7.webp)
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_embroidery_16.webp)
@@ -239,11 +243,22 @@ finished patches and some slow-mo video
 
 ### hosting a talk at Front End Sheffield
 
+I did a talk at Front End Sheffield (FES) in March, titled "Microhacking the Modern Web". The blurb was:
+
+>  A series of short talks – to match our modern short attention spans – about modifying websites and web-technology to make them more usable and accessible by all. Topics will journey through local events websites, past Internet-of-Things-enabled weighing scales, via free company-bus schemes, around the Xbox game pass, by web-calendars, and end at $subject_to_change.
+> 
+> For each project, we will ask: what did the website fail to do? how did we make it better? how can other people make use of it in a non-technical way? and – what were the existing solutions? Talks will not be related through the technologies used, but through the hobby-based, DIY nature of them, and how small technologies affect the less-technical human experience. No AI has been, is, or will be, involved.
+
+You can find the slides on my [talks and workshops page](https://alifeee.net/talks-and-workshops/#microhacking-the-modern-web).
+
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_festalk_1.webp)
 </figure>
 
 ### replacing the sewing machine needle threader
+
+I replaced the sewing machine "auto-threader", as ours was bent beyond repair.
+Now it's very easy to thread the needle. Just press, and pull!
 
 <figure class="gallery" markdown="1">
 <video controls preload="none" loop crossorigin poster="/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_needlethreader_v1_PREVIEW.webp" style="max-height: 40rem;">
@@ -254,20 +269,26 @@ finished patches and some slow-mo video
 
 ### writing blog posts
 
-<https://blog.alifeee.net/2026/04/owntracks/>
+I wrote two blog posts in April, both about similar things. The first, more technical and
+hack-y about using your own location tracking. The second about this in action. You can read
+them on
 
-<https://blog.alifeee.net/2026/04/blummit2grenoble/>
+- <https://blog.alifeee.net/2026/04/owntracks/>
+- <https://blog.alifeee.net/2026/04/blummit2grenoble/>
 
 ### trying out the new overlocker
 
-new lent !
+Kindly, a hackspace member has lent their overlocker for use at the hackspace. We've been
+giving people inductions – it looks quite complicated but if you've used a sewing machine
+there are (believably) a lot of similarities. Just some complications getting all the
+threads in the right places.
 
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_overlocker_2.webp)
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_overlocker_1.webp)
 </figure>
 
-before/after
+One of my test goes with the overlocker was edging a nice tea-towel that had frayed.
 
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_overlocker_4.webp)
@@ -275,6 +296,12 @@ before/after
 </figure>
 
 ### fixing a broken tent
+
+Probably the biggest thing I've had (or will ever have) under the sewing machine, I put
+a new (maybe waterproof, maybe not) hat on a broken teepee.
+
+The purple fabric was a patch of tent-material that my neighbour gave me after seeing
+me in the street inspecting what the damage was.
 
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_tent_1.webp)
@@ -284,6 +311,12 @@ before/after
 </figure>
 
 ### making a trident prop
+
+For a costume party, I made a trident. I found two large, thick, cardboard tubes at
+[Scrap Dragon](https://www.scrapdragonsheffield.com/) in Sheffield, and designed
+and 3D printed an attachment. I cut the cardboard to size, glued it with hot glue,
+and painted it black with acrylic paint. I was quite impressed how sturdy it was
+in the end :]
 
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_trident_1.webp)
@@ -296,6 +329,8 @@ before/after
 
 ## Dave - the Milo Mill goes on tour
 
+Dave took our Milo mill for a little holiday to [SMMRF](https://www.sanjaymortimerfoundation.org/):
+
 > The Millennium Machines and Desktop Machine Shop teams would like to thank Sheffield Hackspace
 > for lending their Milo v1.5 to be displayed at SMRRF 2026. We ended up with a fantastic display
 > showcasing all the currently available Milo versions from v1.5 to V2! As always it was a fantastic
@@ -306,6 +341,8 @@ before/after
 </figure>
 
 ## Ellie - project: Bake a Cake
+
+Ellie had a go at baking and decorating :]
 
 > Project: Bake a Cake is a resounding success I'd say 🥳
 
@@ -330,8 +367,8 @@ before/after
 > both are made with reclaimed wood and materials from an old futon and some leftover decking.
 
 <figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/jon_garden-wood_1.webp)
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/jon_garden-wood_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/jon_garden-wood_1.webp)
 </figure>
 
 ### PID-controlled kiln
