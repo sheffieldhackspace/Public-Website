@@ -46,7 +46,22 @@ Let's find out what else some members have been up to!
    1. [hacking into bus signs](#hacking-into-bus-signs)
    2. [fixing a car leak](#fixing-a-car-leak)
    3. [organising wire scraps with 3D printing](#organising-wire-scraps-with-3d-printing)
-4. [alifeee](#alifeee)
+4. [Robin](#robin)
+   1. [frame-making workshop](#frame-making-workshop)
+   2. [new PPE caddy](#new-ppe-caddy)
+   3. [fixing adjustment wheel](#fixing-adjustment-wheel)
+5. [Saphy](#saphy)
+   1. [medieval belt](#medieval-belt)
+   2. [helping fix a wristwatch at the repair café](#helping-fix-a-wristwatch-at-the-repair-café)
+6. [Richard](#richard)
+   1. [Adjustable TTP223 touch sensor using an improvised capacitor.](#adjustable-ttp223-touch-sensor-using-an-improvised-capacitor)
+   2. [A large touch panel using cheap TTP223 and sensing wires.](#a-large-touch-panel-using-cheap-ttp223-and-sensing-wires)
+7. [Tom](#tom)
+   1. [making a bag with EMF fabric](#making-a-bag-with-emf-fabric)
+   2. [making knives](#making-knives)
+   3. [telescope](#telescope)
+8. [Ellie - project: Bake a Cake](#ellie---project-bake-a-cake)
+9. [alifeee](#alifeee)
    1. [fitting a new bike derailleur and shifter](#fitting-a-new-bike-derailleur-and-shifter)
    2. [trying out an embroidery machine](#trying-out-an-embroidery-machine)
    3. [hosting a talk at Front End Sheffield](#hosting-a-talk-at-front-end-sheffield)
@@ -55,25 +70,10 @@ Let's find out what else some members have been up to!
    6. [trying out the new overlocker](#trying-out-the-new-overlocker)
    7. [fixing a broken tent](#fixing-a-broken-tent)
    8. [making a trident prop](#making-a-trident-prop)
-5. [Dave - the Milo Mill goes on tour](#dave---the-milo-mill-goes-on-tour)
-6. [Ellie - project: Bake a Cake](#ellie---project-bake-a-cake)
-7. [Jon](#jon)
-   1. [DIY wooden garden furniture](#diy-wooden-garden-furniture)
-   2. [PID-controlled kiln](#pid-controlled-kiln)
-8. [Richard](#richard)
-   1. [Adjustable TTP223 touch sensor using an improvised capacitor.](#adjustable-ttp223-touch-sensor-using-an-improvised-capacitor)
-   2. [A large touch panel using cheap TTP223 and sensing wires.](#a-large-touch-panel-using-cheap-ttp223-and-sensing-wires)
-9. [Robin](#robin)
-   1. [frame-making workshop](#frame-making-workshop)
-   2. [new PPE caddy](#new-ppe-caddy)
-   3. [fixing adjustment wheel](#fixing-adjustment-wheel)
-10. [Saphy](#saphy)
-    1. [medieval belt](#medieval-belt)
-    2. [helping fix a wristwatch at the repair café](#helping-fix-a-wristwatch-at-the-repair-café)
-11. [Tom](#tom)
-    1. [making a bag with EMF fabric](#making-a-bag-with-emf-fabric)
-    2. [making knives](#making-knives)
-    3. [telescope](#telescope)
+10. [Jon](#jon)
+    1. [DIY wooden garden furniture](#diy-wooden-garden-furniture)
+    2. [PID-controlled kiln](#pid-controlled-kiln)
+11. [Dave - the Milo Mill goes on tour](#dave---the-milo-mill-goes-on-tour)
 
 ## 2026 AGM
 
@@ -171,6 +171,149 @@ Adam's been investigating the engineering excellency in their car:
 
 <figure class="gallery" markdown="1">
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/adam_wirescraps_1.webp)
+</figure>
+
+## Robin
+
+### frame-making workshop
+
+> Over the last few weeks I instructed a few intrepid souls on a picture frame workshop,
+> during which I attempted to walk through some of the techniques I've picked up.
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_1.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_4.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_5.webp)
+</figure>
+
+### new PPE caddy
+
+> For a while now PPE has been stored in various places around the woodshop,
+> sometimes a bit out of sight. I delved into the scrap bin and threw together
+> a caddy for the hearing and eye protection to hopefully make them easier to find and use.
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_ppe_1.webp)
+</figure>
+
+### fixing adjustment wheel
+
+> The table saw height adjustment wheel needed a replacement pin to hold it to the shaft.
+> A bit of surgery on a nail proved to be an appropriately hack-y solution.
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_wheel_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_wheel_1.webp)
+</figure>
+
+## Saphy
+
+### medieval belt
+
+> I cut and finished a leather strap, sewed in a buckle and then added
+> decorative riveted metal bits
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/saphy_belt_1.webp)
+</figure>
+
+### helping fix a wristwatch at the repair café
+
+> I'm gluing on the baguettes that mark the hours on the face but I didn't
+> really do any other fixing for it, I just got summoned to manipulate the tweezers
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/saphy_watch_1.webp)
+</figure>
+
+## Richard
+
+Richard has made two YouTube videos this month(s):
+
+### Adjustable TTP223 touch sensor using an improvised capacitor.
+
+<iframe width="1350" height="759" src="https://www.youtube.com/embed/sz4BQjFCjYE" title="Adjustable TTP223 touch sensor using an improvised capacitor." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### A large touch panel using cheap TTP223 and sensing wires.
+
+> Touch-pad proof of concept. I had to make my own capacitors to reduce the sensitivity of
+> the sensors as they were triggering each other, twinkling like a Christmas tree!
+> 
+> If anyone fancies implementing a touch surface on the LED table in room C, here is a starting
+> point. I intend to experiment and develop the touch surface hardware a bit further before losing interest...
+
+<iframe width="1350" height="759" src="https://www.youtube.com/embed/qQ2w5MnCcc4" title="A large touch panel using cheap TTP223 and sensing wires." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<figure class="gallery" markdown="1">
+<video controls preload="none" loop crossorigin poster="/assets/blog/2026-05-06-month-updates-march-april-2026/richard_touchpad_v1_PREVIEW.webp" style="max-height: 40rem;">
+  <source src="/assets/blog/2026-05-06-month-updates-march-april-2026/richard_touchpad_v1.webm" type="video/webm">
+</video>
+</figure>
+
+## Tom
+
+### making a bag with EMF fabric
+
+> When you remember you have EMF fabric, and it’s an [EMF](https://www.emfcamp.org/) year.
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_emfbag_1.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_emfbag_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_emfbag_3.webp)
+</figure>
+
+### making knives
+
+> It’s knife time of year again.
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_1.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_3.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_4.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_5.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_6.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_7.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_8.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_9.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_10.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_11.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_12.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_13.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_14.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_15.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_16.webp)
+</figure>
+
+### telescope
+
+Tom's been taking exposures of the night sky, using astrophotography tricks and a
+custom-made astrophotography telescope, specifically this one:
+
+- <https://www.printables.com/model/1179616-dbs-114-v2-astrograph-3d-printable-astrophotograph/files>
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_1.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_3.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_4.webp)
+</figure>
+
+## Ellie - project: Bake a Cake
+
+Ellie had a go at baking and decorating :]
+
+> Project: Bake a Cake is a resounding success I'd say 🥳
+
+<figure class="gallery" markdown="1">
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_1.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_2.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_3.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_4.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_5.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_6.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_7.webp)
 </figure>
 
 ## alifeee
@@ -327,35 +470,6 @@ in the end :]
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/alifeee_trident_7.webp)
 </figure>
 
-## Dave - the Milo Mill goes on tour
-
-Dave took our Milo mill for a little holiday to [SMMRF](https://www.sanjaymortimerfoundation.org/):
-
-> The Millennium Machines and Desktop Machine Shop teams would like to thank Sheffield Hackspace
-> for lending their Milo v1.5 to be displayed at SMRRF 2026. We ended up with a fantastic display
-> showcasing all the currently available Milo versions from v1.5 to V2! As always it was a fantastic
-> show and we would recommend it if you get a chance to go visit it next year!
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/dave_milo_1.webp)
-</figure>
-
-## Ellie - project: Bake a Cake
-
-Ellie had a go at baking and decorating :]
-
-> Project: Bake a Cake is a resounding success I'd say 🥳
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_1.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_2.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_3.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_4.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_5.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_6.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/ellie_cake_7.webp)
-</figure>
-
 ## Jon
 
 ### DIY wooden garden furniture
@@ -383,128 +497,17 @@ Ellie had a go at baking and decorating :]
 ![](/assets/blog/2026-05-06-month-updates-march-april-2026/jon_pid_1.webp)
 </figure>
 
-## Richard
+## Dave - the Milo Mill goes on tour
 
-### Adjustable TTP223 touch sensor using an improvised capacitor.
+Dave took our Milo mill for a little holiday to [SMMRF](https://www.sanjaymortimerfoundation.org/):
 
-> I finally got around to showing how to make capacitors
-
-<iframe width="1350" height="759" src="https://www.youtube.com/embed/sz4BQjFCjYE" title="Adjustable TTP223 touch sensor using an improvised capacitor." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-### A large touch panel using cheap TTP223 and sensing wires.
-
-> Touch-pad proof of concept. I had to make my own capacitors to reduce the sensitivity of
-> the sensors as they were triggering each other, twinkling like a Christmas tree!
-> 
-> If anyone fancies implementing a touch surface on the LED table in room C, here is a starting
-> point. I intend to experiment and develop the touch surface hardware a bit further before losing interest...
-
-<iframe width="1350" height="759" src="https://www.youtube.com/embed/qQ2w5MnCcc4" title="A large touch panel using cheap TTP223 and sensing wires." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> The Millennium Machines and Desktop Machine Shop teams would like to thank Sheffield Hackspace
+> for lending their Milo v1.5 to be displayed at SMRRF 2026. We ended up with a fantastic display
+> showcasing all the currently available Milo versions from v1.5 to V2! As always it was a fantastic
+> show and we would recommend it if you get a chance to go visit it next year!
 
 <figure class="gallery" markdown="1">
-<video controls preload="none" loop crossorigin poster="/assets/blog/2026-05-06-month-updates-march-april-2026/richard_touchpad_v1_PREVIEW.webp" style="max-height: 40rem;">
-  <source src="/assets/blog/2026-05-06-month-updates-march-april-2026/richard_touchpad_v1.webm" type="video/webm">
-</video>
-</figure>
-
-## Robin
-
-### frame-making workshop
-
-> Over the last few weeks I instructed a few intrepid souls on a picture frame workshop,
-> during which I attempted to walk through some of the techniques I've picked up.
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_1.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_2.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_4.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_framing_5.webp)
-</figure>
-
-### new PPE caddy
-
-> For a while now PPE has been stored in various places around the woodshop,
-> sometimes a bit out of sight. I delved into the scrap bin and threw together
-> a caddy for the hearing and eye protection to hopefully make them easier to find and use.
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_ppe_1.webp)
-</figure>
-
-### fixing adjustment wheel
-
-> The table saw height adjustment wheel needed a replacement pin to hold it to the shaft.
-> A bit of surgery on a nail proved to be an appropriately hack-y solution.
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_wheel_2.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/robin_wheel_1.webp)
-</figure>
-
-## Saphy
-
-### medieval belt
-
-> I cut and finished a leather strap, sewed in a buckle and then added
-> decorative riveted metal bits
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/saphy_belt_1.webp)
-</figure>
-
-### helping fix a wristwatch at the repair café
-
-> I'm gluing on the baguettes that mark the hours on the face but I didn't
-> really do any other fixing for it, I just got summoned to manipulate the tweezers
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/saphy_watch_1.webp)
-</figure>
-
-## Tom
-
-### making a bag with EMF fabric
-
-> When you remember you have EMF fabric, and it’s an EMF year.
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_emfbag_1.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_emfbag_2.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_emfbag_3.webp)
-</figure>
-
-### making knives
-
-> It’s knife time of year again.
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_1.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_2.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_3.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_4.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_5.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_6.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_7.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_8.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_9.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_10.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_11.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_12.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_13.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_14.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_15.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_knives_16.webp)
-</figure>
-
-### telescope
-
-> <https://www.printables.com/model/1179616-dbs-114-v2-astrograph-3d-printable-astrophotograph/files>
-
-<figure class="gallery" markdown="1">
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_1.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_2.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_3.webp)
-![](/assets/blog/2026-05-06-month-updates-march-april-2026/tom_telescope_4.webp)
+![](/assets/blog/2026-05-06-month-updates-march-april-2026/dave_milo_1.webp)
 </figure>
 
 <!-- omit in toc -->
