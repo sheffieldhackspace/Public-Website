@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: meta-refresh
+redirect_hashlink: "#open-times"
 title: Calendar
 permalink: /calendar/
 image: /assets/images/steel-cutting-header.jpg
