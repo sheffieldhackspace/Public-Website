@@ -345,7 +345,7 @@
         }
       }
       #the-space {
-        padding: 0;
+        padding: 4rem 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
@@ -372,12 +372,14 @@
         }
         #map {
           grid-area: map;
+          justify-self: end;
         }
         #room-pictures {
           grid-area: picture;
           img {
             display: none;
             width: 100%;
+            max-width: 40rem;
             max-height: 15rem;
             object-fit: cover;
             border: 2px solid #ddd;
@@ -396,15 +398,68 @@
               cursor: pointer;
               font-family: var(--title-font);
               font-size: 1.5rem;
+              &:hover {
+                text-decoration: underline;
+              }
             }
-            *:not(summary):first-of-type {
+            & > *:not(summary):first-of-type {
               margin-top: 0.25rem;
             }
-            *:not(summary) {
+            & > *:not(summary) {
               margin-left: 2rem;
             }
           }
         }
+      }
+      /* hover the summaries, and the room hovers ;] */
+      #the-space:has(#room-descriptions details:nth-child(1) summary:hover)
+        #map
+        svg
+        a:nth-child(4)
+        path {
+        --svgcolor: white;
+      }
+      #the-space:has(#room-descriptions details:nth-child(2) summary:hover)
+        #map
+        svg
+        a:nth-child(3)
+        path {
+        --svgcolor: white;
+      }
+      #the-space:has(#room-descriptions details:nth-child(3) summary:hover)
+        #map
+        svg
+        a:nth-child(5)
+        path {
+        --svgcolor: white;
+      }
+      #the-space:has(#room-descriptions details:nth-child(4) summary:hover)
+        #map
+        svg
+        a:nth-child(2)
+        path {
+        --svgcolor: white;
+      }
+      #the-space:has(#room-descriptions details:nth-child(5) summary:hover)
+        #map
+        svg
+        a:nth-child(1)
+        path {
+        --svgcolor: white;
+      }
+      #the-space:has(#room-descriptions details:nth-child(6) summary:hover)
+        #map
+        svg
+        a:nth-child(7)
+        path {
+        --svgcolor: white;
+      }
+      #the-space:has(#room-descriptions details:nth-child(7) summary:hover)
+        #map
+        svg
+        a:nth-child(6)
+        path {
+        --svgcolor: white;
       }
       #map {
         min-height: 20rem;
@@ -414,19 +469,19 @@
         max-height: 75vh;
         svg {
           max-width: min(100vw, 100%);
-          height: auto;
+          height: 100%;
           --svgcolor: #0f00;
           a path {
             transition: all 0.05s ease-in-out;
+            opacity: 0.5;
+            cursor: pointer;
           }
           a.active path:hover,
           a path:hover {
             --svgcolor: white;
-            opacity: 0.5;
           }
           a.active path {
             --svgcolor: var(--c-lime);
-            opacity: 0.5;
           }
         }
       }
@@ -535,30 +590,37 @@
 
     <script>
       // make map clicks do things!
-      function clickroom(room) {
+      function clickroom(room, hide_options = true) {
         console.log("room clicked!", room);
-        // show details
-        document.querySelectorAll("#the-space details").forEach((details) => {
-          details.open = false;
+        // show active room
+        document.querySelectorAll("svg g a").forEach((cma) => {
+          cma.classList.remove("active");
+          if (cma.dataset.room == room) {
+            cma.classList.add("active");
+          }
         });
-        document.getElementById("map-" + room.substr(1)).open = true;
+        // show details
+        if (hide_options) {
+          document.querySelectorAll("#the-space details").forEach((details) => {
+            details.open = false;
+          });
+        }
+        document.getElementById("map-" + room).open = true;
         // show image
         document.querySelectorAll("#the-space img").forEach((img) => {
           img.classList.remove("active");
         });
-        document
-          .getElementById("pic-" + room.substr(1))
-          .classList.add("active");
+        document.getElementById("pic-" + room).classList.add("active");
       }
       document.addEventListener("DOMContentLoaded", () => {
-        const clickable_map_areas = document.querySelectorAll("svg g a");
-        clickable_map_areas.forEach((a) => {
-          a.addEventListener("click", (e) => {
-            clickable_map_areas.forEach((cma) =>
-              cma.classList.remove("active"),
-            );
-            a.classList.add("active");
-            clickroom(a.href.baseVal);
+        document.querySelectorAll("svg g a").forEach((a) => {
+          a.addEventListener("click", (e) => clickroom(a.dataset.room));
+        });
+        document.querySelectorAll("#the-space details").forEach((d) => {
+          d.addEventListener("toggle", (e) => {
+            if (d.open) {
+              clickroom(d.dataset.room, false);
+            }
           });
         });
       });
@@ -896,7 +958,7 @@
       <section id="the-space">
         <!-- <h2>what's the space like?</h2> -->
         <!-- to get this map, run a command like
-         cat images/layout_for_inlining.svg | sed 's+fill:#83e963+fill:var(--svgcolor)+g;s+fill:#0000f[cd]+fill:#ffffff+g;s+href="#room-d"+href="#room-d" class="active"+' | setclip
+         cat images/layout_for_inlining.svg | sed 's+fill:#83e963+fill:var(--svgcolor)+g;s+fill:#0000f[cd]+fill:#ffffff+g;s+href="#room-d"+href="#room-d" class="active"+' | sed -E 's+href="#([^"]*)"+data-room="\1"+' | setclip
           -->
         <div id="map">
           <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -2110,7 +2172,7 @@
               style="display: inline"
             >
               <a
-                href="#room-f"
+                data-room="room-f"
                 target="_top"
                 id="a1160"
                 style="fill: var(--svgcolor); fill-opacity: 0.625909"
@@ -2127,7 +2189,7 @@
                 />
               </a>
               <a
-                href="#room-e"
+                data-room="room-e"
                 target="_top"
                 id="a1163"
                 style="fill: var(--svgcolor); fill-opacity: 0.625909"
@@ -2144,7 +2206,7 @@
                 />
               </a>
               <a
-                href="#room-d"
+                data-room="room-d"
                 class="active"
                 target="_top"
                 id="a1166"
@@ -2162,7 +2224,7 @@
                 />
               </a>
               <a
-                href="#room-c"
+                data-room="room-c"
                 target="_top"
                 id="a1169"
                 style="fill: var(--svgcolor); fill-opacity: 0.625909"
@@ -2179,7 +2241,7 @@
                 />
               </a>
               <a
-                href="#room-b2"
+                data-room="room-b2"
                 target="_top"
                 id="a1172"
                 style="fill: var(--svgcolor); fill-opacity: 0.625909"
@@ -2196,7 +2258,7 @@
                 />
               </a>
               <a
-                href="#room-b1"
+                data-room="room-b1"
                 target="_top"
                 id="a1175"
                 style="fill: var(--svgcolor); fill-opacity: 0.625909"
@@ -2213,7 +2275,7 @@
                 />
               </a>
               <a
-                href="#room-a"
+                data-room="room-a"
                 target="_top"
                 id="a1178"
                 style="fill: var(--svgcolor); fill-opacity: 0.625909"
@@ -2272,7 +2334,7 @@
           />
         </div>
         <div id="room-descriptions">
-          <details id="map-room-c">
+          <details data-room="room-c" id="map-room-c">
             <summary>entrance</summary>
             <p>
               The entrance is used when we host events like the
@@ -2281,7 +2343,7 @@
               >, and soon will have a small coffee table and seating area.
             </p>
           </details>
-          <details id="map-room-d" open>
+          <details data-room="room-d" id="map-room-d" open>
             <summary>common area / electronics</summary>
             <p>
               The main room has a big table mainly used for coding and chatting.
@@ -2291,13 +2353,13 @@
               irons, power supplies, a heat gun, parts drawers, and more.
             </p>
           </details>
-          <details id="map-room-b2">
+          <details data-room="room-b2" id="map-room-b2">
             <summary>3D printing</summary>
             <p>
               We have a wall of 3D printers for members to print small parts.
             </p>
           </details>
-          <details id="map-room-e">
+          <details data-room="room-e" id="map-room-e">
             <summary>laser cutting</summary>
             <p>
               We have a large format 60 Watt CO2 laser cutter, which people use
@@ -2305,15 +2367,7 @@
               board games.
             </p>
           </details>
-          <details id="map-room-b1">
-            <summary>craft room</summary>
-            <p>
-              The craft room has a sewing machine, overlocker, and embroidery
-              machine, as well as a bunch of hand tools, leatherworking tools,
-              and spare fabrics.
-            </p>
-          </details>
-          <details id="map-room-f">
+          <details data-room="room-f" id="map-room-f">
             <summary>woodworking</summary>
             <p>
               The woodshop has a wide range of wood-working tools, both
@@ -2321,11 +2375,19 @@
               learning woodwork, and all sorts else.
             </p>
           </details>
-          <details id="map-room-a">
+          <details data-room="room-a" id="map-room-a">
             <summary>metalworking</summary>
             <p>
               The metalworking room has a few metalworking machines and hand
               tools, and a CNC mill.
+            </p>
+          </details>
+          <details data-room="room-b1" id="map-room-b1">
+            <summary>craft room</summary>
+            <p>
+              The craft room has a sewing machine, overlocker, and embroidery
+              machine, as well as a bunch of hand tools, leatherworking tools,
+              and spare fabrics.
             </p>
           </details>
         </div>
