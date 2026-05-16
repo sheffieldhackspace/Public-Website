@@ -356,8 +356,8 @@
         background-color: var(--c-cyan);
         background-size: 40px 40px;
         background-image:
-          linear-gradient(to right, #9996 1px, transparent 1px),
-          linear-gradient(to bottom, #9996 1px, transparent 1px);
+          linear-gradient(to right, #999b 1px, transparent 1px),
+          linear-gradient(to bottom, #999b 1px, transparent 1px);
         color: white;
         a,
         a:visited {
@@ -427,16 +427,7 @@
           a.active path {
             --svgcolor: var(--c-lime);
             opacity: 0.5;
-            animation: pulse 0.3s infinite alternate ease-in-out;
           }
-        }
-      }
-      @keyframes pulse {
-        0% {
-          opacity: 0.5;
-        }
-        100% {
-          opacity: 0.8;
         }
       }
       details[open] summary ~ * {
