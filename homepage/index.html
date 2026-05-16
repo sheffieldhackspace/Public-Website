@@ -187,7 +187,8 @@
           "information whatnext howtofind"
           "thespace thespace thespace"
           "i2 i2 i2"
-          "gallery opentimes opentimes"
+          "opentimes opentimes opentimes"
+          "gallery gallery gallery"
           "latestblog latestblog latestblog"
           "i3 i3 i3";
 
@@ -242,10 +243,11 @@
       }
       #calendar {
         width: 100%;
-        max-width: 90vw;
-        min-height: 30rem;
+        min-height: 35rem;
+        max-height: 90vh;
       }
       #how-to-find {
+        margin-bottom: 2rem;
         display: grid;
         grid-template-columns: 1fr auto;
         grid-template-rows: auto auto 1fr;
@@ -290,9 +292,12 @@
           overflow-y: scroll;
           max-height: 38rem;
           img {
-            height: 8rem;
+            height: 15rem;
             flex-grow: 1;
             object-fit: cover;
+            &:last-child {
+              flex-grow: 0;
+            }
           }
         }
         img {
@@ -301,6 +306,7 @@
         }
       }
       #latest-blog {
+        margin-bottom: 2rem;
         #blog-posts {
           display: flex;
           overflow-x: scroll;
@@ -550,7 +556,7 @@
           grid-template-columns: 1fr;
           grid-template-areas: "i1" "information" "whatnext" "howtofind" "thespace" "i2" "opentimes" "gallery" "latestblog" "i3";
           h2 {
-            margin-top: 0;
+            margin-top: 2rem;
           }
         }
         #how-to-find {
@@ -714,15 +720,16 @@
         <p>
           We’re always keen for people with a wide range of interests and skill
           levels to join, swap ideas, learn from each other, and build new
-          things.
+          things. You can get an idea of what people make on
+          <a href="/blog/">the blog</a>, and read more about the space on
+          <a href="https://wiki.sheffieldhackspace.org.uk/">the wiki</a>.
         </p>
         <p>
-          We have several open evenings every week to give folks who may be
-          interested in what we do - and what facilities we can provide - a
-          chance to come and have a look round and meet some of our members. All
-          are welcome to all nights. If you have ever wondered what a
-          “hackspace” is, or if you like to create, make or craft things, come
-          and pay us a visit!
+          We have several <a href="#open-times">open sessions</a> every week to
+          give folks who may be interested in what we do - and what facilities
+          we can provide - a chance to come and have a look round and meet some
+          of our members. If you have ever wondered what a “hackspace” is, or if
+          you like to create, make or craft things, come and pay us a visit!
         </p>
       </section>
       <section id="what-next">
@@ -733,7 +740,7 @@
         </p>
         <p>
           Drop in anytime to one of our
-          <a href="#open-times">open evenings</a> to get a feel of the Hackspace
+          <a href="#open-times">open sessions</a> to get a feel of the Hackspace
           and see how things work.
         </p>
         <p>After visiting, our suggested membership prices are:</p>
@@ -800,6 +807,10 @@
             <a href="https://www.portlandworks.co.uk/"> Portland Works </a>.
             Find the green door at the top of Randall Street S2 4SJ, and press
             the call button.
+          </p>
+          <p>
+            During the <a href="#open-times">open sessions</a>, someone will be
+            there to let you in.
           </p>
           <p>
             📌
