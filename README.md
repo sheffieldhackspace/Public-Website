@@ -5,6 +5,22 @@ This is the website for Sheffield Hackspace. It is in two parts:
 1. homepage - written using HTML
 2. blog - written using [Jekyll](https://jekyllrb.com/)
 
+## develop blog
+
+see [blog readme](./blog/README.md)
+
+## develop front page
+
+```bash
+# edit homepage/index.html and then make it sync with _site/index.html somehow
+# option 1 - watch out because linking it means deleting _site/index.html deletes original file
+rm _site/index.html
+# option 2 - watch for changes and move it
+find homepage | entr cp -rv homepage/* _site
+# then set up a live server serving _site somehow (probably with)
+python -m http.server 8080 -d _site
+```
+
 ## build process
 
 ```bash
