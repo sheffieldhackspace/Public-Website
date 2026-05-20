@@ -379,10 +379,12 @@
 
         h2 {
           grid-area: title;
+          margin: 0;
+          text-align: center;
         }
         #map {
           grid-area: map;
-          justify-self: end;
+          justify-self: center;
         }
         #room-pictures {
           grid-area: picture;
@@ -480,7 +482,7 @@
         max-height: 75vh;
         svg {
           max-width: min(100vw, 100%);
-          height: 100%;
+          height: min-content;
           --svgcolor: #0f00;
           a path {
             transition: all 0.05s ease-in-out;
@@ -577,6 +579,7 @@
           }
         }
         #the-space {
+          padding: 2rem 0 4rem;
           grid-template-columns: 1fr;
           grid-template-rows: auto auto auto;
           grid-template-areas: "map" "picture" "description";
@@ -978,11 +981,11 @@
         </div>
       </section>
       <section id="the-space">
-        <!-- <h2>what's the space like?</h2> -->
-        <!-- to get this map, run a command like
-         cat images/layout_for_inlining.svg | sed 's+fill:#83e963+fill:var(--svgcolor)+g;s+fill:#0000f[cd]+fill:#ffffff+g;s+href="#room-d"+href="#room-d" class="active"+' | sed -E 's+href="#([^"]*)"+data-room="\1"+' | setclip
-          -->
         <div id="map">
+          <h2>explore the space</h2>
+          <!-- to get this map, run a command like
+           cat images/layout_for_inlining.svg | sed 's+fill:#83e963+fill:var(--svgcolor)+g;s+fill:#0000f[cd]+fill:#ffffff+g;s+href="#room-d"+href="#room-d" class="active"+' | sed -E 's+href="#([^"]*)"+data-room="\1"+' | setclip
+            -->
           <?xml version="1.0" encoding="UTF-8" standalone="no"?>
           <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
 
