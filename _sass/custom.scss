@@ -22,6 +22,11 @@ h6 {
   font-family: "bignoodletitlingregular", $headline-font-family;
 }
 
+.intro-title {
+  margin-top: 0;
+  padding: 0;
+}
+
 h2,
 h3,
 h4,
@@ -39,6 +44,7 @@ h6 {
   height: 0;
   overflow: hidden;
   margin-bottom: 1.5rem;
+  max-height: 60vh;
 }
 .responsive-iframe-container iframe,
 .vresponsive-iframe-container object,
@@ -56,7 +62,6 @@ h6 {
   }
   .responsive-iframe-container {
     position: relative;
-    padding-bottom: 80vh;
   }
 }
 @media (min-width: 48em) {
@@ -166,4 +171,32 @@ footer a {
   @media (min-width: 48em) { min-height: 80vw; }
   @media (min-width: 64em) { min-height: 60vw; }
   @media (min-width: 80em) { min-height: 40vw; }
+}
+
+// negative-margin "intro images" halfway down the page
+main .intro-image {
+  width:100vw;
+
+  @include breakpoint($small) {
+    margin-left: -1rem;
+  }
+
+  @include breakpoint($medium) {
+    margin-left: -2rem;
+  }
+
+  @include breakpoint($large) {
+    margin-left: -3rem;
+  }
+
+  @include breakpoint($xlarge) {
+    margin-left: -4rem;
+  }
+}
+
+// push chopsaw image left on small screens
+main .intro-image.chopsaw {
+  @include breakpoint($small) {
+    background-position-x: 85%;
+  }
 }
