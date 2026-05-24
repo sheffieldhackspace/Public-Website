@@ -360,6 +360,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
         grid-template-areas:
+          "title picture"
           "map picture"
           "map description";
 
@@ -484,6 +485,7 @@
         svg {
           max-width: min(100vw, 100%);
           height: min-content;
+          max-height: 100%;
           --svgcolor: #0f00;
           a path {
             transition: all 0.05s ease-in-out;
@@ -634,7 +636,7 @@
           padding: 2rem 0 4rem;
           grid-template-columns: 1fr;
           grid-template-rows: auto auto auto;
-          grid-template-areas: "map" "picture" "description";
+          grid-template-areas: "title" "map" "picture" "description";
           #room-pictures {
             img {
               max-width: 100vw;
@@ -1040,8 +1042,8 @@
         </div>
       </section>
       <section id="the-space">
+        <h2>explore the space</h2>
         <div id="map">
-          <h2>explore the space</h2>
           <a
             id="downpour"
             href="https://downpour.games/~alifeee/what-s-inside-sheffield-hackspace"
