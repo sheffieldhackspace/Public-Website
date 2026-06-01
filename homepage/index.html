@@ -177,6 +177,19 @@
         }
       }
 
+      /* lightbox (pop up on click) images */
+      #how-to-find,
+      #the-space,
+      #gallery {
+        img {
+          cursor: pointer;
+          transition: scale 0.1s ease-in;
+        }
+        img:hover {
+          scale: 1.01;
+        }
+      }
+
       /* main */
       main {
         display: grid;
@@ -701,6 +714,28 @@
             }
           });
         });
+      });
+    </script>
+
+    <!-- lightbox - pop up images on press - https://basiclightbox.electerious.com/ -->
+    <link rel="stylesheet" href="basicLightbox.min.css" />
+    <script src="basicLightbox.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const instance = basicLightbox.create(
+          document.getElementById("lightbox"),
+        );
+        document
+          .querySelectorAll("#how-to-find img, #the-space img, #gallery img")
+          .forEach((img) => {
+            img.addEventListener("click", (e) => {
+              instance
+                .element()
+                .querySelector("img")
+                .setAttribute("src", img.getAttribute("src"));
+              instance.show();
+            });
+          });
       });
     </script>
   </head>
@@ -2544,5 +2579,8 @@
         </p>
       </section>
     </footer>
+    <template id="lightbox">
+      <img src="" />
+    </template>
   </body>
 </html>
