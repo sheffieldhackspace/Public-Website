@@ -44,7 +44,7 @@ jobs:
         with:
           node-version: latest
       
-      - name: Build with Jekyll
+      - name: Build
         run: ./build.sh
         env:
           JEKYLL_ENV: production
