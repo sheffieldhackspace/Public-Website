@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 echo "remove existing _site"
 rm -rf _site
 mkdir _site
