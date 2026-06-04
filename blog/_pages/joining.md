@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: meta-refresh
+redirect_hashlink: "#what-next"
 title: Joining
 permalink: /joining/
 image: /assets/images/soldering-header.jpg

@@ -1,5 +1,6 @@
 ---
-layout: the-space
+layout: meta-refresh
+redirect_hashlink: "#the-space"
 title: The Space
 permalink: /the-space/
 ---
